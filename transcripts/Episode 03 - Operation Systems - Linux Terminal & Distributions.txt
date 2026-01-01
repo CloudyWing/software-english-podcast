@@ -1,0 +1,182 @@
+歡迎來到 Linux 與作業系統篇。對工程師來說，終端機（Terminal）是通往系統底層的鑰匙。無論是開發還是維運，掌握 Linux 指令與生態系都是必備技能。
+
+大多數的 Linux 伺服器都是遠端管理的，因此我們先從環境連線的指令開始。
+
+終端機
+Terminal
+Open the terminal to execute the shell script.
+開啟終端機以執行 Shell 腳本。
+
+Shell
+Bash is the default shell for most Linux distributions.
+Bash 是大多數 Linux 發行版的預設 Shell。
+
+安全殼層
+SSH
+SSH 是 Secure Shell 的縮寫
+Connect to the remote server using the SSH protocol.
+使用 SSH 協定連線至遠端伺服器。
+
+複製檔案
+SCP
+SCP 是 Secure Copy Protocol 的縮寫
+Use 'scp' to securely copy files between servers.
+使用 'scp' 在伺服器之間安全地複製檔案。
+
+Linux 有許多不同的發行版，各有其適用場景，我們來看看幾個最常見的版本。
+
+Debian
+Debian is known for its stability and is the base for Ubuntu.
+Debian 以其穩定性聞名，且是 Ubuntu 的基礎。
+
+CentOS
+CentOS 是 Community Enterprise Operating System 的縮寫
+CentOS is widely used in enterprise server environments.
+CentOS 廣泛用於企業伺服器環境。
+
+Alpine
+Alpine Linux is unmatched for building small database containers.
+Alpine Linux 在建構小型資料庫容器方面無人能敵。
+
+Arch Linux
+Arch Linux offers a rolling release model for experienced users.
+Arch Linux 為經驗豐富的使用者提供滾動發布模式。
+
+權限管理是 Linux 安全的核心，以下指令能幫助你掌控檔案的存取權。
+
+根目錄
+Root
+Do not run commands as root unless absolutely necessary.
+除非絕對必要，否則不要以 Root 身份執行指令。
+
+超級使用者
+Sudo
+Sudo 是 SuperUser DO 的縮寫
+Use sudo to run the command with administrative privileges.
+使用 sudo 以管理員權限執行該指令。
+
+權限
+Permission
+Check file permissions to verify who can read or write.
+檢查檔案權限以驗證誰可以讀取或寫入。
+
+變更模式
+Chmod
+Chmod 是 Change Mode 的縮寫
+Use 'chmod' to change the file mode to executable.
+使用 'chmod' 將檔案模式變更為可執行。
+
+擁有者
+Chown
+Chown 是 Change Owner 的縮寫
+Use 'chown' to change the file owner to the user.
+使用 'chown' 將檔案擁有者變更為該使用者。
+
+接下來是日常維運中，你每天都會用到的檔案與系統操作指令。
+
+目錄
+Directory
+Use 'cd' to change the current working directory.
+使用 'cd' 來變更目前的工作目錄。
+
+列出
+List
+Run 'ls -la' to list all files including hidden ones.
+執行 'ls -la' 來列出所有檔案，包含隱藏檔。
+
+磁碟使用量
+Disk Usage
+Check 'df -h' to see the available disk space.
+檢查 'df -h' 來查看可用的磁碟空間。
+
+封存
+Tar
+Tar 是 Tape Archive 的縮寫
+Use 'tar' to compress the folder into an archive file.
+使用 'tar' 將資料夾壓縮成封存檔。
+
+套件管理器
+Package Manager
+Use the package manager to install software dependencies easily.
+使用套件管理器來輕鬆安裝軟體相依套件。
+
+Systemd
+Use systemd to manage services and startup processes.
+使用 Systemd 來管理服務與啟動程序。
+
+守護行程
+Daemon
+The web server runs as a background daemon.
+網頁伺服器作為背景守護行程執行。
+
+程序
+Process
+Use 'ps' to view the currently running processes.
+使用 'ps' 來檢視目前執行中的程序。
+
+終止
+Kill
+Use 'kill' to terminate the unresponsive process.
+使用 'kill' 來終止無回應的程序。
+
+排程任務
+Cron
+Set up a cron job to run the backup script daily.
+設定 Cron Job 讓備份腳本每日執行。
+
+當需要編輯設定檔或處理文字輸出時，這些工具會是你的好幫手。
+
+編輯器
+Vim
+Vim 是 Vi IMproved 的縮寫
+Vim is a powerful text editor available in the terminal.
+Vim 是終端機中一個強大的文字編輯器。
+
+顯示內容
+Cat
+Cat 是 Concatenate 的縮寫
+Use 'cat' to display the content of the config file.
+使用 'cat' 顯示設定檔的內容。
+
+尾部
+Tail
+Run 'tail -f' to follow the log file updates in real-time.
+執行 'tail -f' 來即時追蹤日誌檔的更新。
+
+全域搜尋
+Grep
+Grep 是 Global Regular Expression Print 的縮寫
+Use 'grep' to search for a specific string inside logs.
+使用 'grep' 在日誌中搜尋特定字串。
+
+變數
+Echo
+Use 'echo' to print the variable value to the screen.
+使用 'echo' 將變數值列印到螢幕上。
+
+導向
+Redirect
+Redirect the command output to a text file using '>'.
+使用 '>' 將指令輸出導向至文字檔。
+
+管道
+Pipe
+Use a pipe '|' to pass the output of one command to another.
+使用管道 '|' 將一個指令的輸出傳遞給另一個指令。
+
+網路請求與診斷也是必備技能，以下指令能協助你排查連線問題。
+
+網路統計
+Netstat
+Netstat 是 Network Statistics 的縮寫
+Use 'netstat' to check active network connections.
+使用 'netstat' 來檢查活躍的網路連線。
+
+請求
+Curl
+Curl 是 Client URL 的縮寫
+Use 'curl' to make an HTTP request from the command line.
+使用 'curl' 從命令列發送 HTTP 請求。
+
+
+終端機起初看起來可能很嚇人，但一旦習慣了，你會發現它是世界上最強大的工具。希望這集能讓你對 Linux 不再恐懼。感謝收聽。

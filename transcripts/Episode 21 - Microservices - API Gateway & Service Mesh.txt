@@ -1,0 +1,134 @@
+歡迎來到微服務與雲端原生架構篇。當系統龐大到無法維護時，微服務往往是解決方案。這集我們探討如何拆分單體應用，以及管理分散式服務的關鍵技術。
+
+微服務的核心概念，在於將單體拆解為獨立個體，這引入了許多新的架構特性。
+
+單體式
+Monolith
+The legacy system is a giant monolith that is hard to scale.
+舊系統是一個難以擴展的巨大單體應用。
+
+微服務
+Microservices
+Microservices architecture breaks the app into small, independent services.
+微服務架構將應用程式拆分為小型、獨立的服務。
+
+解耦
+Decoupling
+Decoupling services allows teams to deploy independently.
+解耦服務允許團隊獨立部署。
+
+多語言
+Polyglot
+A microservice architecture supports polyglot programming using different languages.
+微服務架構支援使用不同語言的多語言程式設計。
+
+無狀態
+Stateless
+Microservices should ideally be stateless for easier scaling.
+理想情況下微服務應是無狀態的，以便更容易擴展。
+
+有狀態
+Stateful
+Managing stateful services in containers requires persistent storage.
+在容器中管理有狀態服務需要持久化儲存。
+
+服務間的溝通與治理，是架構成功的關鍵，我們需要以下模式來協助管理。
+
+API 閘道器
+API Gateway
+The API gateway acts as a single entry point for all client requests. API stands for Application Programming Interface.
+API 閘道器作為所有客戶端請求的單一入口點。
+
+服務發現
+Service Discovery
+Service discovery allows services to find each other dynamically.
+服務發現允許服務動態地找到彼此。
+
+服務網格
+Service Mesh
+Istio is a popular service mesh for managing microservices communication.
+Istio 是一個用於管理微服務通訊的熱門服務網格。
+
+邊車模式
+Sidecar Pattern
+The sidecar pattern attaches a helper container to the main container.
+邊車模式將一個輔助容器附加到主容器旁。
+
+事件匯流排
+Event Bus
+Services publish events to the event bus for asynchronous communication.
+服務將事件發布到事件匯流排以進行非同步通訊。
+
+維運微服務需要更強的可觀測性與自動化，這些工具能幫助我們看清系統內部。
+
+容器編排
+Container Orchestration
+Kubernetes handles container orchestration for our microservices.
+Kubernetes 為我們的微服務處理容器編排。
+
+分散式追蹤
+Distributed Tracing
+Use distributed tracing to visualize the request flow across services.
+使用分散式追蹤來視覺化跨服務的請求流程。
+
+可觀測性
+Observability
+Good observability helps you understand the internal state of the system based on outputs.
+良好的可觀測性幫助你根據輸出來了解系統的內部狀態。
+
+健康檢查
+Health Check
+Kubernetes restarts pods that fail the health check.
+Kubernetes 會重啟未通過健康檢查的 Pod。
+
+負載平衡
+Load Balancing
+Load balancing distributes traffic evenly across service instances.
+負載平衡將流量均勻分配到服務實例上。
+
+面對網路的不確定性，我們需要更穩健的錯誤處理機制，例如以下模式。
+
+斷路器
+Circuit Breaker
+The circuit breaker stops the request to a failing service to prevent overload.
+斷路器停止對故障服務的請求以防止過載。
+
+冪等性
+Idempotency
+Ensure the API is idempotent so retrying requests doesn't duplicate actions. API stands for Application Programming Interface.
+確保 API 具冪等性，這樣重試請求就不會重複動作。
+
+重試
+Retry
+Implement a retry logic with exponential backoff.
+實作帶有指數退避的重試邏輯。
+
+超時
+Timeout
+Set a timeout to prevent waiting indefinitely for a response.
+設定一個超時時間以防止無限期等待回應。
+
+延遲
+Latency
+Network latency can be an issue in microservice communication.
+網路延遲可能是微服務通訊中的一個問題。
+
+故障隔離
+Fault Isolation
+Microservices provide better fault isolation than monoliths.
+微服務比單體應用提供更好的故障隔離。
+
+最後是關於部署策略的進階術語，這些方法能協助我們達到零停機部署。
+
+藍綠部署
+Blue-Green Deployment
+Blue-green deployment minimizes downtime by switching traffic instantly.
+藍綠部署透過瞬間切換流量來最小化停機時間。
+
+金絲雀發布
+Canary Release
+Canary release rolls out the feature to a small percentage of users first.
+金絲雀發布先將功能推供給一小部分的用戶。
+
+
+微服務雖然強大，但也帶來了維運的複雜度。理解這些治理模式，將幫助你在擴展系統時避開常見的陷阱。感謝收聽。

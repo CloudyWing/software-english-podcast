@@ -1,0 +1,149 @@
+歡迎來到版本控制進階篇。掌握了基礎指令後，我們要進入 Git 的進階領域。如何最佳化歷史紀錄、處理突發狀況以及理解更複雜的工作流，是區分新手與資深工程師的關鍵。
+
+專案協作時，我們需要更嚴謹的流程與結構，這些術語能幫助你理解團隊規範。
+
+工作流
+Workflow
+Gitflow is a structured branching workflow for releases.
+Gitflow 是一種用於發布的結構化分支工作流。
+
+分叉
+Fork
+Fork the open-source repo if you want to contribute to it.
+如果你想貢獻這個開源專案，請先 Fork 它。
+
+上游
+Upstream
+Set the upstream branch to track the original repository.
+設定上游分支以追蹤原始檔案庫。
+
+核准
+Approve
+I will approve the PR once all the tests pass.
+一旦所有測試通過，我就會核准這個 PR。
+
+快速前進
+Fast-forward
+A fast-forward merge moves the pointer without creating a commit.
+快轉合併會直接移動指標，而不會建立新的 Commit。
+
+子模組
+Submodule
+This project uses a submodule to include shared libraries.
+這個專案使用子模組來包含共用函式庫。
+
+有時候我們需要對提交紀錄進行微調，讓它更乾淨，以下是幾個常用的指令。
+
+暫存
+Stash
+Stash your work-in-progress if you need to switch tasks quickly.
+如果你需要快速切換任務，先 Stash 你做到一半的工作。
+
+取出暫存
+Pop
+Use git stash pop to restore your previously saved changes.
+使用 git stash pop 來還原你之前存起來的變更。
+
+修正
+Amend
+Use git commit amend to fix the typo in your last message.
+使用 amend 來修正你上一則訊息中的錯字。
+
+壓縮
+Squash
+Squash your multiple commits into one before merging.
+在合併前將你的多個 Commits 壓縮成一個。
+
+摘選
+Cherry-pick
+Cherry-pick that specific bug fix commit to the stable branch.
+將那個特定的 Bug 修復 Commit 摘選到穩定分支。
+
+犯錯在所難免，Git 提供了多種方式讓你回到過去或取消變更。
+
+重設
+Reset
+Reset hard will discard all your local changes permanently.
+Hard Reset 會永久丟棄你所有的本機變更。
+
+撤銷
+Revert
+Revert creates a new commit that undoes the previous changes.
+Revert 會建立一個新 Commit 來撤銷之前的變更。
+
+丟棄
+Discard
+You can discard changes in the working directory to revert to the last commit.
+你可以丟棄工作目錄中的變更，以回復到上一次提交的狀態。
+
+取消暫存
+Unstage
+Unstage the file if you added it by mistake.
+如果你不小心加入了檔案，請取消暫存。
+
+當問題發生時，我們需要調查原因與歷史紀錄，這些工具能幫你找出問題根源。
+
+歸咎
+Blame
+Use git blame to see who modified this specific line of code.
+使用 git blame 查看是誰修改了這特定的程式碼行。
+
+差異
+Diff
+Run git diff to see exactly what lines you have changed.
+執行 git diff 看看你確切修改了哪些行。
+
+二分搜尋
+Bisect
+Use git bisect to find the commit that introduced the bug.
+使用 git bisect 來找出是哪個 Commit 引入了這個 Bug。
+
+遊離的 HEAD
+Detached HEAD
+You are in a detached HEAD state because you checked out a specific commit.
+你處於 Detached HEAD 狀態，因為你簽出了一個特定的 Commit。
+
+指標
+Head
+HEAD is a pointer that refers to your current location in history.
+HEAD 是一個指標，指向你在歷史紀錄中的目前位置。
+
+了解檔案狀態與設定，能幫助你更精確地控制版本控制的行為。
+
+未追蹤的
+Untracked
+New files appear as untracked files until you add them.
+新檔案在被加入前會顯示為未追蹤檔案。
+
+已修改的
+Modified
+The file is modified but not yet staged for commit.
+檔案已修改，但尚未加入暫存區準備提交。
+
+忽略清單
+Gitignore
+Add the bin folder to the gitignore file to avoid tracking it.
+將 bin 資料夾加入 gitignore 檔案以避免追蹤它。
+
+別名
+Alias
+Set up an alias like 'co' for git checkout to save time.
+為 git checkout 設定像 'co' 這樣的別名以節省時間。
+
+修補程式
+Patch
+Apply the patch file to fix the issue on the server.
+套用這個 Patch 檔來修復伺服器上的問題。
+
+修剪
+Prune
+Git fetch prune removes references to deleted remote branches.
+Git fetch prune 會移除對已刪除遠端分支的參照。
+
+孤兒分支
+Orphan Branch
+Create an orphan branch for documentation that needs no history.
+為不需要歷史紀錄的文件建立一個孤兒分支。
+
+
+熟悉這些進階指令，能讓你在面對複雜的程式碼管理時遊刃有餘。希望這集的內容能提升你的 Git 功力。感謝收聽。

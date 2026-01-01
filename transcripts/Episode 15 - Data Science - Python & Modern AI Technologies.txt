@@ -1,0 +1,160 @@
+歡迎來到資料科學與 AI 篇。隨著人工智慧的興起，Python 已成為不可或缺的語言。這集我們涵蓋資料科學以及機器學習的關鍵術語。
+
+Python 是資料科學的首選語言，掌握其基礎生態系是第一步，我們從基本詞彙開始。
+
+Python
+Python
+Python is widely used for data analysis and AI development.
+Python 廣泛用於資料分析與 AI 開發。
+
+解譯器
+Interpreter
+The Python interpreter executes code line by line.
+Python 解譯器逐行執行程式碼。
+
+腳本
+Script
+Write a Python script to automate the data processing.
+寫一個 Python 腳本來自動化資料處理。
+
+模組
+Module
+Import the math module to use advanced mathematical functions.
+匯入 math 模組以使用進階數學函數。
+
+縮排
+Indentation
+Python relies on indentation to define code blocks.
+Python 依賴縮排來定義程式碼區塊。
+
+虛擬環境
+Virtualenv
+Create a virtualenv to manage project-specific dependencies.
+建立虛擬環境來管理專案特定的相依套件。
+
+套件安裝
+Pip
+Run 'pip install' to download the library from PyPI.
+執行 'pip install' 從 PyPI 下載函式庫。
+
+Jupyter Notebook
+Jupyter Notebook
+Data scientists use Jupyter Notebooks for interactive coding.
+資料科學家使用 Jupyter Notebook 進行互動式寫程式。
+
+處理資料時，我們需要強大的工具來進行運算與視覺化，常用的函式庫如下。
+
+陣列
+Array
+NumPy arrays allow for efficient numerical computations.
+NumPy 陣列允許進行高效的數值運算。
+
+資料框
+Dataframe
+Pandas dataframes are used to manipulate tabular data.
+Pandas Dataframe 被用來操作表格資料。
+
+資料集
+Dataset
+Clean the dataset to remove missing or invalid values.
+清理資料集以移除遺失或無效的數值。
+
+視覺化
+Visualization
+Use Matplotlib to generate charts for data visualization.
+使用 Matplotlib 產生圖表以進行資料視覺化。
+
+爬蟲
+Scraper
+Build a web scraper to collect data from websites.
+建立一個網頁爬蟲從網站收集資料。
+
+自動化
+Automation
+Python is excellent for task automation.
+Python 非常適合用於任務自動化。
+
+機器學習是 AI 的核心，它讓電腦從資料中學習，這些是此領域的關鍵字。
+
+模型
+Model
+Train the machine learning model on the dataset.
+在資料集上訓練機器學習模型。
+
+訓練
+Training
+The training process takes hours on a GPU.
+訓練過程在 GPU 上需要花費數小時。
+
+推論
+Inference
+Deploy the model to the edge device for real-time inference.
+將模型部署到邊緣裝置以進行即時推論。
+
+準確率
+Accuracy
+The model achieved 95% accuracy on the test set.
+該模型在測試集上達到了 95% 的準確率。
+
+過度擬合
+Overfitting
+Overfitting occurs when the model learns noise instead of patterns.
+當模型學習了雜訊而非模式時，就會發生過度擬合。
+
+神經網路
+Neural Network
+Deep learning uses multi-layered neural networks.
+深度學習使用多層神經網路。
+
+張量
+Tensor
+TensorFlow and PyTorch operate on tensors.
+TensorFlow 和 PyTorch 都是在張量上進行運算。
+
+近年來，大型語言模型的發展引領了新一波的 AI 革命，我們來認識這些新興術語。
+
+自然語言處理
+NLP
+NLP 是 Natural Language Processing 的縮寫
+NLP enables computers to understand human language.
+NLP 使電腦能夠理解人類語言。
+
+變換器
+Transformer
+Transformers are the backbone of modern NLP models like BERT and GPT.
+Transformer 是像 BERT 和 GPT 這些現代 NLP 模型的骨幹。
+
+大型語言模型
+LLM
+LLM 是 Large Language Model 的縮寫
+GPT-4 is a powerful Large Language Model (LLM).
+GPT-4 是一個強大的大型語言模型。
+
+詞元
+Token
+LLMs process text in chunks called tokens.
+LLM 以被稱為 Token 的塊狀單位來處理文字。
+
+提示工程
+Prompt Engineering
+Good prompt engineering improves the AI's response quality.
+良好的提示工程能改善 AI 的回應品質。
+
+幻覺
+Hallucination
+AI hallucinations can lead to confident but incorrect answers.
+AI 幻覺可能導致自信但錯誤的答案。
+
+檢索增強生成
+RAG
+RAG 是 Retrieval-Augmented Generation 的縮寫
+RAG improves accuracy by retrieving relevant data before generating answers.
+RAG (檢索增強生成) 透過在生成答案前檢索相關資料來提升準確度。
+
+微調
+Fine-tuning
+Fine-tuning allows you to adapt a pre-trained model to your task.
+微調讓你能夠將預訓練模型調整為適合你的任務。
+
+
+人工智慧正在改變世界，而 Python 正是這場革命的核心。希望這集的內容能為你開啟通往 AI 世界的大門。感謝收聽。

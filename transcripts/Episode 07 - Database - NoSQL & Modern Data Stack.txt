@@ -1,0 +1,98 @@
+歡迎來到 NoSQL 與現代資料堆疊篇。這一集我們從通用的 SQL 術語，轉向具體的技術品牌、NoSQL 概念以及效能最佳化。MongoDB、Redis 與搜尋引擎技術是現代架構中不可或缺的角色。
+
+NoSQL 資料庫因應大數據而生，提供了彈性且高效的儲存方式，以下是幾個代表性的資料庫。
+
+MongoDB
+MongoDB stores data in JSON-like documents, making it flexible.
+MongoDB 以類 JSON 文件儲存資料，使其具備靈活性。
+
+文件
+Document
+In MongoDB, a record is called a document, not a row.
+在 MongoDB 中，一筆紀錄被稱為文件，而不是列。
+
+集合
+Collection
+A collection in MongoDB is equivalent to a table in SQL.
+MongoDB 中的集合相當於 SQL 中的資料表。
+
+Firebase
+Firebase is a BaaS that offers a realtime document database.
+Firebase 是一個提供即時文件資料庫的後端即時服務平台。
+
+即時
+Realtime
+The dashboard updates in realtime using Firebase subscriptions.
+儀表板使用 Firebase 的訂閱機制進行即時更新。
+
+為了追求極致的讀取速度，我們會使用記憶體內的鍵值儲存，例如：
+
+Redis
+We use Redis as a caching layer to speed up data retrieval.
+我們使用 Redis 作為快取層來加速資料檢索。
+
+鍵值儲存
+Key-Value Store
+Key-value stores like Redis are great for storing session data.
+像 Redis 這樣的鍵值儲存非常適合儲存工作階段資料。
+
+在處理大數據搜尋時，我們需要專門的搜尋引擎技術，以及相關的索引概念。
+
+Elasticsearch
+Elasticsearch is a distributed search engine based on Lucene.
+Elasticsearch 是一個基於 Lucene 的分散式搜尋引擎。
+
+全文檢索
+Full-text Search
+Use Elasticsearch to implement advanced full-text search features.
+使用 Elasticsearch 來實作進階的全文檢索功能。
+
+倒排索引
+Inverted Index
+Elasticsearch uses an inverted index to speed up search queries.
+Elasticsearch 使用倒排索引技術，讓搜尋速度極快。
+
+叢集
+Cluster
+The Elasticsearch cluster consists of multiple nodes for high availability.
+Elasticsearch 叢集由多個節點組成，以確保高可用性。
+
+資料倉儲
+Data Warehouse
+Move historical data to the data warehouse for complex analytics.
+將歷史資料移動到資料倉儲進行複雜的數據分析。
+
+分散式系統的理論基礎與挑戰，是每位架構師必須面對的，我們來看看這些關鍵指標。
+
+一致性
+Consistency
+Eventual consistency is common in distributed database systems.
+最終一致性在分散式資料庫系統中很常見。
+
+可用性
+Availability
+High availability ensures the database is always accessible to users.
+高可用性確保資料庫隨時可供使用者存取。
+
+吞吐量
+Throughput
+We need higher write throughput to handle the Black Friday traffic.
+我們需要更高的寫入吞吐量來處理黑色星期五的流量。
+
+複寫
+Replication
+Set up read replicas using replication to scale read operations.
+使用複寫機制建立唯讀副本以擴展讀取操作。
+
+分片
+Sharding
+Database sharding helps scale horizontally by distributing data.
+資料庫分片透過分散資料有助於水平擴展。
+
+種子資料
+Seed Data
+Run the script to populate initial seed data for testing.
+執行腳本以填入初始種子資料以供測試。
+
+
+在現代架構中，選擇正確的資料庫技術至關重要。希望這集介紹的 NoSQL 與高效能術語，能幫助你做出更好的技術決策。感謝收聽。

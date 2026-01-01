@@ -1,0 +1,135 @@
+歡迎來到資料工程篇。在這個大數據時代，處理海量資料的能力至關重要。這集我們介紹與資料管線、ETL 以及串流處理相關的關鍵術語。
+
+資料工程的核心目標，是建立可靠的資料處理系統，我們先從最基本的管線概念開始。
+
+資料工程
+Data Engineering
+Data engineering focuses on building systems to collect and validate data.
+資料工程專注於建構收集與驗證資料的系統。
+
+資料管線
+Data Pipeline
+The data pipeline moves data from the source to the destination.
+資料管線將資料從來源移動到目的地。
+
+擷取、轉換、載入
+ETL
+ETL 是 Extract, Transform, Load 的縮寫
+We run the ETL process every night to update the analytics database.
+我們每晚執行 ETL 流程以更新分析資料庫。
+
+資料湖
+Data Lake
+A data lake stores raw data in its native format.
+資料湖以原始格式儲存原始資料。
+
+資料倉儲
+Data Warehouse
+Business intelligence tools query the structured data warehouse.
+商業智慧工具查詢結構化的資料倉儲。
+
+面對傳統資料庫無法處理的規模，我們需要大數據技術，以下是生態系中最重要的組件。
+
+大數據
+Big Data
+Big data technologies handle datasets that are too large for traditional databases.
+大數據技術處理對傳統資料庫來說過於龐大的資料集。
+
+Hadoop
+Hadoop
+Hadoop uses distributed storage and processing for big data.
+Hadoop 使用分散式儲存與運算來處理大數據。
+
+分散式檔案系統
+HDFS
+HDFS 是 Hadoop Distributed File System 的縮寫
+HDFS splits large files across multiple nodes in a cluster.
+HDFS 將大檔案分割並儲存在叢集中的多個節點上。
+
+MapReduce
+MapReduce
+MapReduce is a programming model for processing big data sets.
+MapReduce 是一種處理大數據集的程式設計模型。
+
+Spark
+Spark
+Apache Spark provides fast in-memory data processing.
+Apache Spark 提供快速的記憶體內資料處理。
+
+資料的即時性決定了決策的速度，串流處理因此而生，相關術語如下。
+
+串流處理
+Stream Processing
+Stream processing analyzes data in real-time as it arrives.
+串流處理在資料抵達時即時分析資料。
+
+批次處理
+Batch Processing
+Batch processing handles large volumes of data at scheduled intervals.
+批次處理在排定的時間間隔處理大量資料。
+
+Kafka
+Kafka
+Kafka is used for building real-time data streaming pipelines.
+Kafka 用於建構即時資料串流管線。
+
+延遲
+Latency
+Low latency is critical for real-time fraud detection systems.
+低延遲對即時詐欺偵測系統至關重要。
+
+吞吐量
+Throughput
+The system needs high throughput to handle millions of events per second.
+系統需要高吞吐量來處理每秒數百萬個事件。
+
+在資料治理與品質管理方面，也有許多專用術語，幫助我們確保資料可信度。
+
+結構描述
+Schema
+Define the schema to validate the incoming JSON data.
+定義結構描述以驗證傳入的 JSON 資料。
+
+分區
+Partitioning
+Partitioning the table by date improves query performance.
+按日期對資料表進行分區可提升查詢效能。
+
+擷取
+Ingestion
+Data ingestion brings data into the system for immediate use.
+資料擷取將資料帶入系統以供立即使用。
+
+轉換
+Transformation
+Data transformation converts raw data into a usable format.
+資料轉換將原始資料轉換為可用的格式。
+
+清理
+Cleansing
+Data cleansing removes errors and duplicate records.
+資料清理移除錯誤與重複的紀錄。
+
+視覺化
+Visualization
+Data visualization helps stakeholders understand complex trends.
+資料視覺化協助利害關係人理解複雜的趨勢。
+
+Snowflake
+Snowflake
+Snowflake is a popular cloud-based data warehouse solution.
+Snowflake 是一個熱門的雲端資料倉儲解決方案。
+
+Airflow
+Airflow
+We use Apache Airflow to schedule and monitor workflows.
+我們使用 Apache Airflow 來排程與監控工作流。
+
+機器學習作業
+MLOps
+MLOps 是 Machine Learning Operations 的縮寫
+MLOps automates the deployment of machine learning models.
+MLOps 自動化機器學習模型的部署。
+
+
+資料工程是 AI 與數據分析的地基。掌握這些術語，能讓你更有效地處理現代系統中的資料流。感謝收聽。

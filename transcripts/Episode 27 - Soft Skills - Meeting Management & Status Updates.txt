@@ -1,0 +1,139 @@
+歡迎來到會議管理與進度匯報篇。接續上集，我們將專注於會議中的管理用語、進度確認以及團隊互動。這些單字能幫助你在跨國會議中展現專業與自信。
+
+會議的安排與變更是職場常態，我們需要掌握這些調度用語。
+
+確認
+Confirm
+Please confirm your attendance for the workshop.
+請確認你會出席這場工作坊。
+
+取消
+Cancel
+The meeting is canceled due to the holiday.
+會議因為假日取消了。
+
+改期
+Reschedule
+Can we reschedule our 1:1 to Monday?
+我們可以在週一重新安排我們的一對一會議嗎？
+
+延後
+Postpone
+They postponed the release due to a critical bug.
+他們因為一個嚴重 Bug 延後了發布。
+
+暫定
+Tentative
+The schedule is tentative and might change later.
+時程是暫定的，稍後可能會變更。
+
+參與
+Loop In
+Please loop me in on the email chain regarding the API.
+請在關於 API 的郵件串中把我加入副本。
+
+在決策過程中，我們需要明確的表達同意與反對，相關詞彙如下。
+
+綠燈
+Green Light
+We got the green light to proceed with the project.
+我們獲得了繼續進行專案的綠燈。
+
+共識
+Consensus
+We reached a consensus on the architecture design.
+我們對架構設計達成了共識。
+
+提案
+Proposal
+Please review the project proposal attached in the email.
+請審閱郵件附件中的專案提案。
+
+替代方案
+Alternative
+Do we have an alternative library for PDF generation?
+我們有產生 PDF 的替代函式庫嗎？
+
+反對
+Objection
+I have no objections to the current plan.
+我對目前的計畫沒有反對意見。
+
+推遲
+Push Back
+Can we push back the deadline by two days?
+我們可以將截止日期推遲兩天嗎？
+
+隨時掌握專案的健康度是必要的，這些詞彙能幫助你描述現況。
+
+進度
+Progress
+What is the progress on the Jira ticket?
+這張 Jira 票的進度如何？
+
+狀態
+Status
+Please update your status in the daily channel.
+請在每日頻道更新你的狀態。
+
+按照計畫
+On Track
+The project is on track to finish by Friday.
+專案按照計畫將於週五完成。
+
+落後
+Behind
+We are falling behind schedule on the frontend tasks.
+我們的前端任務進度落後了。
+
+提前
+Ahead
+We are ahead of schedule, so we can tackle tech debt.
+我們的進度提前了，所以可以來處理技術債。
+
+良好的團隊互動能提升士氣與凝聚力，我們來看看這些正向用語。
+
+腦力激盪
+Brainstorm
+Let's brainstorm some solutions for the latency issue.
+讓我們針對延遲問題腦力激盪一些解決方案。
+
+容易達成的目標
+Low Hanging Fruit
+Fixing these typos is low hanging fruit for quick wins.
+修正這些錯字是能快速獲得成果的容易目標。
+
+負責
+Ownership
+Take ownership of this module and maintain it.
+對這個模組負責並維護它。
+
+產能
+Capacity
+Our team is at full capacity and cannot take more requests.
+我們團隊的產能已滿，無法承接更多請求。
+
+待命
+On Call
+Who is on call this weekend for emergencies?
+這週末誰負責待命處理緊急狀況？
+
+接洽
+Reach Out
+Feel free to reach out if you have questions.
+如果你有問題，隨時接洽我。
+
+不吝於給予讚美，是建立正向回饋循環的關鍵。
+
+讚賞
+Kudos
+Kudos to the team for the hard work this week.
+讚賞團隊這週的努力工作。
+
+公開表揚
+Shout Out
+A big shout out to Jane for fixing the production issue.
+大力表揚 Jane 修復了生產環境的問題。
+
+
+這些軟實力單字是你職涯晉升的關鍵。能用英文自信地說出 "Heads up" 或 "Circle back"，會讓你在外商環境中顯得非常道地。祝你溝通順利。

@@ -1,0 +1,113 @@
+歡迎來到 .NET C# 進階篇。在掌握基礎後，我們將深入探討更進階的特性與架構概念。從型別轉換到記憶體管理，這些知識將幫助你寫出更高效能且優雅的程式碼。
+
+C# 提供了許多強大的語法特性，避免型別錯誤並提高重用性，我們先看型別轉換。
+
+隱含轉換
+Implicit Conversion
+Implicit conversion happens automatically when no data loss is expected.
+當預期不會有資料遺失時，隱含轉換會自動發生。
+
+強制轉換
+Explicit Conversion
+Use explicit conversion (casting) when converting a double to an integer.
+將 Double 轉換為 Integer 時，使用強制轉換（轉型）。
+
+共變性
+Covariance
+Covariance preserves the assignment compatibility of types.
+共變性保留了型別的指派相容性。
+
+反變性
+Contravariance
+Contravariance allows a method with a less derived argument type.
+反變性允許方法使用衍生程度較低的引數型別。
+
+泛型
+Generic
+Use generics to ensure type safety without casting.
+使用泛型以確保型別安全且無需轉型。
+
+字典
+Dictionary
+Use a dictionary for fast lookups by key.
+使用字典透過 Key 進行快速查找。
+
+部分類別
+Partial Class
+Partial classes allow you to split code into multiple files.
+部分類別允許你將程式碼分割成多個檔案。
+
+擴充方法
+Extension Method
+Create an extension method to add functionality to existing types.
+建立擴充方法來為現有型別增加功能。
+
+善用函式語言特性，能大幅簡化資料處理邏輯，例如以下這些工具。
+
+語言整合查詢
+LINQ
+LINQ 是 Language Integrated Query 的縮寫
+Use LINQ to filter and order the data collection easily.
+使用 LINQ 來輕鬆過濾並排序資料集合。
+
+Lambda 表達式
+Lambda Expression
+Use a lambda expression to define the filter condition inline.
+使用 Lambda 表達式直接定義篩選條件。
+
+了解程式在記憶體中的運作方式，是效能調校的關鍵，我們需要區分以下概念。
+
+垃圾回收
+Garbage Collection
+Garbage collection automatically reclaims memory from unused objects.
+垃圾回收會自動回收不再使用的物件記憶體。
+
+堆積
+Heap
+Reference types like objects are allocated on the heap.
+像物件這樣的參考型別是配置在 Heap (堆積) 上。
+
+堆疊
+Stack
+Value types and method calls are stored on the stack.
+實值型別和方法呼叫是儲存在 Stack (堆疊) 上。
+
+釋放
+Dispose
+Call dispose on the object to release unmanaged resources like file handles.
+呼叫物件的 Dispose 以釋放如檔案控制代碼等非託管資源。
+
+並行
+Concurrency
+Handle concurrency issues when multiple threads access shared data.
+當多個執行緒存取共用資料時，需處理並行問題。
+
+最後是關於中繼資料與 Web 架構的核心機制，這在現代開發中無處不在。
+
+反射
+Reflection
+Use reflection to inspect class properties at runtime.
+使用反射在執行階段檢查類別屬性。
+
+屬性標籤
+Attribute
+Add the Authorize attribute to restrict access to the controller.
+將 Authorize 屬性標籤加到控制器以限制存取。
+
+序列化
+Serialize
+Serialize the object to a JSON string for the API response.
+將物件序列化為 JSON 字串以作為 API 回應。
+
+相依性注入
+Dependency Injection
+ASP.NET Core has built-in Dependency Injection to manage services.
+ASP.NET Core 內建相依性注入來管理服務。
+
+中介軟體
+Middleware
+Ensure the error handling middleware is placed at the beginning.
+確保錯誤處理中介軟體被放置在最前面。
+
+
+深入理解這些進階概念，是成為資深 .NET 工程師的關鍵。C# 的學習之路是無止境的，但你已經跨過了一個重要的門檻。感謝收聽。
