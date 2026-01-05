@@ -1,6 +1,6 @@
 歡迎來到行動開發篇。這集我們將比較 iOS 與 Android 兩大平台的專用術語與開發工具。如果你對 App 開發感興趣，這集是你的必修課。
 
-行動開發的世界主要由兩大陣營組成，但也多了跨平台的選擇，我們先認識這幾個主要名詞。
+行動開發的世界主要由兩大陣營組成，但也多了跨平台的選擇，接下來我們先認識這幾個主要名詞。
 
 iOS
 iOS 是 iPhone Operating System 的縮寫
@@ -27,7 +27,7 @@ React Native
 React Native uses JavaScript to create native mobile apps.
 React Native 使用 JavaScript 來建立原生行動 App。
 
-開發 App 時，我們需要熟悉這些控制畫面與流程的核心組件。
+開發 App 時，接下來我們需要熟悉這些控制畫面與流程的核心組件。
 
 視圖控制器
 View Controller
@@ -54,7 +54,7 @@ Navigation
 Implement a navigation controller to manage screen transitions.
 實作導覽控制器以管理螢幕轉換。
 
-工欲善其事，必先利其器。熟練這些工具能讓你事半功倍，我們看看有哪些好幫手。
+工欲善其事，必先利其器。熟練這些工具能讓你事半功倍，接著我們來看看有哪些好幫手。
 
 模擬器
 Simulator
@@ -82,7 +82,7 @@ Gradle
 Gradle is the build automation tool used in Android Studio.
 Gradle 是 Android Studio 使用的自動化建置工具。
 
-寫程式過程中，各種除錯手段與設計模式也是不可或缺，例如：
+寫程式過程中，各種除錯手段與設計模式也是不可或缺，例如以下這幾個：
 
 委派
 Delegate
@@ -100,7 +100,7 @@ Crash Report
 Check the crash report to see why the app closed unexpectedly.
 檢查崩潰報告以查看 App 為何意外關閉。
 
-發布 App 前，還有許多設定與審查流程需要注意，別忘了這些步驟。
+發布 App 前，還有許多設定與審查流程需要注意，接下來別忘了這些步驟。
 
 資訊清單
 Manifest

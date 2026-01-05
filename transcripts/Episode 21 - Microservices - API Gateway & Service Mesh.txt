@@ -1,6 +1,6 @@
 歡迎來到微服務與雲端原生架構篇。當系統龐大到無法維護時，微服務往往是解決方案。這集我們探討如何拆分單體應用，以及管理分散式服務的關鍵技術。
 
-微服務的核心概念，在於將單體拆解為獨立個體，這引入了許多新的架構特性。
+微服務的核心概念，在於將單體拆解為獨立個體，接下來這引入了許多新的架構特性。
 
 單體式
 Monolith
@@ -32,7 +32,7 @@ Stateful
 Managing stateful services in containers requires persistent storage.
 在容器中管理有狀態服務需要持久化儲存。
 
-服務間的溝通與治理，是架構成功的關鍵，我們需要以下模式來協助管理。
+服務間的溝通與治理，是架構成功的關鍵，我們需要接下來這些模式來協助管理。
 
 API 閘道器
 API Gateway
@@ -59,7 +59,7 @@ Event Bus
 Services publish events to the event bus for asynchronous communication.
 服務將事件發布到事件匯流排以進行非同步通訊。
 
-維運微服務需要更強的可觀測性與自動化，這些工具能幫助我們看清系統內部。
+維運微服務需要更強的可觀測性與自動化，接下來這些工具能幫助我們看清系統內部。
 
 容器編排
 Container Orchestration
@@ -86,7 +86,7 @@ Load Balancing
 Load balancing distributes traffic evenly across service instances.
 負載平衡將流量均勻分配到服務實例上。
 
-面對網路的不確定性，我們需要更穩健的錯誤處理機制，例如以下模式。
+面對網路的不確定性，我們需要更穩健的錯誤處理機制，例如接下來幾種模式。
 
 斷路器
 Circuit Breaker
@@ -118,7 +118,7 @@ Fault Isolation
 Microservices provide better fault isolation than monoliths.
 微服務比單體應用提供更好的故障隔離。
 
-最後是關於部署策略的進階術語，這些方法能協助我們達到零停機部署。
+最後是關於部署策略的進階術語，接下來這些方法能協助我們達到零停機部署。
 
 藍綠部署
 Blue-Green Deployment

@@ -34,6 +34,10 @@ Query String
 Pass the search filters in the URL query string.
 在 URL 查詢字串中傳遞搜尋篩選條件。
 
+GraphQL
+GraphQL is a query language for APIs that allows clients to request exactly what they need.
+GraphQL 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
+
 HTTP 訊息的內部結構，藏著許多重要資訊，通常分為標頭與主體。
 
 標頭
@@ -86,8 +90,8 @@ CORS 是 Cross-Origin Resource Sharing 的縮寫
 Configure CORS to allow requests from the frontend domain.
 設定 CORS 以允許來自前端網域的請求。
 
-JSON Web Token
 JWT
+JWT 是 JSON Web Token 的縮寫。
 JWT is commonly used for stateless authentication in mobile apps.
 JWT 常被用於行動應用程式的無狀態驗證。
 

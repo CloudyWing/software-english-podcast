@@ -1,8 +1,7 @@
 歡迎來到資料科學與 AI 篇。隨著人工智慧的興起，Python 已成為不可或缺的語言。這集我們涵蓋資料科學以及機器學習的關鍵術語。
 
-Python 是資料科學的首選語言，掌握其基礎生態系是第一步，我們從基本詞彙開始。
+Python 是資料科學的首選語言，掌握其基礎生態系是第一步，讓我們從基本詞彙開始。
 
-Python
 Python
 Python is widely used for data analysis and AI development.
 Python 廣泛用於資料分析與 AI 開發。
@@ -38,11 +37,10 @@ Run 'pip install' to download the library from PyPI.
 執行 'pip install' 從 PyPI 下載函式庫。
 
 Jupyter Notebook
-Jupyter Notebook
 Data scientists use Jupyter Notebooks for interactive coding.
 資料科學家使用 Jupyter Notebook 進行互動式寫程式。
 
-處理資料時，我們需要強大的工具來進行運算與視覺化，常用的函式庫如下。
+處理資料時，我們需要強大的工具來進行運算與視覺化，這裡有幾個常用的函式庫。
 
 陣列
 Array
@@ -74,7 +72,7 @@ Automation
 Python is excellent for task automation.
 Python 非常適合用於任務自動化。
 
-機器學習是 AI 的核心，它讓電腦從資料中學習，這些是此領域的關鍵字。
+機器學習是 AI 的核心，它讓電腦從資料中學習，讓我們看看此領域的關鍵字。
 
 模型
 Model
@@ -111,7 +109,7 @@ Tensor
 TensorFlow and PyTorch operate on tensors.
 TensorFlow 和 PyTorch 都是在張量上進行運算。
 
-近年來，大型語言模型的發展引領了新一波的 AI 革命，我們來認識這些新興術語。
+近年來，大型語言模型的發展引領了新一波的 AI 革命，讓我們一起來認識這些新興術語。
 
 自然語言處理
 NLP
@@ -134,6 +132,43 @@ GPT-4 是一個強大的大型語言模型。
 Token
 LLMs process text in chunks called tokens.
 LLM 以被稱為 Token 的塊狀單位來處理文字。
+
+除了技術本身，認識這些推動 AI 革命的關鍵巨頭與平台也是必要的。
+
+OpenAI
+OpenAI developed the GPT series and ChatGPT.
+OpenAI 開發了 GPT 系列與 ChatGPT。
+
+Anthropic
+Anthropic focuses on AI safety and developed the Claude models.
+Anthropic 專注於 AI 安全並開發了 Claude 模型。
+
+Hugging Face
+Hugging Face is the leading platform for sharing open-source AI models.
+Hugging Face 是分享開源 AI 模型的領先平台。
+
+接下來是目前市場上最強大的幾個 AI 模型與服務，了解它們能幫助你選擇對的工具。
+
+ChatGPT
+ChatGPT by OpenAI has set the standard for conversational AI.
+由 OpenAI 推出的 ChatGPT 樹立了對話式 AI 的標竿。
+
+Gemini
+Gemini is Google's most capable and general-purpose AI model.
+Gemini 是 Google 最有能力且通用的 AI 模型。
+
+Claude
+Anthropic's Claude is known for its large context window and safety.
+Anthropic 的 Claude 以其龐大的上下文視窗與安全性聞名。
+
+Claude 3 家族
+Claude 3 Family
+The family includes Haiku for speed, Sonnet for balance, and Opus for intelligence.
+這個家族包含了追求速度的 Haiku、平衡的 Sonnet 以及追求智慧的 Opus。
+
+NotebookLM
+NotebookLM turns your documents into an expert that you can interact with.
+NotebookLM 將你的文件轉變為可以互動的專家。
 
 提示工程
 Prompt Engineering

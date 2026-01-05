@@ -1,6 +1,6 @@
 歡迎來到設計模式與原則篇。這集我們挑戰軟體工程的基石——設計原則與常見模式。這些概念將幫助你寫出更易於維護與擴充的程式碼。
 
-首先，我們從最經典的 SOLID 原則與其他設計心法開始，這是良好設計的基礎。
+首先，我們從最經典的 SOLID 原則與其他設計心法開始，接下來這是良好設計的基礎。
 
 單一職責原則
 Single Responsibility Principle
@@ -39,6 +39,8 @@ KISS 是 Keep It Simple, Stupid 的縮寫
 Apply the KISS principle, don't overengineer the solution.
 應用 KISS 原則，不要過度設計解決方案。
 
+接下來，我們來看看其他重要的原則。
+
 關注點分離
 Separation of Concerns
 Separation of concerns makes the code easier to maintain and test.
@@ -54,7 +56,7 @@ Low Coupling
 Low coupling reduces the impact of changes on other modules.
 低耦合降低了變更對其他模組造成的影響。
 
-程式碼品質的維護，與架構設計一樣重要，我們需要了解這些關於壞味道與重構的詞彙。
+程式碼品質的維護，與架構設計一樣重要，接下來我們需要了解這些關於壞味道與重構的詞彙。
 
 重構
 Refactoring
@@ -76,7 +78,7 @@ Code Smell
 Long methods and large classes are common code smells.
 過長的方法和過大的類別是常見的程式碼異味。
 
-設計模式提供了解決常見問題的模板，我們從建立型與行為型模式看起。
+設計模式提供了解決常見問題的模板，接下來我們從建立型與行為型模式看起。
 
 單例模式
 Singleton
@@ -103,7 +105,7 @@ Observer
 The observer pattern is key to implementing event-driven systems.
 觀察者模式是實作事件驅動系統的關鍵。
 
-結構型模式則關注於物件的組成與介面適配，例如以下幾種。
+結構型模式則關注於物件的組成與介面適配，例如接下來幾種。
 
 裝飾者模式
 Decorator
@@ -130,7 +132,7 @@ Repository
 The repository pattern abstracts data access logic from business logic.
 儲存庫模式將資料存取邏輯從商業邏輯中抽象出來。
 
-最後，我們來看看幾種常見的整體架構風格，決定系統的大方向。
+最後，讓我們接著看決定系統的大方向的幾種常見架構。
 
 單體式
 Monolith

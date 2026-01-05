@@ -32,7 +32,7 @@ Submodule
 This project uses a submodule to include shared libraries.
 這個專案使用子模組來包含共用函式庫。
 
-有時候我們需要對提交紀錄進行微調，讓它更乾淨，以下是幾個常用的指令。
+有時候我們需要對提交紀錄進行微調，讓它更乾淨，接下來是幾個常用的指令。
 
 暫存
 Stash
@@ -59,7 +59,7 @@ Cherry-pick
 Cherry-pick that specific bug fix commit to the stable branch.
 將那個特定的 Bug 修復 Commit 摘選到穩定分支。
 
-犯錯在所難免，Git 提供了多種方式讓你回到過去或取消變更。
+犯錯在所難免，接下來介紹 Git 提供的多種方式讓你回到過去或取消變更。
 
 重設
 Reset
@@ -81,7 +81,7 @@ Unstage
 Unstage the file if you added it by mistake.
 如果你不小心加入了檔案，請取消暫存。
 
-當問題發生時，我們需要調查原因與歷史紀錄，這些工具能幫你找出問題根源。
+當問題發生時，我們需要調查原因與歷史紀錄，接下來介紹的這些工具能幫你找出問題根源。
 
 歸咎
 Blame

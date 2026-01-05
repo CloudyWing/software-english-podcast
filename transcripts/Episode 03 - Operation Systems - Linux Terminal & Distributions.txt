@@ -29,6 +29,10 @@ Debian
 Debian is known for its stability and is the base for Ubuntu.
 Debian 以其穩定性聞名，且是 Ubuntu 的基礎。
 
+Ubuntu
+Ubuntu is the most popular Linux distribution for desktop and server.
+Ubuntu 是最受桌面與伺服器歡迎的 Linux 發行版。
+
 CentOS
 CentOS 是 Community Enterprise Operating System 的縮寫
 CentOS is widely used in enterprise server environments.

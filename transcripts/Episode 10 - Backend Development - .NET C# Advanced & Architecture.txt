@@ -67,7 +67,7 @@ Heap
 Reference types like objects are allocated on the heap.
 像物件這樣的參考型別是配置在 Heap (堆積) 上。
 
-堆疊
+堆 疊
 Stack
 Value types and method calls are stored on the stack.
 實值型別和方法呼叫是儲存在 Stack (堆疊) 上。

@@ -25,6 +25,10 @@ Realtime
 The dashboard updates in realtime using Firebase subscriptions.
 儀表板使用 Firebase 的訂閱機制進行即時更新。
 
+Supabase
+Supabase is an open source Firebase alternative based on PostgreSQL.
+Supabase 是一個基於 PostgreSQL 的開源 Firebase 替代品。
+
 為了追求極致的讀取速度，我們會使用記憶體內的鍵值儲存，例如：
 
 Redis

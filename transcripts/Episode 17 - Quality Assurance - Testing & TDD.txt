@@ -1,6 +1,6 @@
 歡迎來到軟體品質保證篇。寫出能夠運作的程式碼只是及格，寫出經過測試、穩固的程式碼才是專業。這集我們深入探討測試種類與 TDD 開發流程。
 
-確保軟體品質，我們需要從不同層級進行測試，以下是常見的測試類型。
+確保軟體品質，我們需要從不同層級進行測試，接下來是常見的測試類型。
 
 單元測試
 Unit Testing
@@ -43,7 +43,7 @@ Stress Testing
 Stress testing pushes the system beyond its limits to see how it breaks.
 壓力測試將系統推向極限，看看它如何崩潰。
 
-不同的開發方法論，會影響我們撰寫測試的時機與方式，主要的流派如下。
+不同的開發方法論，會影響我們撰寫測試的時機與方式，主要的流派如下，讓我們接著往下看。
 
 測試驅動開發
 TDD
@@ -72,7 +72,7 @@ Continuous Testing
 Continuous testing executes automated tests as part of the CI pipeline.
 持續測試作為 CI 管線的一部分執行自動化測試。
 
-在撰寫測試程式碼時，我們會用到這些具體的技巧與指標。
+在撰寫測試程式碼時，我們會用到接下來這些具體的技巧與指標。
 
 測試案例
 Test Case
@@ -109,7 +109,7 @@ Flaky Test
 A flaky test passes sometimes and fails others without code changes.
 不穩定的測試有時通過有時失敗，即便程式碼沒有變動。
 
-最後是關於品質管理與缺陷追蹤的術語，這些是 QA 日常工作的一部分。
+最後是關於品質管理與缺陷追蹤的術語，接下來這些是 QA 日常工作的一部分。
 
 品保
 QA

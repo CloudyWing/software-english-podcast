@@ -33,6 +33,29 @@ Shortcut
 Learn the keyboard shortcuts to speed up your coding.
 學習鍵盤快捷鍵以加快你的寫程式速度。
 
+隨著 AI 技術進步，新一代的 AI 編輯器正在改變我們的開發模式，接下來讓我們看看這些強調與 AI 深度整合的工具。
+
+Cursor
+Cursor is an AI-first code editor built for pair programming with AI.
+Cursor 是一個為了與 AI 結對程式設計而打造的 AI 優先程式碼編輯器。
+
+Windsurf
+Windsurf integrates deep context awareness for better AI coding suggestions.
+Windsurf 整合了深度上下文感知，以提供更好的 AI 程式碼建議。
+
+Antigravity
+Antigravity is a powerful internal AI agentic coding assistant.
+Antigravity 是一個強大的內部 AI 代理程式設計助理。
+
+GitHub Copilot
+GitHub Copilot suggests whole lines or entire functions right inside your editor.
+GitHub Copilot 直接在你的編輯器中建議整行或完整的函式。
+
+氛圍開發
+Vibe Coding
+Vibe Coding refers to a flow state where you focus on high-level logic while AI handles the implementation.
+Vibe Coding 指的是一種專注於高層次邏輯，而將實作交給 AI 的心流狀態。
+
 專案管理與協作工具，是團隊同步的橋樑，我們常用這些平台。
 
 Jira
@@ -64,7 +87,7 @@ Zoom
 Share your screen on Zoom so I can see the bug.
 在 Zoom 上分享你的螢幕，讓我看看那個 Bug。
 
-每個開發者的工具箱裡，都少不了這些實用的小工具，能解決各種疑難雜症。
+每個開發者的工具箱裡，都少不了這些實用的小工具，接下來介紹的這些能幫你解決各種疑難雜症。
 
 Postman
 Use Postman to test the API endpoints before integrating them.

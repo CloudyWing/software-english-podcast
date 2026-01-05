@@ -1,6 +1,6 @@
 歡迎來到 Web3 與區塊鏈篇。無論你是否投身這個領域，了解去中心化網路的基本術語，能讓你跟上最新的技術趨勢。這集我們介紹鏈上開發的核心詞彙。
 
-我們從區塊鏈的基礎架構開始，了解這些底層技術如何運作。
+我們從區塊鏈的基礎架構開始，接下來讓我們了解這些底層技術如何運作。
 
 區塊鏈
 Blockchain
@@ -47,7 +47,7 @@ Mainnet
 Real transactions happen on the mainnet with real value.
 真實交易發生在具有真實價值的主網上。
 
-智慧合約是區塊鏈上的程式碼，它定義了交易的邏輯，以下是相關術語。
+智慧合約是區塊鏈上的程式碼，它定義了交易的邏輯，接下來是相關術語。
 
 智慧合約
 Smart Contract
@@ -73,7 +73,7 @@ Oracle
 Oracles provide real-world data to smart contracts.
 預言機將現實世界資料提供給智慧合約。
 
-數位資產的管理，是使用者與區塊鏈互動的橋樑，常見的資產形式有這些。
+數位資產的管理，是使用者與區塊鏈互動的橋樑，常見的資產形式有接下來這些。
 
 代幣
 Token
@@ -84,7 +84,7 @@ ERC-20 是在以太坊上建立同質化代幣的標準。
 NFT
 NFT 是 Non-Fungible Token 的縮寫
 An NFT represents ownership of a unique digital item.
-NFT 代表獨特數位項目的所有權。
+NFT 代表獨特數位物件的所有權。
 
 錢包
 Wallet
@@ -106,7 +106,7 @@ Seed Phrase
 Store your seed phrase offline in a secure location.
 將你的種子短語離線儲存在安全的地方。
 
-Web3 應用程式正在重塑我們對網路的想像，這些新模式正在興起。
+Web3 應用程式正在重塑我們對網路的想像，接下來這些新模式正在興起。
 
 分散式應用程式
 DApp

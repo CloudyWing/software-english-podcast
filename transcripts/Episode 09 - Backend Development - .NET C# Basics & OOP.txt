@@ -22,7 +22,7 @@ Dependency
 Update the NuGet dependency to the latest version to fix bugs.
 將 NuGet 相依套件更新到最新版以修復 Bug。
 
-在建立軟體時，我們需要定義各種型別，以下是 C# 中最基本的型別定義。
+在建立軟體時，我們需要定義各種型別，接下來是 C# 中最基本的型別定義。
 
 類別
 Class
@@ -49,7 +49,7 @@ Delegate
 Pass a method as a delegate parameter to handle the callback.
 將方法當作委派參數傳遞以處理回呼。
 
-在類別內部，我們有各式各樣的成員來定義行為與資料。
+在類別內部，我們接著介紹各式各樣的成員來定義行為與資料。
 
 屬性
 Property
@@ -61,7 +61,7 @@ Field
 A private field should be named with an underscore prefix.
 私有欄位應該以底線前綴命名。
 
-建構函式
+建構子
 Constructor
 Inject required services through the class constructor.
 透過類別建構函式注入所需的服務。
@@ -86,7 +86,7 @@ Overload
 Method overloading allows creating methods with the same name but different parameters.
 方法多載允許建立同名但參數不同的方法。
 
-物件導向程式設計有三大核心支柱，這讓我們的程式碼更具彈性與可維護性。
+物件導向程式設計有三大核心支柱，這些概念讓我們的程式碼更具彈性與可維護性，讓我們接著往下看。
 
 封裝
 Encapsulation
@@ -103,7 +103,7 @@ Polymorphism
 Polymorphism allows us to treat different objects in the same way.
 多型讓我們能以相同的方式對待不同的物件。
 
-為了實作繼承與多型，我們會用到以下這些修飾關鍵字。
+為了實作繼承與多型，我們會用到接下來這些修飾關鍵字。
 
 抽象
 Abstract
@@ -125,7 +125,7 @@ Sealed
 A sealed class cannot be inherited by other classes.
 密封類別無法被其他類別繼承。
 
-接下來是存取修飾詞，它們定義了程式碼的可見範圍與封裝層級。
+接下來是定義程式碼可見範圍與封裝層級的存取修飾詞。
 
 公開的
 Public

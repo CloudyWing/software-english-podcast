@@ -1,6 +1,6 @@
 歡迎來到雲端運算篇。這一集我們將焦點放在具體的雲端供應商與基礎設施環境。無論是 AWS 還是 Azure，這些都是你部署程式碼的地方。
 
-三大雲端龍頭提供了各式各樣的服務，我們從市佔率最高的這三家開始。
+三大雲端龍頭提供了各式各樣的服務，接下來我們從市佔率最高的這三家開始。
 
 Azure
 We deploy our .NET applications to Microsoft Azure App Service.
@@ -15,7 +15,24 @@ Google Cloud
 We use Google Cloud Platform for its strong data analytics tools.
 我們使用 Google Cloud Platform，因為它有強大的資料分析工具。
 
-在部署資源前，了解基礎網路架構是必須的，這些術語定義了雲端的地理與邏輯邊界。
+雲端服務主要分為三種模式，了解這些層級有助於你選擇正確的解決方案。
+
+基礎設施即服務
+IaaS
+IaaS allows you to rent virtual servers and storage. IaaS stands for Infrastructure as a Service.
+IaaS 讓你租用虛擬伺服器與儲存空間。
+
+平台即服務
+PaaS
+PaaS provides a platform for developers to build and deploy apps without managing servers. PaaS stands for Platform as a Service.
+PaaS 為開發者提供了一個平台來建構與部署應用程式，而無需管理伺服器。
+
+軟體即服務
+SaaS
+SaaS delivers software applications over the internet. SaaS stands for Software as a Service.
+SaaS 透過網際網路交付軟體應用程式。
+
+在部署資源前，了解基礎網路架構是必須的，接下來這些術語定義了雲端的地理與邏輯邊界。
 
 區域
 Region
@@ -44,7 +61,7 @@ IAM 是 Identity and Access Management 的縮寫
 Use IAM roles to manage permissions securely.
 使用 IAM 角色來安全地管理權限。
 
-運算資源是雲端轉型的核心，從虛擬機到無伺服器架構，選擇相當多元。
+運算資源是雲端轉型的核心，從虛擬機到無伺服器架構，選擇相當多元，讓我們接著往下看。
 
 虛擬機器
 Virtual Machine
@@ -70,7 +87,7 @@ Cold Start
 Cold start latency is a common concern in serverless architectures.
 冷啟動延遲是無伺服器架構中常見的隱憂。
 
-儲存與靜態資源的配置也是一大學問，常見的服務類型如下。
+儲存與靜態資源的配置也是一大學問，常見的服務類型包含接下來的這幾種。
 
 S3
 S3 是 Simple Storage Service 的縮寫
@@ -88,7 +105,7 @@ CDN 是 Content Delivery Network 的縮寫
 Use a CDN to speed up the delivery of static assets globally.
 使用 CDN 加速全球靜態資源的傳遞。
 
-最後，我們來看關於擴展性與進階架構的術語，這是雲端真正發揮威力的地方。
+最後，我們來看關於擴展性與進階架構的術語，這是雲端真正發揮威力的地方，讓我們接著往下看。
 
 可擴展性
 Scalability

@@ -1,6 +1,6 @@
 歡迎來到前端生態系篇。這一集我們聚焦於瀏覽器技術與現代框架。Chrome 不僅是瀏覽器，更是開發工具；而 React 與 TypeScript 則是現代前端的標準配備。
 
-開發網頁的第一步，是了解我們的戰場——瀏覽器，以下是它的核心組成。
+開發網頁的第一步，是了解我們的戰場——瀏覽器，接下來我們來看看它的核心組成。
 
 Chrome
 Google Chrome is the most widely used browser for web development.
@@ -29,7 +29,7 @@ Console
 Log the error message to the console for debugging.
 將錯誤訊息記錄到控制台以進行除錯。
 
-現代前端開發離不開強大的建置與語言工具，這些能提升開發效率。
+現代前端開發離不開強大的建置與語言工具，接著我們來看這些能提升開發效率的利器。
 
 TypeScript
 TypeScript adds static typing to JavaScript, reducing runtime errors.
@@ -49,7 +49,17 @@ Bundler
 Webpack is a module bundler that compiles your JavaScript.
 Webpack 是一個編譯你 JavaScript 的模組打包工具。
 
-框架能幫助我們更有效率地建構複雜的使用者介面，最熱門的三大框架如下。
+Vite
+Vite is a next-generation frontend build tool that is extremely fast.
+Vite 是一個極快的新世代前端建置工具。
+
+Vite 是一個極快的新世代前端建置工具。
+
+Tailwind CSS
+Tailwind CSS is a utility-first CSS framework for rapid UI development.
+Tailwind CSS 是一個功能優先的 CSS 框架，用於快速開發 UI。
+
+框架能幫助我們更有效率地建構複雜的使用者介面，以下是目前最熱門的三大框架。
 
 React
 React uses a virtual DOM to optimize rendering performance.
@@ -67,7 +77,11 @@ Next.js
 Next.js is a React framework that supports server-side rendering.
 Next.js 是一個支援伺服器端渲染的 React 框架。
 
-選擇合適的渲染架構，能大幅提升使用者體驗，我們來看看各種渲染模式。
+Vercel
+Vercel is the platform for frontend frameworks and static sites, built by the creators of Next.js.
+Vercel 是前端框架與靜態網站的平台，由 Next.js 的創作者打造。
+
+選擇合適的渲染架構，能大幅提升使用者體驗，接下來我們來看看各種常見的渲染模式。
 
 單頁應用程式
 SPA
@@ -87,12 +101,17 @@ CSR 是 Client-Side Rendering 的縮寫
 CSR offloads rendering work to the user's browser.
 CSR 將渲染工作交給使用者的瀏覽器。
 
+水合
+Hydration
+Hydration is the process of attaching event listeners to the server-rendered HTML.
+水合是將事件監聽器附加到伺服器渲染 HTML 上的過程。
+
 響應式
 Responsive
 The web design must be responsive for mobile and tablet devices.
 網頁設計必須對手機和平板裝置具響應性。
 
-處理資料儲存與即時通訊，也是前端的重要職責，相關技術包括：
+處理資料儲存與即時通訊，也是前端的重要職責，相關的技術包括以下這些：
 
 本機儲存
 LocalStorage
@@ -102,6 +121,12 @@ Save the user preference in LocalStorage so it persists after refresh.
 WebSocket
 Use WebSockets for real-time features like chat applications.
 使用 WebSockets 開發如聊天應用程式等即時功能。
+
+伺服器發送事件
+SSE
+SSE 是 Server-Sent Events 的縮寫
+SSE allows the server to push updates to the client via HTTP.
+SSE 允許伺服器透過 HTTP 推送更新給客戶端。
 
 
 前端技術更新迭代非常快，但瀏覽器與 JavaScript 的核心原理始終不變。掌握這些基礎，你就能輕鬆應對任何新框架。感謝收聽。

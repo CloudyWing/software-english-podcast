@@ -1,6 +1,6 @@
 歡迎來到職涯成長篇。這集我們不談技術，談談工程師的生存之道。從面試準備、薪資談判到升遷評估，這些單字將陪伴你走過職涯的每個重要時刻。
 
-求職的第一步，是讓自己被看見，我們從準備申請資料開始。
+求職的第一步，是讓自己被看見，接下來我們從準備申請資料開始。
 
 履歷
 Resume
@@ -27,7 +27,7 @@ Job Description
 Read the job description carefully to match your skills.
 仔細閱讀職位描述以匹配你的技能。
 
-面試是展示實力的舞台，不同類型有不同策略，常見的形式有這些。
+面試是展示實力的舞台，不同類型有不同策略，常見的形式有接下來這幾種。
 
 程式設計面試
 Coding Interview
@@ -50,7 +50,7 @@ STAR 是 Situation, Task, Action, Result 的縮寫
 Use the STAR method to structure your answers.
 使用 STAR 法則來架構你的回答。
 
-當這一切順利，就到了談判回報的時刻，以下是與薪資福利相關的詞彙。
+當這一切順利，就到了談判回報的時刻，接下來是與薪資福利相關的詞彙。
 
 錄取通知
 Offer
@@ -82,7 +82,7 @@ Perks
 Company perks include free lunch and gym membership.
 公司福利包含免費午餐和健身房會員資格。
 
-進入職場後，持續成長與應對挑戰是長久之計，我們常會遇到這些情況。
+進入職場後，持續成長與應對挑戰是長久之計，我們接著常會遇到這些情況。
 
 升遷
 Promotion

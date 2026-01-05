@@ -29,7 +29,7 @@ Event Sourcing
 Event sourcing stores the state changes as a sequence of events.
 事件溯源將狀態變更儲存為一系列的事件。
 
-系統的擴展性決定了它能服務多少使用者，主要有兩種擴展方向。
+系統的擴展性決定了它能服務多少使用者，主要有接下來這兩種擴展方向。
 
 水平擴展
 Scale Out
@@ -46,7 +46,7 @@ Caching
 Caching strategies drastically improve read performance.
 快取策略大幅提升讀取效能。
 
-為了確保系統穩定，我們需要強大的韌性設計，防止單點故障導致全面崩潰。
+為了確保系統穩定，我們需要強大的韌性設計，防止單點故障導致全面崩潰，讓我們接著往下看。
 
 高可用性
 High Availability
@@ -68,7 +68,7 @@ Circuit Breaker
 Implement a circuit breaker to prevent cascading failures in the system.
 實作斷路器以防止系統中的連鎖故障。
 
-服務間的非同步溝通，通常依賴訊息傳遞機制，以下是核心組件。
+服務間的非同步溝通，通常依賴訊息傳遞機制，接下來是核心組件。
 
 訊息佇列
 Message Queue

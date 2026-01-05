@@ -1,6 +1,6 @@
 歡迎來到資料工程篇。在這個大數據時代，處理海量資料的能力至關重要。這集我們介紹與資料管線、ETL 以及串流處理相關的關鍵術語。
 
-資料工程的核心目標，是建立可靠的資料處理系統，我們先從最基本的管線概念開始。
+資料工程的核心目標，是建立可靠的資料處理系統，讓我們從最基本的管線概念開始。
 
 資料工程
 Data Engineering
@@ -28,14 +28,13 @@ Data Warehouse
 Business intelligence tools query the structured data warehouse.
 商業智慧工具查詢結構化的資料倉儲。
 
-面對傳統資料庫無法處理的規模，我們需要大數據技術，以下是生態系中最重要的組件。
+面對傳統資料庫無法處理的規模，我們需要大數據技術，讓我們來看看生態系中最重要的組件。
 
 大數據
 Big Data
 Big data technologies handle datasets that are too large for traditional databases.
 大數據技術處理對傳統資料庫來說過於龐大的資料集。
 
-Hadoop
 Hadoop
 Hadoop uses distributed storage and processing for big data.
 Hadoop 使用分散式儲存與運算來處理大數據。
@@ -47,16 +46,14 @@ HDFS splits large files across multiple nodes in a cluster.
 HDFS 將大檔案分割並儲存在叢集中的多個節點上。
 
 MapReduce
-MapReduce
 MapReduce is a programming model for processing big data sets.
 MapReduce 是一種處理大數據集的程式設計模型。
 
 Spark
-Spark
 Apache Spark provides fast in-memory data processing.
 Apache Spark 提供快速的記憶體內資料處理。
 
-資料的即時性決定了決策的速度，串流處理因此而生，相關術語如下。
+資料的即時性決定了決策的速度，串流處理因此而生，這裡有幾個相關術語。
 
 串流處理
 Stream Processing
@@ -68,7 +65,6 @@ Batch Processing
 Batch processing handles large volumes of data at scheduled intervals.
 批次處理在排定的時間間隔處理大量資料。
 
-Kafka
 Kafka
 Kafka is used for building real-time data streaming pipelines.
 Kafka 用於建構即時資料串流管線。
@@ -83,7 +79,7 @@ Throughput
 The system needs high throughput to handle millions of events per second.
 系統需要高吞吐量來處理每秒數百萬個事件。
 
-在資料治理與品質管理方面，也有許多專用術語，幫助我們確保資料可信度。
+在資料治理與品質管理方面，也有許多專用術語，讓我們來看看確保資料可信度的關鍵詞彙。
 
 結構描述
 Schema

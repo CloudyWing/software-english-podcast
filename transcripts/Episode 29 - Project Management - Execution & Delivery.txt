@@ -1,6 +1,6 @@
 歡迎來到專案執行與交付篇。在規劃之後，就是緊湊的執行與交付。這集涵蓋了開發流程、測試驗收以及與 QA 協作時會用到的重要術語。
 
-敏捷開發是目前業界的主流方法論，我們首先來認識它的核心詞彙。
+敏捷開發是目前業界的主流方法論，讓我們首先來認識它的核心詞彙。
 
 敏捷
 Agile
@@ -15,7 +15,7 @@ We plan our tasks for the upcoming two-week sprint.
 待辦清單
 Backlog
 Prioritize items in the product backlog for the next release.
-為下一次發布排定產品待辦清單項目的優先順序。
+為下一次發布排定產品待辦事項的優先順序。
 
 啟動會議
 Kick-off
@@ -42,7 +42,7 @@ Done
 Definition of Done means coded, tested, and documented.
 「完成」的定義意指已編碼、已測試且已撰寫文件。
 
-有效管理任務狀態能避免進度延遲，我們來看看常見的看板狀態。
+有效管理任務狀態能避免進度延遲，接下來讓我們來看看常見的看板狀態。
 
 待辦事項
 To-do
@@ -74,7 +74,7 @@ Severity
 This is a high severity bug causing data loss.
 這是一個導致資料遺失的高嚴重性 Bug。
 
-品質保證與驗收是交付前的最後一哩路，以下是測試階段的關鍵術語。
+品質保證與驗收是交付前的最後一哩路，接下來讓我們來看看測試階段的關鍵術語。
 
 品質保證
 QA
@@ -103,7 +103,7 @@ Hotfix
 We need to release a hotfix immediately to patch the hole.
 我們需要立即發布 Hotfix 來修補這個漏洞。
 
-為了確保產品符合需求，我們需要關注以下使用者體驗相關的詞彙。
+為了確保產品符合需求，接下來讓我們來關注以下使用者體驗相關的詞彙。
 
 痛點
 Pain Point

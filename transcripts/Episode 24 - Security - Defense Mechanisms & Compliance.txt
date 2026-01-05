@@ -38,7 +38,7 @@ TLS 是 Transport Layer Security 的縮寫
 TLS encrypts traffic over the internet, replacing SSL.
 TLS 加密網際網路上的流量，取代了 SSL。
 
-嚴格的存取控制能有效防止未經授權的行為，我們需要區分這幾個術語。
+嚴格的存取控制能有效防止未經授權的行為，接下來我們需要區分這幾個術語。
 
 身分驗證
 Authentication
@@ -65,7 +65,7 @@ Privilege
 Follow the principle of least privilege for user accounts.
 對使用者帳號遵循最小特權原則。
 
-網路安全設施是抵禦外部攻擊的第一道防線，常見的防護設備如下。
+網路安全設施是抵禦外部攻擊的第一道防線，常見的防護設備包含接下來這幾種。
 
 防火牆
 Firewall
@@ -77,6 +77,11 @@ VPN
 VPN 是 Virtual Private Network 的縮寫
 Use a VPN to access the internal corporate network securely.
 使用 VPN 安全地存取內部企業網路。
+
+零信任
+Zero Trust
+Zero Trust assumes no user or device is trusted by default, even inside the network.
+零信任假設沒有使用者或裝置是預設可信的，即便是網路內部也一樣。
 
 隔離區
 DMZ
@@ -94,7 +99,7 @@ Honeypot
 The honeypot attracts attackers so we can analyze their methods.
 蜜罐吸引攻擊者以便我們分析他們的手法。
 
-最後，透過流程管理與測試來確保整體的安全性，這些是合規的必要步驟。
+最後，透過流程管理與測試來確保整體的安全性，接下來這些是合規的必要步驟。
 
 CIA 三角
 CIA Triad

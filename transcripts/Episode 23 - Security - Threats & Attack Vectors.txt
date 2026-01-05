@@ -1,6 +1,6 @@
 歡迎來到資安威脅與攻擊篇。資安不僅是專家的事，更是開發者的日常責任。這集我們將認識各種常見的威脅與攻擊手法，知己知彼，才能百戰百勝。
 
-首先，我們從系統中最基本的弱點概念開始，了解駭客如何尋找機會。
+首先，我們從系統中最基本的弱點概念開始，接下來了解駭客如何尋找機會。
 
 弱點
 Vulnerability
@@ -22,7 +22,7 @@ Data Breach
 The company suffered a massive data breach involving user emails.
 該公司遭受了涉及使用者信箱的大規模資料外洩。
 
-惡意軟體與欺騙手段是攻擊者常用的武器，這些名詞你一定聽過。
+惡意軟體與欺騙手段是攻擊者常用的武器，接下來這些名詞你一定聽過。
 
 惡意軟體
 Malware
@@ -50,7 +50,7 @@ Social Engineering
 Social engineering manipulates people into revealing secrets via phone or email.
 社交工程透過電話或郵件操弄人們洩露機密。
 
-針對應用程式邏輯的攻擊，往往最難以防範，開發者必須特別留意。
+針對應用程式邏輯的攻擊，往往最難以防範，開發者必須特別留意，讓我們接著往下看。
 
 注入
 Injection
@@ -79,7 +79,7 @@ Escalation
 Privilege escalation allows a user to gain higher access rights.
 特權提升允許使用者獲取更高的存取權限。
 
-在網路層級，攻擊者試圖癱瘓服務或竊聽通訊，常見手法如下。
+在網路層級，攻擊者試圖癱瘓服務或竊聽通訊，接下來常見手法如下。
 
 阻斷服務攻擊
 DDoS

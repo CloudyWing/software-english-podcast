@@ -1,6 +1,6 @@
 歡迎來到 DevOps 與雲端原生篇。寫完程式只是第一步，如何將程式碼安全、自動化地部署到伺服器，是現代工程師的必修課。這集我們將重點放在 CI/CD 流程與容器化技術。
 
-現代軟體交付依賴自動化的流程，從提交程式碼到上線一氣呵成，我們來看看 CI/CD 的各個環節。
+現代軟體交付依賴自動化的流程，從提交程式碼到上線一氣呵成，接下來我們來看看 CI/CD 的各個環節。
 
 管線
 Pipeline
@@ -44,7 +44,7 @@ Production
 A critical bug was found in production affecting real users.
 在正式環境發現了一個影響真實使用者的嚴重 Bug。
 
-管理基礎設施不再是手動操作，而是程式碼化與可觀察化，相關技術如下。
+管理基礎設施不再是手動操作，而是程式碼化與可觀察化，相關技術如下，讓我們接著往下看。
 
 基礎設施即程式碼
 Infrastructure as Code
@@ -76,7 +76,7 @@ Alert
 Set up an alert to notify the team when memory consumption is high.
 設定警報，在記憶體消耗過高時通知團隊。
 
-容器化技術改變了我們打包與部署應用程式的方式，以下是 Docker 的核心概念。
+容器化技術改變了我們打包與部署應用程式的方式，接下來是 Docker 的核心概念。
 
 容器
 Container
@@ -98,7 +98,7 @@ Orchestration
 Kubernetes is the standard platform for container orchestration.
 Kubernetes 是容器編排的標準平台。
 
-Kubernetes 是容器調度的標準，雖然複雜但功能強大，這些是 K8s 的基本組成。
+Kubernetes 是容器調度的標準，雖然複雜但功能強大，接下來這些是 K8s 的基本組成。
 
 叢集
 Cluster
