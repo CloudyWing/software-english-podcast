@@ -13,3 +13,7 @@ temp/
 # IDE
 .vscode/
 .idea/
+
+# Scripts
+*.py
+*.ps1
