@@ -1,0 +1,353 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到資安威脅與攻擊篇。資安不僅是專家的事，更是開發者的日常責任。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，
+        </lang>
+        Xiao Zhen, I think I messed up.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        怎麼了 Nova？你看起來很緊張。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          我剛剛收到一封 Email 說我中獎了，我就點進去輸入了密碼...
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        天啊，那就是我們今天要講的典型攻擊手法啊！這集我們將認識各種常見的威脅，特別是 AI 時代興起的新型攻擊。
+        首先，我們從系統中最基本的弱點概念開始。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    弱點
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vulnerability
+    We found a critical vulnerability in the authentication code.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們在驗證程式碼中發現了一個嚴重弱點。
+    漏洞利用
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Exploit
+    Hackers used an exploit to gain unauthorized access to the system.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    駭客使用漏洞利用手段來取得系統的未授權存取。
+    零時差攻擊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Zero-day
+    A zero-day vulnerability is a serious threat with no known fix yet.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    零時差弱點是一個尚未有修復方案的嚴重威脅。
+    資料外洩
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Breach
+    The company suffered a massive data breach involving user emails.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    該公司遭受了涉及使用者信箱的大規模資料外洩。
+    供應鏈攻擊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Supply Chain Attack
+    A supply chain attack targets less secure elements in the software supply chain.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    供應鏈攻擊針對軟體供應鏈中較不安全的環節。
+    惡意軟體與欺騙手段是攻擊者常用的武器，接下來這些名詞你一定聽過。
+    惡意軟體
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Malware
+    Malware is short for Malicious Software.
+    Scan the system regularly to detect any malware.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    定期掃描系統以偵測任何惡意軟體。
+    勒索軟體
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ransomware
+    Ransomware encrypted all our files and demanded payment.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    勒索軟體加密了我們所有的檔案並要求贖金。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          My crypto wallet is empty now.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    後門
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Backdoor
+    The trojan installed a backdoor for remote access.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    特洛伊木馬安裝了一個後門以進行遠端存取。
+    釣魚攻擊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Phishing
+    Be careful of phishing emails asking for your password.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    小心要求你提供密碼的釣魚郵件。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Like the one I clicked...
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        針對應用程式邏輯的攻擊，往往最難以防範，開發者必須特別留意。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    提示詞注入
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Prompt Injection
+    Prompt injection manipulates the AI model to ignore its safety rules.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    提示詞注入操弄 AI 模型以忽略其安全規則。
+    歡迎回到 Security Part 2。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          I changed all my passwords to "Password123", is that safe?
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Nova，那是最不安全的密碼！我們馬上就會講到暴力破解了。
+        讓我們繼續看各種 Injection 手法。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    注入
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Injection
+    Prevent SQL injection by using parameterized queries.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用參數化查詢來防止 SQL 注入。
+    跨站腳本
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    XSS
+    XSS stands for Cross-Site Scripting.
+    Escape output content to prevent XSS attacks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    轉義輸出內容以防止 XSS 攻擊。
+    跨站請求偽造
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    CSRF
+    CSRF stands for Cross-Site Request Forgery.
+    Use anti-CSRF tokens to verify the request origin.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用抗 CSRF Token 來驗證請求來源。
+    暴力破解
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Brute Force
+    The attacker tried a brute force attack to guess the password.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    攻擊者嘗試對密碼進行暴力破解猜測。
+    特權提升
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Escalation
+    Privilege escalation allows a user to gain higher access rights.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    特權提升允許使用者取得更高的存取權限。
+    在網路層級，攻擊者試圖癱瘓服務或竊聽通訊，接下來常見手法如下。
+    阻斷服務攻擊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DDoS
+    DDoS stands for Distributed Denial of Service.
+    The server is down due to a massive DDoS attack.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    伺服器因為大規模的 DDoS 攻擊而當機。
+    中間人攻擊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Man-in-the-Middle
+    Public Wi-Fi is vulnerable to Man-in-the-Middle attacks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    公共 Wi-Fi 容易遭受中間人攻擊。
+    欺騙
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Spoofing
+    IP spoofing hides the attacker's true identity.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    IP 欺騙隱藏了攻擊者的真實身分。
+    嗅探
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sniffing
+    Packet sniffing captures sensitive network traffic.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    封包嗅探擷取敏感的網路流量。
+    資訊安全是持續的攻防戰。對每一個輸入保持懷疑，對每一次傳輸加密，是保護使用者資料的不二法門。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          I'll be watching my logs tonight. Stay safe out there!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        每次看到新聞有資料外洩，通常都是什麼原因造成的？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Often it's simple things like unpatched Vulnerabilities or Phishing. But in code, SQL Injection and XSS are still surprisingly common.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        所以 Input Validation 真的很重要。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Never trust user input. And beware of Supply Chain Attacks—your dependencies might be the trojan horse.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我是雲曦，我們下次見。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

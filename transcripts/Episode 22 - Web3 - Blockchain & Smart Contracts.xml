@@ -1,0 +1,385 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到 Web3 與區塊鏈篇。無論你是否投身這個領域，了解去中心化網路的基本術語，能讓你跟上最新的技術趨勢。這集我們介紹鏈上開發的核心詞彙。
+        我們從區塊鏈的基礎架構開始，接下來讓我們了解這些底層技術如何運作。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，說到區塊鏈，大家第一反應就是「比特幣」、「好貴」，但背後的技術像是分散式帳本，其實是很有趣的電腦科學概念。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        是的，去中心化的信任機制，正是區塊鏈這項技術最迷人的地方。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    區塊鏈
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Blockchain
+    A blockchain is a decentralized ledger that records transactions.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    區塊鏈是一個記錄交易的分散式帳本。
+    去中心化
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Decentralized
+    DeFi applications operate on a decentralized network without intermediaries.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    DeFi 應用程式在沒有中介的情況下於去中心化網路上運作。
+    節點
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Node
+    Running a full node requires downloading the entire blockchain history.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    執行全節點需要下載完整的區塊鏈歷史紀錄。
+    第二層解決方案
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Layer 2
+    Layer 2 solutions improve scalability and reduce transaction costs.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    第二層解決方案提高擴展性並降低交易成本。
+    零知識證明
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Zero-Knowledge Proof
+    ZKP allows proving statement truth without revealing the information itself.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    零知識證明 (ZKP) 允許在不揭露資訊本身的情況下證明陳述的真實性。
+    共識機制
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Consensus Mechanism
+    Proof of Stake is a consensus mechanism used by Ethereum.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    權益證明是以太坊使用的共識機制。
+    分類帳
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ledger
+    The ledger is immutable, meaning records cannot be changed.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    分類帳是不可變的，意味著紀錄無法被更改。
+    雜湊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hash
+    Each block contains the hash of the previous block.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    每個區塊都包含前一個區塊的雜湊值。
+    智慧合約是區塊鏈上的程式碼，它定義了交易的邏輯，接下來是相關術語。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          智慧合約最可怕的地方就是 Code is Law，一旦 Bug 被寫進去上鏈了，連上帝都救不了你，駭客就直接把錢搬光光。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這就是為什麼在 Web3 世界裡，資安審計比什麼都重要。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    智慧合約
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Smart Contract
+    A smart contract executes automatically when conditions are met.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    智慧合約在條件滿足時自動執行。
+    以太坊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ethereum
+    Ethereum is the most popular platform for smart contracts.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    以太坊是最受歡迎的智慧合約平台。
+    Solidity
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Solidity
+    Solidity is the primary language for writing Ethereum smart contracts.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Solidity 是撰寫以太坊智慧合約的主要語言。
+    Gas 費
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Gas Fee
+    You need to pay a gas fee to execute transactions on the network.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    你需要在網路上支付 Gas 費以執行交易。
+    預言機
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Oracle
+    Oracles provide real-world data to smart contracts.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    預言機將現實世界資料提供給智慧合約。
+    歡迎回來。數位資產的管理，是使用者與區塊鏈互動的橋樑，常見的資產形式有接下來這些。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Not your keys, not your coins. 這是幣圈鐵律，私鑰不見了，就算是神仙也幫不了你找回比特幣。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這也是 Web3 進入門檻最高的地方，自我保管資產的責任非常重大。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    帳戶抽象
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Account Abstraction
+    Account Abstraction simplifies the user experience for crypto wallets.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    帳戶抽象簡化了加密錢包的使用者體驗。
+    代幣
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Token
+    ERC-20 is the standard for creating fungible tokens on Ethereum.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    ERC-20 是在以太坊上建立同質化代幣的標準。
+    非同質化代幣
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    NFT
+    An NFT represents ownership of a unique digital item.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    NFT 是 Non-Fungible Token 的縮寫。NFT 代表獨特數位物件的所有權。
+    錢包
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Wallet
+    Use a crypto wallet like MetaMask to store your digital assets.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用像 MetaMask 這樣的加密錢包來儲存你的數位資產。
+    私鑰
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Private Key
+    Never share your private key, or you will lose your funds.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    永遠不要分享你的私鑰，否則你會失去你的資金。
+    公鑰
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Public Key
+    Your wallet address is derived from your public key.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    你的錢包地址是從你的公鑰衍生出來的。
+    種子短語
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Seed Phrase
+    Store your seed phrase offline in a secure location.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將你的種子短語離線儲存在安全的地方。
+    Web3 應用程式正在重塑我們對網路的想像，接下來這些新模式正在興起。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          現在好多專案都會發「空投」，雖然有時候是驚喜，但更多時候是騙你去點連結的釣魚網站，大家要小心耶。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        天下沒有白吃的午餐，資安意識在 Web3 世界比什麼都重要。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    分散式應用程式
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DApp
+    A DApp runs on a peer-to-peer network rather than a single server.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    DApp 是 Decentralized Application 的縮寫。DApp 在點對點網路而非單一伺服器上運作。
+    DAO
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DAO
+    A DAO is a Decentralized Autonomous Organization governed by code.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    DAO 是 Decentralized Autonomous Organization 的縮寫。DAO 是一個由程式碼治理的去中心化自治組織。
+    空投
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Airdrop
+    The project announced an airdrop to early adopters.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    該專案宣布對早期採用者進行空投。
+    白皮書
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Whitepaper
+    Read the whitepaper to understand the project's technical details.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    閱讀白皮書以了解專案的技術細節。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Web3 的世界真的很不一樣，寫 Smart Contract 錯了就不能改了嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Mostly, yes. That's why Security Audits for Smart Contracts are critical. Once it's on the Blockchain, it's immutable.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        那 Gas Fee 高的時候怎麼辦？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        You might look into Layer 2 solutions to scale. But managing your Private Key is still the user's biggest responsibility.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Web3 是一個充滿創新與爭議的領域。掌握這些術語，你就能看懂這個新興生態系的運作邏輯。感謝收聽。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. WAGMI!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

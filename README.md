@@ -1,48 +1,76 @@
-# SoftwareEnglishPodcast
+# Software English Podcast
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](LICENSE.md)
 
-這只是我為了練習軟體工程常用單字發音而製作的個人 Podcast 資源庫。
+這是一個為了滿足我個人學習需求而製作的 Side Project。
 
-## 📂 Project Structure
+因為買了單字書卻沒時間看，查發音又很麻煩，所以決定用工程師的方式解決這個問題 —— 自己寫腳本、串 API，生出一個可以陪我通勤的 Podcast。
 
-本專案採用以下目錄結構進行管理：
+目標很簡單：**聽懂關鍵字、矯正台式發音、學會怎麼在工作中使用這些詞。**
+
+## 🎧 想要解決的問題
+
+1. **沒時間看書**：把學習變成「被動輸入」，洗澡、通勤、運動都能聽。
+2. **發音不標準**：工程師常把 `Azure` 念成 `Agile`，或是 `Nginx` 亂念。不如讓 Azure 的 Neural TTS (Phoebe) 來示範標準唸法。
+3. **單字背了不會用**：單純背 `Dependency Injection` 沒意義，重點是在 Code Review 時要怎麼說 "We should use DI here to reduce coupling."
+
+## 🛠️ 怎麼做的？
+
+不想手動剪輯，所以全自動化處理：
+
+1. **劇本 (Transcripts)**：使用 **SSML** (Speech Synthesis Markup Language) 撰寫，精細控制發音、語氣 (`express-as`) 與節奏 (`prosody`)。包含中英對照、例句與模擬對話。
+2. **角色 (Voices)**：
+   * **雲曦**：中文主持人。由 `zh-TW-HsiaoChenNeural` 飾演。負責引導話題、提供背景脈絡，並替聽眾提出疑問。
+   * **Nova**：英文技術專家。由 `en-US-PhoebeMultilingualNeural` 飾演。負責發音示範、技術解說，以及職場溝通的情境演練。
+   * *(註：角色名稱僅為開發過程中與 AI 隨機討論產生的代號，並無特殊含義)*。
+   * **特別調整**：加上了 `Cheerful` 風格，讓她們聽起來像在聊天，而不是機器人唸經。
+3. **自動化 (Scripts)**：寫了 PowerShell 腳本，一鍵把 30 集 SSML 全部轉成 MP3。
+
+## 📂 專案結構
 
 ```mermaid
 graph TD
     Root[SoftwareEnglishPodcast] --> Transcripts[transcripts/]
+    Root --> Scripts[scripts/]
     Root --> Assets[assets/]
-    Root --> Prompts[prompts/]
-    
-    Transcripts --> T_Desc[逐字稿原始碼 <br> Markdown]
-    Assets --> A_Desc[生成之音訊檔案 <br> Generated WAV/MP3]
-    Prompts --> P_Desc[AI 生成設定與提示詞 <br> System Instructions]
 ```
 
-- **`transcripts/`**
-  - 存放所有的 Episode 腳本文字檔。
-  - 格式：Markdown
-  - 內容包含：中英對照術語、IPA/KK 音標（視需求）、情境例句。
+* **transcripts/**: 每一集的內容 (XML)。
+* **scripts/**: 轉換用的工具程式。
+* **assets/**: 產出的 MP3 檔案。
 
-- **`assets/`**
-  - 存放對應的語音輸出檔案。
-  - 此目錄內容為生成產物，隨腳本迭代更新。
+## 📖 內容規劃
 
-- **`prompts/`**
-  - 存放用於驅動 AI 生成語音腳本的 System Instructions。
-  - 包含角色設定、語氣指導原則與格式規範。
+目前整理了 30 集，涵蓋我平常工作會碰到的領域：
+
+* **基礎**：CS Basics (OS, Network, Algo)
+* **開發**：Git, Database, Backend (.NET), Frontend
+* **進階**：Cloud (AWS/Azure), Architecture, DevOps
+* **軟實力**：溝通、開會、職涯發展
+
+## 🚀 How to Run
+
+如果你也有 Azure 帳號，想自己生一份來聽：
+
+```powershell
+# 設定 Azure Speech Key
+$env:TTS_KEY = "your_key"
+$env:TTS_REGION = "eastasia" 
+
+# 執行轉換
+
+## 🐛 Known Issues
+
+* **語音停頓問題**：目前的 SSML 設計在「英文單字」與「英文例句」之間缺乏足夠的 `<break>` 標籤，導致 Nova 在朗讀時會將兩者連在一起唸，預計下個月額度重置後修復。
+
+## 🔗 Reference
+
+* [Speech Synthesis Markup Language (SSML) overview](https://learn.microsoft.com/zh-tw/azure/ai-services/speech-service/speech-synthesis-markup-voice)
 
 ## ⚠️ Disclaimer
 
-本專案語音資源由 AI 模型生成。
-
-- **口音**：美式英語這主。
-- **用語差異**：部分中文解說可能因模型訓練資料特性，偶有出現中國大陸慣用語（如：項目、數據）之情況，以文字腳本之台灣正體中文為準。
-
-## 📚 Reference
-
-- [使用 Google AI Studio 生成語音檔](https://github.com/CloudyWing/HackMD-Notes/blob/main/%E4%BD%BF%E7%94%A8%20Google%20AI%20Studio%20%E7%94%9F%E6%88%90%E8%AA%9E%E9%9F%B3%E6%AA%94.md)
+本專案語音由 Azure AI 生成。內容是我自己整理加上 AI 輔助的，主要自用，僅供參考。
 
 ## 📄 License
 
-This project is licensed under the CC BY-SA 4.0 License - see the [LICENSE.md](LICENSE.md) file for details.
+CC BY-SA 4.0

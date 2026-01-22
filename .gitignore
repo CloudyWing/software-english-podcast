@@ -17,3 +17,6 @@ temp/
 # Scripts
 *.py
 *.ps1
+!scripts/Batch-Convert.ps1
+!scripts/Convert-Podcast.ps1
+

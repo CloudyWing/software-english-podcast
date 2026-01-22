@@ -1,0 +1,408 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到職涯成長篇。這集我們不談技術，談談工程師的生存之道。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，
+          I hereby resign from my position as...
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        等等，Nova，你在寫辭職信嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          No, I'm just practicing Prompt Engineering to write a resignation letter, just in case!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        嚇我一跳！不過懂得隨時準備好自己是很重要的。我們從求職開始吧。
+        求職的第一步，是讓自己被看見，接下來我們從準備申請資料開始。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    個人品牌
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Personal Branding
+    Building a personal branding on LinkedIn can attract recruiters.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在 LinkedIn 上建立個人品牌可以吸引招聘人員。
+    履歷
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Resume
+    Tailor your resume to highlight relevant work experience.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    客製化你的履歷以凸顯相關的工作經驗。
+    作品集
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Portfolio
+    A strong GitHub portfolio can impress the interviewers.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    強大的 GitHub 作品集能讓面試官印象深刻。
+    開源貢獻
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Contribution
+    Open source contributions demonstrate your passion and skills.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    開源貢獻展示了你的熱情與技能。
+    人脈網路
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Networking
+    Attend conferences to expand your professional networking.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    參加研討會以擴展你的專業人脈網路。
+    推薦
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Referral
+    Getting a referral significantly increases your chance of an interview.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    獲得推薦能顯著增加你面試的機會。
+    面試是展示實力的舞台，不同類型有不同策略，常見的形式有接下來這幾種。
+    程式設計面試
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Coding Interview
+    Practice LeetCode problems daily for the coding interview.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    為了程式設計面試，每天練習 LeetCode 題目。
+    系統設計
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    System Design
+    The system design interview tests your architectural knowledge.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    系統設計面試測試你的架構知識。
+    行為面試
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Behavioral Question
+    Prepare stories for behavioral questions using the STAR method.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用 STAR 法則為行為面試問題準備故事。
+    STAR 法則
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    STAR
+    STAR stands for Situation, Task, Action, Result.
+    Use the STAR method to structure your answers.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用 STAR 法則來架構你的回答。
+    歡迎回到 Career Growth Part 2。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          They offered me a million dollars! ...in Monopoly money.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        那你可要好好談判一下了。我們剛好要講到薪資福利。
+        當這一切順利，就到了談判回報的時刻，接下來是與薪資福利相關的詞彙。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    錄取通知
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Offer
+    Congratulations on receiving a job offer from the tech giant.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    恭喜你收到科技巨頭的工作錄取通知。
+    談判
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Negotiation
+    Salary negotiation is a crucial part of the hiring process.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    薪資談判是招聘流程中關鍵的一環。
+    薪資
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Salary
+    Research the market rate for a competitive base salary.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    研究市場行情以獲得具競爭力的底薪。
+    股權
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Equity
+    Startups often offer equity or stock options as part of the package.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    新創公司通常提供股權或股票選擇權作為薪資包的一部分。
+    獎金
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Bonus
+    The annual bonus is based on individual and company performance.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    年度獎金是基於個人與公司的績效。
+    福利
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Perks
+    Company perks include free lunch and gym membership.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    公司福利包含免費午餐和健身房會員資格。
+    進入職場後，持續成長與應對挑戰是長久之計，我們接著常會遇到這些情況。
+    AI 素養
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    AI Literacy
+    AI literacy is now an essential skill for modern developers.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 素養現在是現代開發者必備的技能。
+    提示工程
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Prompt Engineering
+    Prompt engineering helps you get better results from AI models.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    提示工程幫助你從 AI 模型獲得更好的結果。
+    升遷
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Promotion
+    Ask your manager what the criteria are for the next promotion.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    詢問你的經理下一次升遷的標準是什麼。
+    導師制度
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Mentorship
+    Seek mentorship from senior engineers to grow faster.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    尋求資深工程師的指導以成長得更快。
+    績效改進計畫
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    PIP
+    PIP stands for Performance Improvement Plan.
+    Being put on a PIP is a serious warning.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    被列入 PIP 是一個嚴重的警告。
+    裁員
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Layoff
+    The company announced a layoff due to economic restructuring.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    公司因經濟重組宣布裁員。
+    離職
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Resignation
+    Submit your letter of resignation two weeks in advance.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    提前兩週提交你的辭職信。
+    通知期
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Notice Period
+    The standard notice period is one month.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    標準通知期為一個月。
+    職業倦怠
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Burnout
+    Take breaks to prevent burnout from long working hours.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    適度休息以防止因長時間工作而導致職業倦怠。
+    最後，選擇適合自己的工作模式，也是職涯規劃的重要一環。
+    遠端工作
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Remote Work
+    Remote work offers flexibility but requires self-discipline.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    遠端工作提供彈性，但也需要自律。
+    全端
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Full Stack
+    A full stack developer handles both frontend and backend.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    全端開發者同時處理前端與後端。
+    軟實力
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Soft Skills
+    Soft skills like communication are just as important as coding.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    像溝通這樣的軟實力與寫程式一樣重要。
+    工程師的職涯是一場馬拉松，不是百米衝刺。除了精進技術，也別忘了投資自己的人際關係與溝通能力。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          See you at the top!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        對於想晉升資深工程師的人，妳有什麼建議嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Beyond coding, focus on System Design and Soft Skills. Can you mentor juniors? Can you handle a behavioral interview using the STAR method?
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        還有要小心 Burnout，工作與生活要平衡。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Your career is a marathon, not a sprint. Take care of yourself.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        像溝通這樣的軟實力與寫程式一樣重要。
+        工程師的職涯是一場馬拉松，不是百米衝刺。除了精進技術，也別忘了投資自己的人際關係與溝通能力。希望這集的內容對你有所幫助。感謝收聽。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

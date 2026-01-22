@@ -1,0 +1,412 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到會議管理與進度匯報篇。接續上集，我們將專注於會議中的管理用語。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，
+          Another meeting? Can we just send an email?
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這幾乎是所有工程師的心聲啊！但只要學會高效率的溝通，還是可以減少開會時間的。
+        會議的安排與變更是職場常態，接下來我們需要掌握這些調度用語。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    確認
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Confirm
+    Please confirm your attendance for the workshop.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請確認你會出席這場工作坊。
+    取消
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Cancel
+    The meeting is canceled due to the holiday.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    會議因為假日取消了。
+    改期
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Reschedule
+    Can we reschedule our 1:1 to Monday?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們可以在週一重新安排我們的一對一會議嗎？
+    延後
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Postpone
+    They postponed the release due to a critical bug.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    他們因為一個嚴重 Bug 延後了發布。
+    快速討論
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Huddle
+    Let's have a quick huddle to solve this blocker.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們來快速討論一下以解決這個阻礙。
+    暫定
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tentative
+    The schedule is tentative and might change later.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    時程是暫定的，稍後可能會變更。
+    參與
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Loop In
+    Please loop me in on the email chain regarding the API.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請在關於 API 的郵件串中把我加入副本。
+    在決策過程中，我們需要明確的表達同意與反對，相關詞彙包含接下來這幾個。
+    綠燈
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Green Light
+    We got the green light to proceed with the project.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們獲得了繼續進行專案的綠燈。
+    歡迎回到 Meeting Management Part 2。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Did we reach a consensus on lunch yet?
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        還沒呢，我們先把工作做完。來看看 Consensus 這個字。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    共識
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Consensus
+    We reached a consensus on the architecture design.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們對架構設計達成了共識。
+    提案
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Proposal
+    Please review the project proposal attached in the email.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請審閱郵件附件中的專案提案。
+    替代方案
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Alternative
+    Do we have an alternative library for PDF generation?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們有產生 PDF 的替代函式庫嗎？
+    反對
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Objection
+    I have no objections to the current plan.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我對目前的計畫沒有反對意見。
+    推遲
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Push Back
+    Can we push back the deadline by two days?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們可以將截止日期推遲兩天嗎？
+    隨時掌握專案的健康度是必要的，接下來這些詞彙能幫助你描述現況。
+    進度
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Progress
+    What is the progress on the Jira ticket?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    這張 Jira 票的進度如何？
+    狀態
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Status
+    Please update your status in the daily channel.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請在每日頻道更新你的狀態。
+    按照計畫
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    On Track
+    The project is on track to finish by Friday.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    專案按照計畫將於週五完成。
+    落後
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Behind
+    We are falling behind schedule on the frontend tasks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們的前端任務進度落後了。
+    提前
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ahead
+    We are ahead of schedule, so we can tackle tech debt.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們的進度提前了，所以可以來處理技術債。
+    AI 輔助會議已經成為常態，這些工具能幫助我們更有效率。
+    逐字稿
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Transcript
+    Enable the transcript so we can review the discussion later.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    啟用逐字稿，這樣我們稍後可以回顧討論。
+    錄影
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Recording
+    Is the meeting recording available for those who missed it?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    錯過會議的人可以觀看錄影嗎？
+    待辦事項
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Action Item
+    Let's assign action items before we leave.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們在離開前先指派待辦事項。
+    良好的團隊互動能提升士氣與凝聚力，讓我們接著來看看這些正向用語。
+    腦力激盪
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Brainstorm
+    Let's brainstorm some solutions for the latency issue.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    讓我們針對延遲問題腦力激盪一些解決方案。
+    容易達成的目標
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Low Hanging Fruit
+    Fixing these typos is low hanging fruit for quick wins.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    修正這些錯字是能快速獲得成果的容易目標。
+    負責
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ownership
+    Take ownership of this module and maintain it.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    對這個模組負責並維護它。
+    產能
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Capacity
+    Our team is at full capacity and cannot take more requests.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們團隊的產能已滿，無法承接更多請求。
+    待命
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    On Call
+    Who is on call this weekend for emergencies?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    這週末誰負責待命處理緊急狀況？
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          I hope it's not me.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    接洽
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Reach Out
+    Feel free to reach out if you have questions.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    如果你有問題，隨時接洽我。
+    不吝於給予讚美，是建立正向回饋循環的關鍵。
+    讚賞
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Kudos
+    Kudos to the team for the hard work this week.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    讚賞團隊這週的努力工作。
+    公開表揚
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Shout Out
+    A big shout out to Jane for fixing the production issue.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    大力表揚 Jane 修復了生產環境的問題。
+    這些軟實力單字是你職涯晉升的關鍵。能用英文自信地說出 "Heads up" 或 "Let's Huddle"，會讓你在外商環境中顯得非常道地。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Kudos to everyone listening!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        每天的 Daily Stand-up 變成長篇大論真的很浪費時間。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Stand-ups should be short. Keep it to "What I did," "What I'm doing," and "Blockers." If a discussion drags on, take it Offline.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，會議結束後一定要有 Action Item。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        No Action Items, no meeting. Otherwise, it's just a coffee chat.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我是雲曦，我們下次見。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

@@ -1,0 +1,484 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到專案執行與交付篇。在規劃之後，就是緊湊的執行與交付。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，
+          I'm standing up! Don't sit down!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Nova，你在幹嘛？為什麼不坐下？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          It's a Stand-up meeting! If you sit, the meeting takes too long!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        哈哈，很有 Agile 的精神喔！這集我們就來談談敏捷開發與執行流程。
+        敏捷開發是目前業界的主流方法論，讓我們首先來認識它的核心詞彙。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    敏捷
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Agile
+    Agile methodology emphasizes iteration and flexibility.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    敏捷方法論強調迭代與彈性。
+    衝刺
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sprint
+    We plan our tasks for the upcoming two-week sprint.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們為接下來兩週的衝刺規劃任務。
+    速率
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Velocity
+    Our team velocity has increased over the last few sprints.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們團隊的速率在過去幾個衝刺中有所增加。
+    燃盡圖
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Burndown Chart
+    The burndown chart shows if we are on schedule to finish.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    燃盡圖顯示我們是否按計畫進度完成。
+    回顧會議
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Retrospective
+    We discuss what went well and what didn't in the retrospective.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們在回顧會議中討論哪些做得好，哪些做得不好。
+    待辦清單
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Backlog
+    Prioritize items in the product backlog for the next release.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    為下一次發布排定產品待辦事項的優先順序。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          My laundry backlog is huge.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    啟動會議
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Kick-off
+    The project kick-off meeting is scheduled for tomorrow.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    專案啟動會議排定在明天。
+    衝刺規劃
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sprint Planning
+    We estimate task complexity during sprint planning.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們在衝刺規劃時估算任務複雜度。
+    每日站立會議
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Daily Stand-up
+    I'll give my update at the daily stand-up.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我會在每日站立會議報告我的進度。
+    估算
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Estimation
+    What is your time estimation for completing this feature?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    你對完成這個功能的時間估算是多少？
+    完成
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Done
+    Definition of Done means coded, tested, and documented.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    「完成」的定義意指已編碼、已測試且已撰寫文件。
+    有效管理任務狀態能避免進度延遲，接下來讓我們來看看常見的看板狀態。
+    待辦事項
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    To-do
+    Add this bug fix to your to-do list for today.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    把這個 Bug 修復加到你今天的待辦事項清單。
+    進行中
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    In Progress
+    The ticket status is currently In Progress.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    這張票的狀態目前是進行中。
+    阻礙
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Blocker
+    Please report any blockers immediately to the Scrum Master.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請立即向 Scrum Master 回報任何阻礙。
+    範圍蔓延
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Scope Creep
+    We need to stick to the plan and prevent scope creep.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們需要堅持計畫並防止範圍蔓延。
+    優先級
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Priority
+    Set the priority to High for this critical bug.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將這個嚴重 Bug 的優先級設為高。
+    嚴重性
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Severity
+    This is a high severity bug causing data loss.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    這是一個導致資料遺失的高嚴重性 Bug。
+    歡迎回到 Execution &amp; Delivery Part 2。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          I found a bug in my coffee order. It's decaf!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        那真是個 High Severity 的 Bug！接下來我們看看 QA 相關的術語。
+        品質保證與驗收是交付前的最後一哩路，接下來讓我們來看看測試階段的關鍵術語。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    品質保證
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    QA
+    QA stands for Quality Assurance.
+    QA found a bug during the regression test.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    QA 在回歸測試期間發現了一個 Bug。
+    測試環境
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Testbed
+    Run the automated script in the testbed first.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    先在測試環境中執行自動化腳本。
+    使用者驗收測試
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    UAT
+    UAT stands for User Acceptance Testing.
+    The client is performing UAT to sign off the release.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    客戶正在進行 UAT 以簽核這次發布。
+    簽核
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sign-off
+    We need final sign-off from the client before launch.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    發布前我們需要客戶的最終簽核。
+    修補程式
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hotfix
+    We need to release a hotfix immediately to patch the hole.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們需要立即發布 Hotfix 來修補這個漏洞。
+    為了確保產品符合需求，接下來讓我們來關注以下使用者體驗相關的詞彙。
+    痛點
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pain Point
+    Our goal is to solve the user's biggest pain point.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們的目標是解決使用者最大的痛點。
+    使用者體驗
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    UX
+    UX stands for User Experience.
+    We need to improve the UX flow for registration.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們需要改善註冊的 UX 流程。
+    使用者介面
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    UI
+    UI stands for User Interface.
+    The UI needs a refresh to look more modern.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    UI 需要更新以看起來更現代。
+    跨功能
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Cross-functional
+    We work in a cross-functional team with designers and QA.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們與設計師和 QA 在跨功能團隊中工作。
+    可行性
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Feasibility
+    Please analyze the technical feasibility of this idea.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請分析這個點子的技術可行性。
+    基準
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Benchmark
+    Use the current performance as a benchmark for improvement.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用目前的效能作為改進的基準。
+    專案的成功往往取決於細節的執行。希望這些術語能幫助你在每個開發環節中都保持精確與專業。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Deploying the podcast to your ears... Done!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我是雲曦，我們下次見。
+        Our goal is to solve the user's biggest pain point.
+        我們的目標是解決使用者最大的痛點。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用者體驗
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    UX
+    We need to improve the UX flow for registration.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    UX 是 User Experience 的縮寫
+    我們需要改善註冊的 UX 流程。
+    使用者介面
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    UI
+    The UI needs a refresh to look more modern.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    UI 是 User Interface 的縮寫
+    UI 需要更新以看起來更現代。
+    跨功能
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Cross-functional
+    We work in a cross-functional team with designers and QA.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們與設計師和 QA 在跨功能團隊中工作。
+    可行性
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Feasibility
+    Please analyze the technical feasibility of this idea.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請分析這個點子的技術可行性。
+    基準
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Benchmark
+    Use the current performance as a benchmark for improvement.
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        跑 Agile 的時候，Velocity 忽高忽低怎麼辦？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Velocity is an estimation tool, not a KPI. Use the Retrospective to find out why. Maybe there were hidden technical debts?
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        還有 Backlog 要定期整理，不然會變成垃圾場。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        A groomed Backlog is a happy backlog. Prioritize ruthlessly.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        使用目前的效能作為改進的基準。
+        專案的成功往往取決於細節的執行。希望這些術語能幫助你在每個開發環節中都保持精確與專業。感謝收聽。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

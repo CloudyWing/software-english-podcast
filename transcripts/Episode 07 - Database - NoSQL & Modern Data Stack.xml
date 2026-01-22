@@ -1,0 +1,189 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到 NoSQL 與現代資料堆疊篇。現在是多模型資料庫的時代。我們不再爭論 SQL 與 NoSQL 誰好，而是講求混合架構 (Polyglot Persistence)。
+        以前我們覺得 NoSQL 只是為了擴展性，現在更多時候是為了「特定形狀」的資料而生。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，比如說社群媒體的貼文，用 MongoDB 存 JSON 絕對比拆成十幾張 Table 爽快多了。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這就是文件資料庫的魅力。我們來看看這些類型。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    文件資料庫
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Document Database
+    MongoDB allows flexible schema design by storing data as documents.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    MongoDB 透過將資料儲存為文件，允許靈活的綱要設計。
+    鍵值儲存
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Key-Value Store
+    Redis is the standard choice for caching and session management.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Redis 是快取與工作階段管理的標準選擇。
+    向量資料庫
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vector Database
+    Modern search engines use vector databases to power semantic search and recommendation systems.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    現代搜尋引擎使用向量資料庫來驅動語意搜尋與推薦系統。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        既然用了 NoSQL，通常代表我們的資料量已經大到單機撐不住了。
+        Nova，在分散式系統中最讓人頭痛的是什麼？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          絕對是資料的一致性。你希望使用者在台北下單，紐約的庫存馬上扣掉，這在分散式系統裡是很難的。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這就是著名的 CAP 理論。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    CAP 定理
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    CAP Theorem
+    The CAP theorem states that you can only provide two of Consistency, Availability, and Partition tolerance.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    CAP 定理指出，在一致性、可用性與分區容錯性中，你只能同時滿足其中兩項。
+    分片
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sharding
+    Sharding splits your database across multiple servers to handle massive write loads.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將資料庫分片到多台伺服器上，以處理巨大的寫入負載。
+    複本集
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Replica Set
+    A replica set ensures high availability by maintaining multiple copies of your data.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    複本集透過維護資料的多份複本來確保高可用性。
+    最後，現代的開發者，通常不會從零開始架設這些服務，我們會使用託管服務 (BaaS)。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Supabase
+    Supabase is an open-source alternative to Firebase, built on top of PostgreSQL.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Supabase 是一個基於 PostgreSQL 之上的 Firebase 開源替代方案。
+    全文檢索
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Full-text Search
+    Elasticsearch provides powerful full-text search capabilities using inverted indexes.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Elasticsearch 使用倒排索引提供強大的全文檢索能力。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Nova，既然 SQL 這麼強，為什麼我們還會需要 NoSQL？像是 Mongo 或 Redis？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        It's about trade-offs. If you need flexible schemas, a Document Database is better. For standard Caching, nothing beats a Key-Value Store. And for AI, Vector Databases are essential.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        所以是看場景決定，那 CAP Theorem 在這裡的角色是？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        It guarantees that you can't have it all. You have to choose between Consistency and Availability, especially when using Sharding.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這集的 NoSQL 與現代資料堆疊就到這裡。選擇工具沒有絕對的對錯，只有適不適合你的業務場景。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. Stay flexible, scale horizontal.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

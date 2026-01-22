@@ -1,0 +1,572 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到資料科學與 AI 篇。隨著人工智慧的興起，Python 已成為不可或缺的語言。這集我們涵蓋資料科學以及機器學習的關鍵術語。
+        Python 是資料科學的首選語言，掌握其基礎生態系是第一步，讓我們從基本詞彙開始。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，Python 真的很親民，像在寫英文一樣。不過一開始最大的障礙通常不是語法，而是縮排錯誤，對吧？
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Indentation Error 絕對是 Python 新手的惡夢，還有環境設定也是一大門檻。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Python
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Python is widely used for data analysis and AI development.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Python 廣泛用於資料分析與 AI 開發。
+    解譯器
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Interpreter
+    The Python interpreter executes code line by line.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Python 解譯器逐行執行程式碼。
+    腳本
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Script
+    Write a Python script to automate the data processing.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    寫一個 Python 腳本來自動化資料處理。
+    模組
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Module
+    Import the math module to use advanced mathematical functions.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    匯入 math 模組以使用進階數學函數。
+    縮排
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Indentation
+    Python relies on indentation to define code blocks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Python 依賴縮排來定義程式碼區塊。
+    虛擬環境
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Virtualenv
+    Create a virtualenv to manage project-specific dependencies.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    建立虛擬環境來管理專案特定的相依套件。
+    套件安裝
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pip
+    Run 'pip install' to download the library from PyPI.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    執行 'pip install' 從 PyPI 下載函式庫。
+    Jupyter Notebook
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data scientists use Jupyter Notebooks for interactive coding.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料科學家使用 Jupyter Notebook 進行互動式寫程式。
+    處理資料時，我們需要強大的工具來進行運算與視覺化，這裡有幾個常用的函式庫。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          資料科學家的工作其實 80% 都在清理資料，畫圖只是最後那美美的 20%。Pandas 就像是我們的 Excel，但威力強大多了。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        真的，沒有乾淨的資料，再好的模型也跑不出準確的結果，這就是 Garbage In Garbage Out。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    陣列
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Array
+    NumPy arrays allow for efficient numerical computations.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    NumPy 陣列允許進行高效的數值運算。
+    資料框
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Dataframe
+    Pandas dataframes are used to manipulate tabular data.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Pandas Dataframe 被用來操作表格資料。
+    資料集
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Dataset
+    Clean the dataset to remove missing or invalid values.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    清理資料集以移除遺失或無效的數值。
+    視覺化
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Visualization
+    Use Matplotlib to generate charts for data visualization.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用 Matplotlib 產生圖表以進行資料視覺化。
+    爬蟲
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Scraper
+    Build a web scraper to collect data from websites.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    建立一個網頁爬蟲從網站收集資料。
+    自動化
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Automation
+    Python is excellent for task automation.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Python 非常適合用於任務自動化。
+    機器學習是 AI 的核心，它讓電腦從資料中學習，讓我們看看此領域的關鍵字。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雖然大家都愛開玩笑說機器學習只是很多的 if-else，但看到 Loss Function 慢慢下降的時候，真的會很有成就感。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        尤其是在經過漫長的訓練後看到高準確率，那種感動是難以言喻的。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    模型
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Model
+    Train the machine learning model on the dataset.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在資料集上訓練機器學習模型。
+    訓練
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Training
+    The training process takes hours on a GPU.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    訓練過程在 GPU 上需要花費數小時。
+    推論
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Inference
+    Deploy the model to the edge device for real-time inference.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將模型部署到邊緣裝置以進行即時推論。
+    準確率
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Accuracy
+    The model achieved 95% accuracy on the test set.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    該模型在測試集上達到了 95% 的準確率。
+    過度擬合
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Overfitting
+    Overfitting occurs when the model learns noise instead of patterns.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    當模型學習了雜訊而非模式時，就會發生過度擬合。
+    神經網路
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Neural Network
+    Deep learning uses multi-layered neural networks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    深度學習使用多層神經網路。
+    張量
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tensor
+    TensorFlow and PyTorch operate on tensors.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    TensorFlow 和 PyTorch 都是在張量上進行運算。
+    近年來，大型語言模型的發展引領了新一波的 AI 革命，讓我們一起來認識這些新興術語。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          現在聊天機器人聰明到讓人害怕呢！不過它們還是有些限制，像是 Token 數量，聊太長就會忘記前面的事情。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這就是為什麼 Context Window 這麼重要，記憶力是智慧的關鍵啊。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    自然語言處理
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    NLP
+    NLP enables computers to understand human language.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    NLP 是 Natural Language Processing 的縮寫。NLP 使電腦能夠理解人類語言。
+    變換器
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Transformer
+    Transformers are the backbone of modern NLP models like BERT and GPT.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Transformer 是像 BERT 和 GPT 這些現代 NLP 模型的骨幹。
+    大型語言模型
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    LLM
+    GPT-4 is a powerful Large Language Model (LLM).
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    LLM 是 Large Language Model 的縮寫。GPT-4 是一個強大的大型語言模型。
+    詞元
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Token
+    LLMs process text in chunks called tokens.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    LLM 以被稱為 Token 的塊狀單位來處理文字。
+    除了技術本身，認識這些推動 AI 革命的關鍵巨頭與平台也是必要的。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          這像不像是新的軍備競賽？每天都有新模型發布，Hugging Face 上的排行榜刷得比股市還快。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        真的，開發者的焦慮感都快爆表了，學都學不完。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenAI
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    OpenAI developed the GPT series and ChatGPT.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenAI 開發了 GPT 系列與 ChatGPT。
+    Anthropic
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Anthropic focuses on AI safety and developed the Claude models.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Anthropic 專注於 AI 安全並開發了 Claude 模型。
+    Hugging Face
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hugging Face is the leading platform for sharing open-source AI models.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Hugging Face 是分享開源 AI 模型的領先平台。
+    接下來是目前市場上最強大的幾個 AI 模型與服務，了解它們能幫助你選擇對的工具。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Claude 3 最近真的很紅，讀長文的能力超強。不過寫 Code 好像還是很多人習慣用 GPT-4？
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        各有所長囉，我通常是兩個都開著，互相驗證一下。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    ChatGPT
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    ChatGPT by OpenAI has set the standard for conversational AI.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    由 OpenAI 推出的 ChatGPT 樹立了對話式 AI 的標竿。
+    Gemini
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Gemini is Google's most capable and general-purpose AI model.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Gemini 是 Google 最有能力且通用的 AI 模型。
+    Claude
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Anthropic's Claude is known for its large context window and safety.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Anthropic 的 Claude 以其龐大的上下文視窗與安全性聞名。
+    Claude 3 家族
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Claude 3 Family
+    The family includes Haiku for speed, Sonnet for balance, and Opus for intelligence.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    這個家族包含了追求速度的 Haiku、平衡的 Sonnet 以及追求智慧的 Opus。
+    NotebookLM
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    NotebookLM turns your documents into an expert that you can interact with.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    NotebookLM 將你的文件轉變為可以互動的專家。
+    最後，從使用者的角度，我們還需掌握這些與 AI 互動的策略。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          提示工程真的很重要，一樣的模型，問法不同，出來的答案可能天差地遠。還有要小心幻覺，不要 AI 說什麼都信喔。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，保持批判性思考，把 AI 當作副駕駛而不是全權交給它。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    提示工程
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Prompt Engineering
+    Good prompt engineering improves the AI's response quality.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    良好的提示工程能改善 AI 的回應品質。
+    幻覺
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hallucination
+    AI hallucinations can lead to confident but incorrect answers.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 幻覺可能導致自信但錯誤的答案。
+    檢索增強生成
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    RAG
+    RAG improves accuracy by retrieving relevant data before generating answers.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    RAG 是 Retrieval-Augmented Generation 的縮寫。透過在生成答案前檢索相關資料來提升準確度。
+    微調
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Fine-tuning
+    Fine-tuning allows you to adapt a pre-trained model to your task.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    微調讓你能夠將預訓練模型調整為適合你的任務。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        現在大家都在玩 LLM，那我們還需要學傳統的像是 Pandas 或是 Scikit-learn 嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Yes. Before you perform Inference with an LLM, you often need to clean your data using Dataframes. Garbage in, garbage out.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        所以資料前處理還是很重要，那 Overfitting 也是常見問題嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Always. If your model gets 100% Accuracy on training data, it is definitely Overfitting.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        人工智慧正在改變世界，而 Python 正是這場革命的核心。希望這集的內容能為你開啟通往 AI 世界的大門。感謝收聽。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. AI for everyone!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

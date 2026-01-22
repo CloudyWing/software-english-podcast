@@ -1,0 +1,429 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到職場溝通與解決問題篇。這集非常關鍵，我們將學習在工作場合中表達顧慮的英語。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，
+          We need to circle back and deep dive into the low hanging fruits to maximize synergy.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Nova，你剛剛說了一串什麼？我完全聽不懂！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          That's "Corporate Speak", Xiao Zhen. It makes me sound smart in meetings!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        哈哈，確實，聽懂這些「商業黑話」你就能從「聽不懂」變成「能主導話題」。
+        新人入職時，首先要熟悉公司的流程與文化。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    入職
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Onboarding
+    The onboarding process includes setting up the laptop and accounts.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    入職流程包含設定筆電與帳號。
+    導師
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Mentor
+    A senior engineer will be your mentor to guide you through the system.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    一位資深工程師會擔任你的導師，引導你熟悉系統。
+    試用期
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Probation
+    The probation period usually lasts for three months.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    試用期通常為三個月。
+    績效考核
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Performance Review
+    We discuss career goals during the annual performance review.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們在年度績效考核時討論職涯目標。
+    非同步溝通
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Async Communication
+    Async communication reduces interruptions and improves focus.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    非同步溝通減少干擾並提升專注力。
+    語境切換
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Context Switching
+    Frequent context switching kills productivity.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    頻繁的語境切換會扼殺生產力。
+    團隊協作需要頻繁的同步與對齊，我們接著常使用這些動詞。
+    同步
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sync
+    Let's sync up later to discuss the integration details.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們待會同步一下來討論整合細節。
+    對齊
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Align
+    We need to align on the goal before starting development.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在開始開發前，我們需要在目標上達成一致。
+    協作
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Collaborate
+    Let's collaborate with the design team on this feature.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    讓我們跟設計團隊協作開發這個功能。
+    聯繫
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Touch Base
+    Can we touch base tomorrow morning regarding the progress?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們明天早上可以聯繫一下進度嗎？
+    預先通知
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Heads Up
+    Just a heads up, the server is restarting in 5 minutes.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    預先通知一下，伺服器將在 5 分鐘後重啟。
+    保持聯絡
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Keep Posted
+    I will keep you posted on the deployment status.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我會讓你知道部署狀態的最新消息。
+    在討論複雜問題時，精確表達觀點至關重要，接下來這些片語能讓你看起來更專業。
+    深入研究
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Deep Dive
+    Let's deep dive into the code to find the root cause.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    讓我們深入研究程式碼以找出根本原因。
+    歡迎回到 Soft Skills Part 2。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          From my perspective, this podcast is the best!
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        謝謝你的 Perspective，Nova。我們接著來看更多表達觀點的詞彙。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    觀點
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Perspective
+    From my perspective, this solution is more scalable.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    從我的觀點來看，這個解決方案更具可擴展性。
+    權衡
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Trade-off
+    Consider the trade-off between performance and memory usage.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    考慮效能與記憶體使用量之間的權衡。
+    附議
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Piggyback
+    I'd like to piggyback on that idea with a small suggestion.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我想順著那個點子，再提供一個小建議。
+    取得共識
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Buy-in
+    We need to get buy-in from the stakeholders first.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們需要先取得利害關係人的共識。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Hardest part of the job: getting buy-in.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    暫緩
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Table
+    Let's table this discussion until we have more data.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    讓我們暫時擱置這個討論，直到我們有更多數據。
+    回頭討論
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Circle Back
+    Let's circle back to this topic after the demo.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們演示後再回頭討論這個主題。
+    私下討論
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Offline
+    Let's take this offline to save everyone's meeting time.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們私下再討論，以節省大家的會議時間。
+    當遇到困難或需要澄清時，接下來這些詞彙能派上用場。
+    顧慮
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Concern
+    My main concern is the tight timeline for this feature.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我主要的顧慮是這個功能的時間軸太緊湊。
+    瓶頸
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Bottleneck
+    Identify the bottleneck that is slowing down the system.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    找出拖慢系統的瓶頸。
+    預計到達時間
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    ETA
+    ETA stands for Estimated Time of Arrival.
+    What is the ETA for the bug fix?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Bug 修復預計什麼時候完成？
+    解決方法
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Workaround
+    Is there a temporary workaround while we fix the bug?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在我們修復 Bug 的同時，有暫時的變通解決方法嗎？
+    總結
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Wrap Up
+    Let's wrap up the meeting and review the action items.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們來總結這場會議並檢視待辦事項。
+    摘要
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Summarize
+    Can you use AI to summarize the key points of this thread?
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    你能用 AI 摘要這個討論串的重點嗎？
+    澄清
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Clarify
+    Please clarify the requirement for the user login flow.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請澄清使用者登入流程的需求。
+    實作
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Implement
+    We will implement the new design next week.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們下週會實作新設計。
+    預設值
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Default
+    Use the default setting unless the user changes it.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    除非使用者變更，否則使用預設設定。
+    清晰的溝通能節省無數的開發時間。使用這些精準的單字，不僅能讓會議更有效率，也能展現你的專業素養。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Alright, let's wrap up and take this offline.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        有時候寫 code 被打斷真的很痛苦，這就是所謂的 Context Switching 成本吧？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Yes. That's why Async Communication is respectful. Don't demand a Sync meeting unless it's a blocker.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        還有給 ETA 的時候，是不是都要預留一點 Buffer？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Always. "Underpromise and overdeliver." It manages expectations and builds trust.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我是雲曦，我們下次見。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

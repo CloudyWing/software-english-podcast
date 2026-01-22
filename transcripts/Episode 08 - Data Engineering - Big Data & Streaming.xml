@@ -1,0 +1,142 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到資料工程篇。在 AI 時代，資料工程師是 AI 金字塔的基石。沒有高品質的資料管線，就沒有準確的模型。
+        以前我們常說 ETL，但現在更流行的是 ELT。Nova，為什麼順序變了？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，因為現在的雲端倉儲太強大了。我們先把原始資料全部 Load 進去，再用 SQL 進行 Transform。這樣更保留了原始資料的彈性。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這就是現代資料堆疊的核心概念。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    擷取、載入、轉換
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    ELT
+    ELT stands for Extract, Load, and Transform.
+    We use tools like dbt to transform data inside the warehouse.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    ELT 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
+    資料湖倉
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Lakehouse
+    A Data Lakehouse combines the structure of a warehouse with the flexibility of a data lake.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料湖倉結合了倉儲的結構化與湖泊的靈活性。
+    除了存得好，現在的業務更要求「快」。批次處理 (Batch) 已經不夠了，我們需要即時串流。
+    Apache Kafka
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Apache Kafka
+    Kafka is a distributed event streaming platform used for high-performance data pipelines.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Kafka 是一個用於高效能資料管線的分散式事件串流平台。
+    串流處理
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Stream Processing
+    Stream processing analyzes data in real-time as it arrives, rather than in batches.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    串流處理在資料抵達時即時分析，而非分批處理。
+    處理完大量的資料流後，我們還需要一個強大的引擎來進行複雜運算，以及一個指揮家來管理這些任務。
+    Apache Spark
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Apache Spark
+    Spark is a unified analytics engine for big data processing, known for its in-memory speed.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Spark 是一個用於大數據處理的統一分析引擎，以記憶體內運算速度聞名。
+    編排
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Orchestration
+    Airflow is a popular platform to programmatically author, schedule, and monitor workflows.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Airflow 是一個熱門的平台，用於透過程式碼撰寫、排程與監控工作流程。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我發現現在大家都在談「資料湖倉」，這跟傳統的 Data Warehouse 有什麼不一樣？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        A Data Lakehouse combines the best of both worlds: the structure of a warehouse and the flexibility of a lake. It pairs perfectly with Apache Spark for massive processing.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        那像 Kafka 這種串流工具又是為了什麼？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Apache Kafka is for real-time Stream Processing. It's the nervous system that moves data before it even lands in your storage.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這集的資料工程與大數據就到這裡。記住，垃圾進，垃圾出。工程師的職責就是確保流入 AI 大腦的是純淨的資訊。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. Keep your pipelines flowing.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

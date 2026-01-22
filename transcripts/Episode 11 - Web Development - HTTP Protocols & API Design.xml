@@ -1,0 +1,358 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到 Web 開發基礎篇。在這個萬物互聯的 AI 時代，API 不只是前後端的橋樑，更是 AI Agent 感知世界的觸手。弄懂 HTTP 與現代協定，是每一位開發者的必修課。
+        我們從一次完整的 HTTP 互動開始，包含請求與回應。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，這就像是網路世界的傳接球遊戲，有去就要有回，如果不回話那就是 Time out 了。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，要是球丟出去回不來，程式就要報錯了。讓我們來看看這兩個基本動作。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    請求
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Request
+    The client sends an HTTP request to the server for data.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    客戶端發送一個 HTTP 請求到伺服器取得資料。
+    回應
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Response
+    The server returns a JSON response containing the user profile.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    伺服器回傳一個包含使用者資料的 JSON 回應。
+    要告訴伺服器做什麼動作，我們需要使用正確的 HTTP 方法與參數設定。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          這個超重要！絕對不能把 POST 寫成 GET，不然可能只是想查詢資料，卻不小心重複下單了。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        真的，語意正確不僅安全，也是 RESTful 風格的基礎。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    方法
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Method
+    GET and POST are the most common HTTP methods used in APIs.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    GET 和 POST 是 API 中最常用的 HTTP 方法。
+    端點
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Endpoint
+    Hit the login endpoint to authenticate the user credentials.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    呼叫登入端點以驗證使用者憑證。
+    參數
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Parameter
+    Validate the input parameters strictly to avoid errors.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    嚴格驗證輸入參數以避免錯誤。
+    查詢字串
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Query String
+    Pass the search filters in the URL query string.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在 URL 查詢字串中傳遞搜尋篩選條件。
+    除了傳統的 REST，現在還有更多選擇。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          你是說像 GraphQL 嗎？前端工程師的最愛，終於不用為了拿一個欄位呼叫五個 API 了。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        哈哈，沒錯，不再 Over-fetching 真的是一大福音。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    GraphQL
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    GraphQL
+    GraphQL is a query language for APIs that allows clients to request exactly what they need.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    GraphQL 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
+    gRPC
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    gRPC
+    gRPC is a high-performance RPC framework that uses Protocol Buffers.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    gRPC 是一個使用 Protocol Buffers 的高效能 RPC 框架。
+    HTTP/3
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    HTTP/3
+    HTTP/3 runs on QUIC to reduce latency over unreliable networks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    HTTP/3 運作在 QUIC 之上，以減少不穩定網路中的延遲。
+    HTTP 訊息的內部結構，藏著許多重要資訊，通常分為標頭與主體。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          Header 就像是信封上的資訊，告訴郵差這封信要怎麼送、能不能送；而 Body 才是信紙裡的內容。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        比喻得很好！如果是寄送敏感資料，信封可得封好才行。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    標頭
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Header
+    Authentication tokens are usually sent in the Authorization header.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    驗證 Token 通常放在 Authorization 標頭中傳送。
+    主體
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Body
+    The POST request body contains the form data submitted by the user.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    POST 請求的主體包含了使用者提交的表單資料。
+    載荷
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Payload
+    The JSON payload includes the user ID and email address.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    JSON 載荷包含了使用者 ID 與電子郵件地址。
+    狀態碼
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Status Code
+    A 200 status code indicates the request was successful.
+    Always check for 404 or 500 errors.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    200 狀態碼表示請求成功。務必檢查 404 或 500 錯誤。
+    內容類型
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Content-Type
+    Set the Content-Type header to application/json.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將 Content-Type 標頭設定為 application/json。
+    最後，設計良好的 API 不僅好用，還有各種機制保護系統。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          還有文件也很重要！沒人想要猜你的 API 到底要傳什麼參數。Swagger 是你的好朋友。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，文件化與限流都是 API 設計的一環。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    RESTful API
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    RESTful API
+    RESTful API follows standard HTTP methods and resource-based URLs.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    RESTful API 遵循標準 HTTP 方法與基於資源的 URL。
+    冪等性
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Idempotency
+    Idempotency ensures that making the same request multiple times yields the same result.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    冪等性確保多次執行相同請求會產生相同的結果。
+    速率限制
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Rate Limiting
+    Implement rate limiting to prevent API abuse.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    實作速率限制以防止 API 濫用。
+    分頁
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pagination
+    Use pagination to return large datasets in smaller chunks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用分頁將大型資料集分成小區塊回傳。
+    版本控制
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Versioning
+    API versioning helps maintain backward compatibility for existing clients.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    API 版本控制有助於為現有客戶端維持向後相容性。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我們設計 API 的時候，到底要選 REST 還是 GraphQL？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        If you have a complex frontend that needs specific data fields, GraphQL helps avoid over-fetching. But for standard microservices, RESTful API or gRPC might be simpler and faster.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        那如果 API 被打爆了怎麼辦？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Then you need Rate Limiting. And always return the correct Status Code so the client knows if it's a 429 or a 500.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        HTTP 是網路世界的通用語言。學好它，無論是寫爬蟲、對接第三方服務，還是開發自己的後端，都能得心應手。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. See you in the next request!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

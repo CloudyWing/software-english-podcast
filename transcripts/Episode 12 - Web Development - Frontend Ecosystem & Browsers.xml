@@ -1,0 +1,424 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到前端生態系篇。現在的前端開發不只是刻畫面，更是建構流暢 AI 互動體驗的關鍵。從 Vercel 到 Next.js，我們來看看支撐現代 Web 的技術堆疊。
+        開發網頁的第一步，是了解我們的戰場瀏覽器。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          沒錯，雲曦，雖然現在 Chrome 獨大，但 Safari 在 iOS 上的表現也是不能忽視的，常常是前端工程師的惡夢啊。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        真的，相容性測試永遠是基本功。接下來我們來看看它的核心組成。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Chrome
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Google Chrome is the most widely used browser for web development.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Google Chrome 是網頁開發最廣泛使用的瀏覽器。
+    V8 引擎
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    V8 Engine
+    Node.js is built on Chrome's V8 JavaScript engine.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Node.js 是建立在 Chrome 的 V8 JavaScript 引擎之上。
+    Firefox
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Make sure to test the CSS layout on Firefox as well.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    務必確認 CSS 版面配置在 Firefox 上也正常。
+    Safari
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Safari on iOS requires specific meta tags for proper display.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    iOS 上的 Safari 需要特定的 Meta 標籤才能正確顯示。
+    開發者工具
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DevTools
+    Open Chrome DevTools to inspect the HTML elements and console.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    開啟 Chrome DevTools 來檢查 HTML 元素與控制台。
+    控制台
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Console
+    Log the error message to the console for debugging.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將錯誤訊息記錄到控制台以進行除錯。
+    WebAssembly
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    WebAssembly
+    WASM allows high-performance code like C++ or Rust to run in the browser.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    WASM 允許像 C++ 或 Rust 這樣的高效能程式碼在瀏覽器中執行。
+    現代前端開發離不開強大的建置與語言工具，接著我們來看這些能提升開發效率的利器。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          還記得以前手寫 HTML 的日子嗎？現在沒有打包工具和 TypeScript，大型專案根本維護不下去。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        確實，工具鏈的進化讓前端開發變得更像軟體工程了。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    TypeScript
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    TypeScript adds static typing to JavaScript, reducing runtime errors.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    TypeScript 為 JavaScript 增加了靜態型別，減少了執行階段錯誤。
+    Node.js
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Use Node.js to run JavaScript on the server side.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用 Node.js 在伺服器端執行 JavaScript。
+    NPM
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    NPM
+    Install the package using NPM.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    NPM 是 Node Package Manager 的縮寫。使用 NPM 安裝這個套件。
+    打包工具
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Bundler
+    Webpack is a module bundler that compiles your JavaScript.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Webpack 是一個編譯你 JavaScript 的模組打包工具。
+    Vite
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vite is a next-generation frontend build tool that is extremely fast.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Vite 是一個極快的新世代前端建置工具。
+    Tailwind CSS
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tailwind CSS is a utility-first CSS framework for rapid UI development.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Tailwind CSS 是一個功能優先的 CSS 框架，用於快速開發 UI。
+    框架能幫助我們更有效率地建構複雜的使用者介面，以下是目前最熱門的三大框架。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          這可是宗教戰爭啊！不過最近 React 加上 Next.js 幾乎統治了市場，Vue 還是有它的死忠支持者啦。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        每種框架都有適合的場景，選對工具最重要。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    React
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    React uses a virtual DOM to optimize rendering performance.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    React 使用虛擬 DOM 來最佳化渲染效能。
+    Vue
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vue is known for its gentle learning curve and flexibility.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Vue 以平緩的學習曲線與靈活性著稱。
+    Angular
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Angular is a comprehensive framework maintained by Google.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Angular 是由 Google 維護的全方位框架。
+    Next.js
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Next.js is a React framework that supports server-side rendering.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Next.js 是一個支援伺服器端渲染的 React 框架。
+    Vercel
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vercel is the platform for frontend frameworks and static sites, built by the creators of Next.js.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Vercel 是前端框架與靜態網站的平台，由 Next.js 的創作者打造。
+    選擇合適的渲染架構，能大幅提升使用者體驗，接下來我們來看看各種常見的渲染模式。
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          以前只有 CSR，現在為了 SEO 大家都轉向 SSR 了。不過最近 Island Architecture 也很紅喔。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        是啊，架構總是分分合合，重點還是效能與互動性的平衡。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    單頁應用程式
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    SPA
+    React is a popular framework for building interactive SPAs.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    SPA 是 Single Page Application 的縮寫。React 是建構互動式 SPA 的熱門框架。
+    伺服器端渲染
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    SSR
+    SSR improves SEO and initial load performance.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    SSR 是 Server-Side Rendering 的縮寫。SSR 改善了 SEO 和初始載入效能。
+    客戶端渲染
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    CSR
+    CSR offloads rendering work to the user's browser.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    CSR 是 Client-Side Rendering 的縮寫。CSR 將渲染工作交給使用者的瀏覽器。
+    水合
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hydration
+    Hydration is the process of attaching event listeners to the server-rendered HTML.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    水合是將事件監聽器附加到伺服器渲染 HTML 上的過程。
+    島嶼架構
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Island Architecture
+    Island architecture reduces JavaScript bloat by only hydrating interactive components.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    島嶼架構藉由只對互動元件進行水合來減少 JavaScript 的肥大。
+    響應式
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Responsive
+    The web design must be responsive for mobile and tablet devices.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    網頁設計必須對手機和平板裝置具響應性。
+    處理資料儲存與即時通訊，也是前端的重要職責，相關的技術包括以下這些：
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          如果是做聊天軟體，WebSockets 絕對是必備的。不用一直重新整理就能看到訊息，體驗差很多！
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        即時性對現代 App 來說真的太關鍵了。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    本機儲存
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    LocalStorage
+    Save the user preference in LocalStorage so it persists after refresh.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將使用者偏好儲存在 LocalStorage，這樣重新整理後還會在。
+    WebSocket
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Use WebSockets for real-time features like chat applications.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用 WebSockets 開發如聊天應用程式等即時功能。
+    伺服器發送事件
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    SSE
+    SSE allows the server to push updates to the client via HTTP.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    SSE 是 Server-Sent Events 的縮寫。SSE 允許伺服器透過 HTTP 推送更新給客戶端。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        前端生態系變動好快，到底是 SPA 好還是 SSR 好？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        It's swinging back to SSR for better SEO and performance. But managing Hydration is tricky. You don't want the user to see a button that doesn't work yet.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        真的，而且現在還要管 Webpack 或是 Vite 這些 Bundler。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        That's why tools are evolving. But knowing how the V8 Engine works and using DevTools effectively is still the best skill you can have.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        前端技術更新迭代非常快，但瀏覽器與 JavaScript 的核心原理始終不變。掌握這些基礎，你就能輕鬆應對任何新框架。感謝收聽。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. Happy Coding!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

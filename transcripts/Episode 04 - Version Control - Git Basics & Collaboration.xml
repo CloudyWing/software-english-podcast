@@ -1,0 +1,224 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到版本控制基礎篇。Git 是開發者的時光機，也是團隊協作的基石。在現代軟體開發中，不會用 Git 的工程師，就像不會打字的作家，將無法參與任何大型專案。
+        Git 的核心概念其實很簡單：紀錄每一個改變，讓你有後悔藥可以吃。但在開始吃後悔藥之前，我們得先有一個藥罐子。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，你是說 Repo 嗎？現在應該很少人會在本地 init 了，通常都是直接從 GitHub Clone 下來。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，現在是雲端優先的時代，本地初始化的方式已經比較少見了。那我們就從建立遠端專案開始吧。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    檔案庫
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Repository
+    The repository contains all your project files and the entire revision history.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    檔案庫包含你所有的專案檔案以及完整的修訂歷史。
+    複製
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Clone
+    Clone the repository to your local machine to start working.
+    Nowadays, we prefer cloning via SSH or GitHub CLI for better security.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    現在，我們偏好透過 SSH 或 GitHub CLI 進行複製，以獲得更好的安全性。
+    遠端
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Remote
+    The origin remote typically points to your GitHub repository.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    origin 遠端通常指向你的 GitHub 檔案庫。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        環境建好後，就是每天重複幾百次的標準動作了。
+        Nova，對於這些指令，你有什麼建議嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          有，拜託 Commit 訊息不要再寫 "fix" 或 "update" 了。請使用 Semantic Commit，不然 AI 沒辦法幫你自動生成 Changelog。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這點太重要了。我們來看這個循環。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    暫存
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Stage
+    Stage your changes before committing them.
+    Think of the staging area as a drafted email before you hit send.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    把暫存區想像成你按下發送鍵之前的郵件草稿。
+    提交
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Commit
+    A commit captures a snapshot of your currently staged changes.
+    Follow the Conventional Commits specification to make your history readable.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    遵循約定式提交規範，讓你的歷史紀錄易於閱讀。
+    推送
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Push
+    Push your commits to the remote repository.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    將你的提交推送到遠端檔案庫。
+    拉取
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pull
+    Always pull the latest changes before you start coding to avoid conflicts.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在開始寫程式碼之前，務必先拉取最新的變更以避免衝突。
+    為了不讓大家打架，我們會在不同的平行時空開發，這就是分支。
+    分支
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Branch
+    Create a new feature branch for your development work.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    為你的開發工作建立一個新的功能分支。
+    合併
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Merge
+    Merge the feature branch into main after the code review.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在程式碼審查後，將功能分支合併進主分支。
+    拉取請求
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pull Request
+    Open a Pull Request to initiate a code review.
+    It's often abbreviated as PR.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    開啟一個 Pull Request 來啟動程式碼審查。它通常被縮寫為 PR。
+    衝突
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Conflict
+    Resolve the merge conflict manually in your editor.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    在你的編輯器中手動解決合併衝突。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        每次遇到 Git Conflict 我就很頭痛，Nova，有沒有什麼辦法可以完全避免衝突？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        You can't avoid them entirely, but you can minimize them. If you keep your Branch short-lived and Merge often, your Pull Request will be much cleaner.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        所以重點是不要一次改太多檔案，要小步快跑？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Precisely. A clean Commit history is the best documentation for your future self.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這集的 Git 基礎指令就到這裡。記住，Commit Early, Commit Often。不要等到下班前才一次 Commit，那樣你會哭的。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. Git push and call it a day!
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

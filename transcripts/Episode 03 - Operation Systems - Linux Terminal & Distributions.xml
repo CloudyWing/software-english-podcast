@@ -1,0 +1,216 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到 Linux 與作業系統篇。對工程師來說，終端機是通往系統底層的鑰匙。無論是雲端時代的維運還是容器化開發，這裡是你展現專業的舞台。
+        很多新手害怕那個只有文字的黑色視窗，但對資深工程師來說，那才是唯一能跟伺服器溝通的地方。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，真的，尤其是當 GUI 介面卡死還是要靠 SSH 進去救火的時候。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，鍵盤才是效率的源頭。我們先從連線開始。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    終端機
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Terminal
+    Open the terminal to execute the shell script.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    開啟終端機以執行 Shell 腳本。
+    殼層
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Shell
+    Bash, Zsh, and Fish are popular shells for Linux and macOS users.
+    Most developers customize their shell prompt to show git branches and kubernetes contexts.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    大多數開發者會自訂他們的殼層提示字元來顯示 git 分支與 kubernetes 上下文。
+    安全殼層
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    SSH
+    SSH stands for Secure Shell.
+    Always use SSH keys instead of passwords for authentication to prevent brute-force attacks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    務必使用 SSH 金鑰而非密碼進行驗證，以防止暴力破解攻擊。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        連進去之後，我們面對的是一個檔案與權限構成的世界。
+        Nova，在容器化時代，這些基礎概念有什麼變化嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          當然有，尤其是 Root 權限。現在資安要求高，我們都在推廣「無 Root 容器」。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這真的很重要。我們來看看這些核心名詞。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    根使用者
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Root
+    Root is the superuser account with full administrative privileges.
+    Running containers as root is a major security risk in modern DevOps.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    以 Root 身份執行容器是現代 DevOps 中的重大安全風險。
+    權限
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Permission
+    Use chmod to change file permissions.
+    Never set permissions to 777 unless you want to get fired by the security team.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    永遠不要將權限設為 777，除非你想被資安團隊開除。
+    行程
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Process
+    Every running application is a process with a unique PID.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    每個執行中的應用程式都是一個擁有唯一 PID 的行程。
+    守護行程
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Daemon
+    A daemon runs in the background to handle system tasks.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    守護行程在背景執行以處理系統任務。
+    最後，Linux 有很多種面貌，選擇合適的發行版是建構輕量級應用的關鍵。
+    發行版
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Distro
+    Distro stands for Distribution.
+    Alpine Linux is a popular lightweight distro for Docker images.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Alpine Linux 是個受歡迎的輕量級發行版，常用於 Docker 映像檔。
+    套件管理員
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Package Manager
+    Use a package manager like apt or brew to install dependencies.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用像 apt 或 brew 這樣的套件管理員來安裝相依套件。
+    超級使用者執行
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sudo
+    Sudo stands for SuperUser DO.
+    It allows a permitted user to execute a command as the superuser.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    它允許獲授權的使用者以超級使用者身份執行指令。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        說實話，我都用 GUI 工具連線，到底為什麼一定要學 Linux Terminal 指令啊？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Because GUI tools can fail, but the Shell never lies. When you need to restart a stuck Daemon or fix a Permission issue on a remote server via SSH, the Terminal is your only friend.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        聽起來很有道理，那如果不小心用 Sudo 刪錯檔案怎麼辦？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Then you learn the most important lesson: with great power comes great responsibility—and hopefully, a good backup.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這集的 Linux 基礎就到這裡。記得，不要在正式環境隨便下 rm -rf 指令。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. May the source be with you.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>

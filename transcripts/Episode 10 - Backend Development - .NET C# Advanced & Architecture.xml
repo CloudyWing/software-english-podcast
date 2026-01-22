@@ -1,0 +1,152 @@
+<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        歡迎來到 .NET C# 進階篇。寫出會動的程式碼很容易，但要寫出高效能且好維護的架構，就是另一回事了。
+        在高效能開發中，我們追求的是 Zero Allocation（零配置）的高效能。
+        以前我們常聽到的 Async Await，現在已經是基本功了。但 Nova，這幾年大家都在談論 Span，那是什麼？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          雲曦，Span 是高效能的秘密武器。它允許我們在不複製記憶體的情況下操作資料片段。這對於高流量的 API 服務器來說至關重要。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        我們來看看這些效能關鍵字。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    非同步與等待
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Async Await
+    Async and Await allow non-blocking operations, releasing the thread for other requests.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Async 與 Await 允許非阻塞操作，釋放執行緒給其他請求使用。
+    Span
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Span
+    Span of T provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Span of T 提供了任意連續記憶體區域的型別安全與記憶體安全表示。
+    來源產生器
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Source Generators
+    Source Generators run during compilation to generate code, avoiding expensive runtime reflection.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    來源產生器在編譯期間執行以產生程式碼，避免了昂貴的執行時期反射。
+    談完效能，我們來聊聊架構。在 .NET 裡，幾乎每個人都離不開 DI。
+    相依性注入
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Dependency Injection
+    .NET has built-in support for Dependency Injection to achieve loose coupling.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    .NET 內建支援相依性注入，以實現鬆散耦合。
+    中介軟體
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Middleware
+    Middleware components form a pipeline to handle HTTP requests and responses.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    中介軟體元件形成一個管線來處理 HTTP 請求與回應。
+    最後，讓我們欣賞一下 C# 優雅的語法。
+    語言整合查詢
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    LINQ
+    LINQ allows you to query collections using a SQL-like syntax in C#.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    LINQ 允許你在 C# 中使用類似 SQL 的語法來查詢集合。
+    擴充方法
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Extension Method
+    Extension methods enable you to "add" methods to existing types without creating a new derived type.
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    擴充方法讓你能在不建立新衍生型別的情況下，為現有型別「新增」方法。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        有人說 Dependency Injection 讓程式碼變得很複雜，Nova 妳怎麼看？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        It might seem verbose at first, but Dependency Injection makes your code testable and decoupled. It's essential for modern Middleware pipelines in ASP.NET Core.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        所以是為了長遠維護性，那 Async Await 呢？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Async Await is non-negotiable for web servers. It frees up threads so your API can handle high concurrency without blocking.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        這集的 .NET 進階架構就到這裡。優雅的架構配上極致的效能，這就是 Modern .NET 的魅力。
+        我是雲曦。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Nova. Optimize for happiness.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+</speak>
