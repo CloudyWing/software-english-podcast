@@ -7,22 +7,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，
-          I'm Vibe Coding now! I just type "make it work" and it works!
+          曉臻，我現在是在「氛圍開發」！我只要打「讓它能動」，它就能動了！
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哇，Nova 現在這麼依賴 AI 啦？這集我們就是要介紹編輯器、專案管理平台以及 AI 時代必備的輔助工具。
+        哇，Phoebe 現在這麼依賴 AI 啦？
+        這集我們就是要介紹編輯器、專案管理平台以及 AI 時代必備的輔助工具。
         工欲善其事，必先利其器，我們先從編輯器與 IDE 開始。
       </prosody>
     </mstts:express-as>
@@ -31,63 +29,66 @@
   <voice name="zh-TW-HsiaoChenNeural">
     整合開發環境
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    IDE
+    IDE...
     IDE stands for Integrated Development Environment.
-    Visual Studio is a powerful IDE for .NET developers.
+    An IDE combines code editing, debugging, and building tools in a single interface.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    IDE 是 Integrated Development Environment 的縮寫。
+    IDE 將程式碼編輯、除錯和建置工具結合在單一介面中。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Visual Studio 是給 .NET 開發者的一款強大整合開發環境。
     Visual Studio Code
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    VS Code
-    VS Code is a lightweight but powerful source code editor.
+    Visual Studio Code is a lightweight but powerful source code editor.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Visual Studio Code 是一個輕量但強大的原始碼編輯器。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    VS Code 是一個輕量但強大的原始碼編輯器。
     擴充套件
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Extension
+    Extension...
     Install the Prettier extension to format your code automatically.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     安裝 Prettier 擴充套件來自動格式化你的程式碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     主題
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Theme
+    Theme...
     I prefer a dark theme to reduce eye strain.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我偏好深色主題以減少眼睛疲勞。
-    程式碼片段
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Snippet
-    Use a code snippet to quickly insert a for-loop structure.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    程式碼片段
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Snippet...
+    Use a code snippet to quickly insert a for-loop structure.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     使用程式碼片段快速插入 For 迴圈結構。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     快捷鍵
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Shortcut
+    Shortcut...
     Learn the keyboard shortcuts to speed up your coding.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     學習鍵盤快捷鍵以加快你的寫程式速度。
   </voice>
@@ -96,16 +97,31 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          Ctrl-C, Ctrl-V, the most important shortcuts!
+          我最愛 Ctrl-S 了！每分鐘都要存檔。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        隨著 AI 技術進步，新一代的 AI 編輯器正在改變我們的開發模式。
+        哈哈，好習慣！編輯器熟練了，寫程式的速度自然就快了。但現在，我們有更強大的幫手。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          AI 助手！它們寫程式比我打字還快。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯！隨著 AI 技術進步，新一代的 AI 編輯器正在改變我們的開發模式。像現在很紅的這些工具。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -113,286 +129,221 @@
   <voice name="zh-TW-HsiaoChenNeural">
     Cursor
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Cursor
+    Cursor...
     Cursor is an AI-first code editor built for pair programming with AI.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Cursor 是一個為了與 AI 結對程式設計而打造的 AI 優先程式碼編輯器。
-    Windsurf
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Windsurf
-    Windsurf integrates deep context awareness for better AI coding suggestions.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Windsurf 整合了深度上下文感知，以提供更好的 AI 程式碼建議。
-    Cline
+    Windsurf
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Windsurf...
+    Windsurf maintains deep context of your codebase to provide relevant AI assistance.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Windsurf 維持對程式碼庫的深度上下文了解，以提供相關的 AI 協助。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    Antigravity
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
+    Antigravity...
+    Antigravity is an AI coding agent that helps developers write code more efficiently.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Antigravity 是一個 AI 編碼代理，幫助開發者更有效率地撰寫程式碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     Cline
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Cline...
     Cline is an open-source AI agent that handles complex coding tasks.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Cline 是一個處理複雜程式設計任務的開源 AI 代理。\n  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Cline 是一個處理複雜程式設計任務的開源 AI 代理。
     模型上下文協議
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    MCP
+    MCP...
     MCP stands for Model Context Protocol.
     MCP standardizes how AI models interact with external data and tools.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    MCP 是 Model Context Protocol 的縮寫。
     MCP 標准化了 AI 模型與外部資料和工具的戶動方式。
-    GitHub Copilot
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    GitHub Copilot
-    GitHub Copilot suggests whole lines or entire functions right inside your editor.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    GitHub Copilot 直接在你的編輯器中建議整行或完整的函式。
+    GitHub Copilot
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    GitHub Copilot...
+    GitHub Copilot uses AI to suggest code completions and entire functions as you type.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    GitHub Copilot 使用 AI 在你輸入時建議程式碼補全與完整的函式。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     氛圍開發
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Vibe Coding
+    Vibe Coding...
     Vibe Coding refers to a flow state where you focus on high-level logic while AI handles the implementation.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Vibe Coding 指的是一種專注於高層次邏輯，而將實作交給 AI 的心流狀態。
-    歡迎回到 Tools Part 2。專案管理與協作工具，是團隊同步的橋樑。
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          Did you see the ticket on Jira? It's "Critical"!
+          AI 工具很強大！但除了寫程式，日常開發還需要什麼？
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        看到了，所以我們要用正確的溝通工具來解決它，我們來看看這些平台。
+        好問題！除了 AI，我們還需要各種實用的開發輔助工具。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          像是除錯和測試工具嗎？
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯！每個開發者的工具箱裡，都少不了這些實用的小工具。
       </prosody>
     </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Jira
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Jira
-    Please update the ticket status on Jira.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    請在 Jira 上更新票卷狀態。
-    Trello
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Trello
-    We use Trello boards for simple task tracking.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    我們使用 Trello 看板進行簡單的任務追蹤。
-    Notion
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Notion
-    We document all our technical specs in Notion.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    我們將所有的技術規格記錄在 Notion 裡。
-    Slack
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Slack
-    I sent the code snippet to you via Slack.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    我透過 Slack 把程式碼片段傳給你了。
-    Discord
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Discord
-    The open-source community uses Discord for discussions.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    這個開源社群使用 Discord 進行討論。
-    Microsoft Teams
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Teams
-    Let's have a quick call on Microsoft Teams.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    我們在 Microsoft Teams 上快速通話一下。
-    Zoom
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Zoom
-    Share your screen on Zoom so I can see the bug.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    在 Zoom 上分享你的螢幕，讓我看看那個 Bug。
-    每個開發者的工具箱裡，都少不了這些實用的小工具，接下來介紹的這些能幫你解決各種疑難雜症。
     Postman
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Postman
     Use Postman to test the API endpoints before integrating them.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     整合前先使用 Postman 測試 API 端點。
-    Docker Desktop
   </voice>
 
-  <voice name="en-US-PhoebeMultilingualNeural">
+  <voice name="zh-TW-HsiaoChenNeural">
     Docker Desktop
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
     Make sure Docker Desktop is running before you build the image.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     在建置映像檔前，確認 Docker Desktop 正在執行。
-    Stack Overflow
   </voice>
 
-  <voice name="en-US-PhoebeMultilingualNeural">
+  <voice name="zh-TW-HsiaoChenNeural">
     Stack Overflow
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
     I found the solution to this error on Stack Overflow.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我在 Stack Overflow 上找到了這個錯誤的解決方案。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     日誌檢視器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Log Viewer
+    Log Viewer...
     Use a log viewer to filter and search through the server logs.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用日誌檢視器來篩選並搜尋伺服器日誌。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     環境變數
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Environment Variable
+    Environment Variable...
     Set the API key as an environment variable for security.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     為了安全，將 API Key 設定為環境變數。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     虛擬環境
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Virtual Environment
+    Virtual Environment...
     Activate the virtual environment to isolate python dependencies.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     啟動虛擬環境以隔離 Python 相依套件。
-    文件
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Documentation
-    Always read the official documentation when learning a new tool.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    學習新工具時，務必閱讀官方文件。
     Markdown
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Markdown
     Write the README file using Markdown syntax.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用 Markdown 語法撰寫 README 檔案。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     工作區
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Workspace
+    Workspace...
     Save your project layout as a workspace.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     將你的專案佈局儲存為工作區。
-    更新
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Update
-    The IDE prompts me to update to the latest release.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    IDE 提示我更新到最新版本。
     設定
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Settings
+    Settings...
     You can customize the editor font size in the settings.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    你可以在設定中自訂編輯器的字體大小。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    你可以在設定中自訂編輯器的字體大小。
-    好的工具是工程師最好的夥伴。希望這集的介紹能幫助你打造出最適合自己的開發環境。
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          I'm going to download more VS Code extensions now, bye!
-        </lang>
+        好的工具是工程師最好的夥伴。希望這集的介紹能幫助你打造出最適合自己的開發環境。
       </prosody>
     </mstts:express-as>
   </voice>
 
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        現在工具好多，VS Code 的 Extension 裝太多會不會變慢？
+        Phoebe，現在工具這麼多，VS Code 的 Extension 裝太多會不會變慢？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -406,23 +357,31 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        還有 Container 環境，Docker Desktop 真的是開發必備。
+        還有 Container 環境，Docker Desktop 真的是開發必備嗎？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Absolutely. Standardization of the dev environment is key.
-      </prosody>
-    </mstts:express-as>
-  </voice>
-  <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        我是雲曦，我們下次見。
+        Absolutely. Standardization of the dev environment is key. Whether you're debugging with a Log Viewer or checking Stack Overflow for solutions, having consistent Settings across your Workspace makes everything smoother.
       </prosody>
     </mstts:express-as>
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        好的工具能讓開發效率倍增。IDE、Git、溝通工具都要熟練掌握。
+        我是主持人曉臻，感謝大家的陪伴，拜拜！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Phoebe. See you next time!
+      </prosody>
+    </mstts:express-as>
+  </voice>
 </speak>

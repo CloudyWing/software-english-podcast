@@ -3,26 +3,27 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到行動開發篇。手機不再只是通訊工具，而是最強大的邊緣 AI 運算裝置。這集我們比較 iOS 與 Android 生態系，以及如何利用本機算力。
+        歡迎來到行動開發篇。
+        手機不再只是通訊工具，而是最強大的邊緣 AI 運算裝置。
+        這集我們比較 iOS 與 Android 生態系，以及如何利用本機算力。
         行動開發的世界主要由兩大陣營組成，但也多了跨平台的選擇，接下來我們先認識這幾個主要名詞。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，你是 iOS 派還是 Android 派？我個人是喜歡 Swift 的優雅，但 Android 的開放性也是無可取代的，特別是 Side-load App 的時候。
+          曉臻，你是 iOS 派還是 Android 派？
+          我個人是喜歡 Swift 的優雅，但 Android 的開放性也是無可取代的，特別是 Side-load App 的時候。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈哈，青菜蘿蔔各有所好，不過身為開發者，通常兩個都要會一點。
+        哈，青菜蘿蔔各有所好，不過身為開發者，通常兩個都要會一點。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,62 +31,68 @@
   <voice name="zh-TW-HsiaoChenNeural">
     iOS
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    iOS
+    iOS...
+    iOS stands for iPhone Operating System.
     iOS is the operating system for Apple's mobile devices.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    iOS 是 iPhone Operating System 的縮寫。iOS 是 Apple 行動裝置的作業系統。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    iOS 是 iPhone Operating System 的縮寫。iOS 是 Apple 行動裝置的作業系統。
     Android
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     Android development requires understanding the Activity lifecycle.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Android 開發需要理解 Activity 的生命週期。
-    Swift
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    Swift
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Swift is the modern language for building iOS apps.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Swift 是建構 iOS App 的現代語言。
-    Kotlin
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    Kotlin
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Kotlin is the preferred language for Android development.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Kotlin 是 Android 開發的首選語言。
-    Flutter
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    Flutter
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Flutter allows you to build cross-platform apps from a single codebase.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Flutter 讓你從單一程式碼庫建構跨平台 App。
-    React Native
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    React Native uses JavaScript to create native mobile apps.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    React Native 使用 JavaScript 來建立原生行動 App。
-    開發 App 時，接下來我們需要熟悉這些控制畫面與流程的核心組件。
+    React Native
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    React Native uses JPhoebeScript to create native mobile apps.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    React Native 使用 JPhoebeScript 來建立原生行動 App。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    開發 App 時，接下來我們需要熟悉這些控制畫面與流程的核心組件。
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -95,7 +102,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -107,57 +113,61 @@
   <voice name="zh-TW-HsiaoChenNeural">
     視圖控制器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    View Controller
-    The View Controller manages the screen's content in iOS.
+    View Controller...
+    The View Controller acts as the glue between the data model and the screen view.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    View Controller 扮演資料模型與螢幕視圖之間的橋樑。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    View Controller 在 iOS 中管理螢幕內容。
     活動
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Activity
-    The Activity represents a single screen with a user interface in Android.
+    Activity...
+    An Activity serves as the entry point for user interaction, managing the window where the UI is drawn.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Activity 作為使用者互動的入口點，管理繪製 UI 的視窗。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Activity 代表 Android 中具有使用者介面的單一螢幕。
     片段
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Fragment
+    Fragment...
     A Fragment represents a reusable portion of the UI.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Fragment 代表 UI 中可重複使用的部分。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     佈局
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Layout
+    Layout...
     Use Auto Layout to support different screen sizes.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用 Auto Layout 來支援不同的螢幕尺寸。
-    導覽
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Navigation
-    Implement a navigation controller to manage screen transitions.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    導覽
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Navigation...
+    Implement a navigation controller to manage screen transitions.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     實作導覽控制器以管理螢幕轉換。
-    工欲善其事，必先利其器。熟練這些工具能讓你事半功倍，接著我們來看看有哪些好幫手。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    工欲善其事，必先利其器。熟練這些工具能讓你事半功倍，接著我們來看看有哪些好幫手。
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -167,7 +177,22 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Xcode 也沒好到哪去，下載一次更新都要半天。這就是行動開發者的日常啊。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          說到工具，Android Studio 吃記憶體的功力可是世界級的，我的筆電風扇每次都轉得跟直升機一樣。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -179,57 +204,62 @@
   <voice name="zh-TW-HsiaoChenNeural">
     模擬器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Simulator
+    Simulator...
     Test your iOS app on the Xcode Simulator.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     在 Xcode 模擬器上測試你的 iOS App。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     仿真器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Emulator
+    Emulator...
     The Android Emulator can be slow on older machines.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Android 仿真器在舊機器上可能會很慢。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     介面建構器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Interface Builder
+    Interface Builder...
     Use Interface Builder to design the UI visually.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用 Interface Builder 以視覺化方式設計 UI。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     軟體開發套件
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    SDK
+    SDK...
+    SDK stands for Software Development Kit.
     Download the Android SDK to start developing.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     SDK 是 Software Development Kit 的縮寫。下載 Android SDK 以開始開發。
-    建置工具
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Gradle
-    Gradle is the build automation tool used in Android Studio.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    建置工具
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Gradle...
+    Gradle is the build automation tool used in Android Studio.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     Gradle 是 Android Studio 使用的自動化建置工具。
-    隨著硬體進步，我們現在可以直接在手機上執行 AI 模型，這帶來了新的技術名詞。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    隨著硬體進步，我們現在可以直接在手機上執行 AI 模型，這帶來了新的技術名詞。
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -239,7 +269,22 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，Edge AI 是未來的趨勢，學會如何優化模型體積是關鍵。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          能在手機上跑模型真的很重要，不用連網又保有隱私，現在連相簿分類都靠它了。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -251,35 +296,37 @@
   <voice name="zh-TW-HsiaoChenNeural">
     裝置端 AI
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    On-Device AI
+    On-Device AI...
     Run the model inference locally on the device for privacy and speed.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    在裝置本機執行模型推論以確保隱私與速度。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    在裝置本機執行模型推論以確保隱私與速度。
     Core ML
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     Core ML integrates machine learning models into your iOS app.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Core ML 將機器學習模型整合進你的 iOS App。
-    TensorFlow Lite
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    TensorFlow Lite
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     TensorFlow Lite is designed for mobile and edge devices.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     TensorFlow Lite 是專為行動與邊緣裝置所設計。
-    寫程式過程中，各種除錯手段與設計模式也是不可或缺，例如以下這幾個：
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    寫程式過程中，各種除錯手段與設計模式也是不可或缺，例如以下這幾個：
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -289,7 +336,22 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        所以 Log 要埋得好，除錯沒煩惱。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          遇到 Crash 的時候最怕那種偶發性的，看 Crash Report 也不一定找得到原因，那時候真的會懷疑人生。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -301,37 +363,41 @@
   <voice name="zh-TW-HsiaoChenNeural">
     委派
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Delegate
+    Delegate...
     The TableView delegate handles row selection events.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     TableView Delegate 處理列的選取事件。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     除錯橋
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    ADB
+    ADB...
+    ADB stands for Android Debug Bridge.
     Use ADB to install APKs manually.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    ADB 是 Android Debug Bridge 的縮寫。
+    使用 ADB 手動安裝 APK。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    ADB 是 Android Debug Bridge 的縮寫。使用 ADB 手動安裝 APK。
     崩潰報告
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Crash Report
+    Crash Report...
     Check the crash report to see why the app closed unexpectedly.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    檢查崩潰報告以查看 App 為何意外關閉。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    檢查崩潰報告以查看 App 為何意外關閉。
     發布 App 前，還有許多設定與審查流程需要注意，接下來別忘了這些步驟。
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -341,7 +407,22 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        而且每次審查標準好像都不太一樣，真的要很有耐心。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          上架 App Store 前的等待最煎熬了，只要看到「Rejected」心都涼了一半，通常只是因為一個小小的 Metadata 問題。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -353,56 +434,57 @@
   <voice name="zh-TW-HsiaoChenNeural">
     資訊清單
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Manifest
+    Manifest...
     The Android Manifest file describes essential app information.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Android Manifest 檔案描述了重要的 App 資訊。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     套件識別碼
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Bundle ID
+    Bundle ID...
     The Bundle ID uniquely identifies your app on the App Store.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Bundle ID 在 App Store 上唯一識別你的 App。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     簽署
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Signing
+    Signing...
     You must sign the app with a certificate before publishing.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     發布前你必須使用憑證對 App 進行簽署。
-    審查
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Review
-    The App Store review process can take a few days.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    審查
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Review...
+    The App Store review process can take a few days.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     App Store 審查流程可能需要幾天時間。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     推播通知
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Push Notification
+    Push Notification...
     Send push notifications to engage users.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     發送推播通知以與使用者互動。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -432,21 +514,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        行動開發有其獨特的魅力與挑戰。不管你是 iOS 派還是 Android 派，掌握這些術語將有助於你構建出色的應用程式。感謝收聽。
-        我是雲曦。
+        行動裝置已經是主流平台。無論是原生還是跨平台，都要重視使用者體驗。
+        我是曉臻，祝大家開發順利！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Mobile first!
+        And I'm Phoebe. Have a great day!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

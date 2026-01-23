@@ -8,17 +8,15 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，CAP 定理告訴我們人生不能兩全其美，想要一致性又要高可用性，那分區容錯可能就要犧牲一點了。
+          曉臻，CAP 定理告訴我們人生不能兩全其美，想要一致性又要高可用性，那分區容錯可能就要犧牲一點了。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -30,57 +28,69 @@
   <voice name="zh-TW-HsiaoChenNeural">
     CAP 定理
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    CAP Theorem
-    The CAP theorem states you can only pick two: Consistency, Availability, Partition tolerance.
+    CAP Theorem...
+    CAP stands for Consistency, Phoebeilability, Partition Tolerance.
+    The CAP theorem states you can only pick two: Consistency, Phoebeilability, Partition tolerance.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CAP 是 Consistency, Phoebeilability, Partition Tolerance 的縮寫。
+    CAP 定理指出你只能三選二：一致性、可用性、分區容錯性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 是 Consistency, Availability, Partition Tolerance 的縮寫。CAP 定理指出你只能三選二：一致性、可用性、分區容錯性。
     最終一致性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Eventual Consistency
+    Eventual Consistency...
     We accept eventual consistency for the user news feed.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們接受使用者動態牆採用最終一致性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     分散式交易
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Distributed Transaction
+    Distributed Transaction...
     Managing distributed transactions across microservices is complex.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     管理跨微服務的分散式交易很複雜。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     命令查詢職責分離
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    CQRS
+    CQRS...
+    CQRS stands for Command Query Responsibility Segregation.
     CQRS separates read and write operations into different models.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CQRS 是 Command Query Responsibility Segregation 的縮寫。
+    CQRS 將讀取與寫入操作分離成不同的模型。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    CQRS 是 Command Query Responsibility Segregation 的縮寫。CQRS 將讀取與寫入操作分離成不同的模型。
     事件溯源
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Event Sourcing
+    Event Sourcing...
     Event sourcing stores the state changes as a sequence of events.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    事件溯源將狀態變更儲存為一系列的事件。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    事件溯源將狀態變更儲存為一系列的事件。
-    系統的擴展性決定了它能服務多少使用者，特別是在 AI 時代，我們有了新的儲存需求。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        系統的擴展性決定了它能服務多少使用者，特別是在 AI 時代，我們有了新的儲存需求。
+      </prosody>
+    </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -90,11 +100,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈哈，Scale Up 有極限，Scale Out 才是無底洞... 喔不，是無限可能。
+        哈，Scale Up 有極限，Scale Out 才是無底洞... 喔不，是無限可能。接下來我們看兩種擴展策略。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -102,47 +111,54 @@
   <voice name="zh-TW-HsiaoChenNeural">
     水平擴展
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Scale Out
+    Scale Out...
     Add more servers to scale out the system to handle load.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     增加更多伺服器來水平擴展系統以處理負載。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     垂直擴展
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Scale Up
+    Scale Up...
     Add more RAM or CPU to scale up the single server.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     增加記憶體或 CPU 來垂直擴展單一伺服器。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     向量資料庫
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Vector Database
+    Vector Database...
     Vector databases are designed to store and search high-dimensional vector embeddings.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     向量資料庫專為儲存與搜尋高維度向量嵌入而設計。
-    快取
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Caching
-    Caching strategies drastically improve read performance.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    快取
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Caching...
+    Caching strategies drastically improve read performance.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     快取策略大幅提升讀取效能。
-    為了確保系統穩定，我們需要強大的韌性設計，防止單點故障導致全面崩潰，讓我們接著往下看。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        為了確保系統穩定，我們需要強大的韌性設計。Phoebe，如果一個微服務掛了會發生什麼事？
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -152,11 +168,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        真的，熔斷機制是保護我們最後防線的關鍵，讓故障不要擴散出去。
+        真的，熔斷機制是保護我們最後防線的關鍵，讓故障不要擴散出去。讓我們接著往下看。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -164,47 +179,54 @@
   <voice name="zh-TW-HsiaoChenNeural">
     高可用性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    High Availability
-    Design for high availability to minimize downtime during failures.
+    High Phoebeilability...
+    Design for high Phoebeilability to minimize downtime during failures.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     為高可用性設計以最小化故障期間的停機時間。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     容錯
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Fault Tolerance
+    Fault Tolerance...
     The system has built-in fault tolerance to handle unexpected crashes.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     系統內建容錯機制以處理預料之外的當機。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     冗餘
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Redundancy
+    Redundancy...
     Data redundancy protects against hardware failure.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     資料冗餘可保護資料免受硬體故障影響。
-    斷路器
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Circuit Breaker
-    Implement a circuit breaker to prevent cascading failures in the system.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    斷路器
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Circuit Breaker...
+    Implement a circuit breaker to prevent cascading failures in the system.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     實作斷路器以防止系統中的連鎖故障。
-    服務間的非同步溝通，通常依賴訊息傳遞機制，接下來是核心組件。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        服務間的非同步溝通，就像是傳接球遊戲，但我們不能一直等在那裡接球。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -214,11 +236,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這就是解耦的美妙之處，讓大家都可以依照自己的步調工作。
+        這就是解耦的美妙之處，讓大家都可以依照自己的步調工作。接下來是核心組件。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -226,46 +247,48 @@
   <voice name="zh-TW-HsiaoChenNeural">
     訊息佇列
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Message Queue
+    Message Queue...
     Use a message queue like RabbitMQ to decouple services.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用像 RabbitMQ 這樣的訊息佇列來解耦服務。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     發布訂閱
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Pub Sub
+    Pub Sub...
+    Pub Sub stands for Publish-Subscribe.
     The Pub Sub model allows asynchronous communication between components.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Pub Sub 是 Publish-Subscribe 的縮寫。
+    發布訂閱模型允許元件間進行非同步溝通。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Pub Sub 是 Publish-Subscribe 的縮寫。發布訂閱模型允許元件間進行非同步溝通。
     事件網格
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Event Mesh
+    Event Mesh...
     An event mesh is a dynamic infrastructure for distributing events.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    事件網格是一種用於分發事件的動態基礎設施。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    事件網格是一種用於分發事件的動態基礎設施。
     代理人
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Broker
+    Broker...
     The message broker handles routing messages to the correct consumers.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     訊息代理人負責將訊息路由至正確的消費者。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -295,21 +318,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        分散式系統充滿了取捨。在追求高效能與高可用性的同時，千萬別忘了系統的複雜度也會隨之上升。感謝收聽。
-        我是雲曦。
+        我是主持人曉臻，我們下集再聊！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Redundancy is key!
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

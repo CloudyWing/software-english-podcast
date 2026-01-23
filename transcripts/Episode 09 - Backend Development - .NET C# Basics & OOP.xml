@@ -3,26 +3,24 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 .NET C# 基礎篇。現在，.NET 是一個高效能、跨平台的開源框架。再也不是 Windows 的專利了。
-        以前我們寫 C# 總是要一層一層的 Namespace 加上 Class Program 加上 Main。Nova，現在還是這樣嗎？
+        歡迎來到 <sub alias="Dot Net">.NET</sub> C# 基礎篇。現在，<sub alias="Dot Net">.NET</sub> 是一個高效能、跨平台的開源框架。再也不是 Windows 的專利了。
+        以前我們寫 C# 總是要一層一層的 Namespace 加上 Class Program 加上 Main。Phoebe，現在還是這樣嗎？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，早在 C# 10 就有了 Top-level statements 和 File-scoped namespaces。現在的程式碼乾淨多了，幾乎沒有 Boilerplate code。
+          曉臻，早在 C# 10 就有了 Top-level statements 和 File-scoped namespaces。現在的程式碼乾淨多了，幾乎沒有 Boilerplate code。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我們來看看現代專案結構。
+        沒錯，現在的專案結構簡潔多了。我們來看幾個必須知道的關鍵字。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,81 +28,96 @@
   <voice name="zh-TW-HsiaoChenNeural">
     解決方案
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Solution
-    A solution manages multiple related projects.
-    Nowadays, we often use the dotnet CLI to manage solutions.
+    Solution...
+    A solution acts as a container for organizing multiple related projects and their dependencies.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    解決方案充當一個容器，用來組織多個相關的專案及其相依性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    解決方案管理多個相關的專案。現在，我們經常用 dotnet CLI 來管理解決方案。
     命名空間
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Namespace
+    Namespace...
     File-scoped namespaces reduce indentation and make code cleaner.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     檔案範圍的命名空間減少了縮排，讓程式碼更乾淨。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     NuGet 套件
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    NuGet
-    NuGet is the package manager for .NET.
+    NuGet...
+    NuGet is the package manager for <sub alias="Dot Net">.NET</sub>.
     Data protection laws require us to verify package licenses carefully.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    NuGet 是 <sub alias="Dot Net">.NET</sub> 的套件管理器。資料保護法規要求我們仔細驗證套件授權。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    NuGet 是 .NET 的套件管理器。資料保護法規要求我們仔細驗證套件授權。
-    在物件導向的世界，類別 (Class) 是主角，但這幾年有一個新星搶走了它的風采，那就是 Record。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+          在物件導向的世界，類別 (Class) 是主角，但這幾年有一個新星搶走了它的風采，那就是 Record。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     紀錄類型
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Record
+    Record...
     Records are immutable reference types with value-based equality. Great for DTOs.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Records 是具有基於值相等性的不可變參考型別。非常適合用於資料傳輸物件 (DTO)。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     介面
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Interface
-    Interfaces define contracts.
-    They are crucial for unit testing and dependency injection.
+    Interface...
+    Interfaces decouple implementation from definition, allowing for flexible and testable code.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    介面將實作與定義解耦，從而允許彈性且可測試的程式碼。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    介面定義了合約。它們對於單元測試和依賴注入至關重要。
-    最後是讓 C# 變得更安全、更簡潔的語法。以前最怕看到的 NullReferenceException，現在有解了。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        最後是讓 C# 變得更安全、更簡潔的語法。Null Reference Exception 可是號稱價值十億美元的錯誤啊。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     可為 Null 的參考型別
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Nullable Reference Types
-    By default, reference types are non-nullable to prevent runtime errors.
+    Nullable Reference Types...
+    When enabled, the compiler warns you about potential null reference issues at compile time.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    啟用後，編譯器會在編譯時警告你可能的 null 參考問題。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    預設情況下，參考型別是不可為 Null 的，以防止執行時期錯誤。
     模式比對
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Pattern Matching
+    Pattern Matching...
     Pattern matching allows expressive logic in switch expressions.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     模式比對允許在 switch 運算式中使用具表現力的邏輯。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -116,7 +129,23 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It definitely prevents the billion-dollar mistake—Null Reference Exceptions. And with Records, you get immutability out of the box, which pairs nicely with Pattern Matching.
+        It helps catch the billion-dollar mistake early. But remember, it's just compiler warnings.
+        If your team ignores them or overuses the null-forgiving operator, you'll get false confidence instead of safety.
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        對，如果團隊沒有遵守這些警告，反而會讓人誤以為程式碼很安全。
+        這需要整個團隊的配合。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Exactly. And Records give you immutability out of the box, which pairs nicely with Pattern Matching.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -134,21 +163,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這集的 .NET 基礎就到這裡。C# 是一個不斷進化的語言，保持學習的熱情吧。
-        我是雲曦。
+        C# 的基礎有了，但要寫出好維護的系統，還有很多學問。下集我們再深入探討。
+        我是主持人曉臻，感謝大家的陪伴。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Code safe, stay sharp.
+        And I'm Phoebe. Level up with us next time.
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

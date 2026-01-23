@@ -3,26 +3,30 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 DevOps 與雲端原生篇。在這個 AI 輔助維運的時代，寫完程式只是第一步，如何將程式碼安全、自動化地部署到伺服器，是現代工程師的必修課。這集我們將重點放在 MLOps、CI/CD 流程與容器化技術。
-        現代軟體交付依賴自動化的流程，從提交程式碼到上線一氣呵成，接下來我們來看看 CI/CD 的各個環節。
+        歡迎來到 DevOps 與雲端原生篇。
+        在這個 AI 輔助維運的時代，寫完程式只是第一步，如何將程式碼安全、自動化地部署到伺服器，是現代工程師的必修課。
+        這集我們將重點放在 MLOps、CI/CD 流程與容器化技術。
+  </prosody></mstts:express-as></voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        現代軟體交付依賴自動化的流程，從提交程式碼到上線一氣呵成。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，說到 CI/CD，工程師最怕的應該是週五下午五點按部署吧？那真的是心臟要很大顆。
+          曉臻，說到 CI/CD，工程師最怕的應該是週五下午五點按部署吧？那真的是心臟要很大顆。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        別提了，"Deploy on Friday" 是 DevOps 界最大的禁忌話題，沒事千萬別嘗試。
+        別提了，"Deploy on Friday" 是 DevOps 界最大的禁忌話題，沒事千萬別嘗試。接下來我們來看看 CI/CD 的各個環節。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,87 +34,102 @@
   <voice name="zh-TW-HsiaoChenNeural">
     管線
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Pipeline
+    Pipeline...
     The build pipeline failed because a unit test didn't pass.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     建置管線失敗了，因為有一個單元測試沒通過。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     持續整合
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    CI
+    Continuous Integration...
+    CI stands for Continuous Integration.
     Continuous Integration helps the team detect integration errors early.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CI 是 Continuous Integration 的縮寫。
+    持續整合有助於團隊早期發現整合錯誤。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    CI 是 Continuous Integration 的縮寫。持續整合有助於團隊早期發現整合錯誤。
     持續交付
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    CD
+    Continuous Delivery...
+    CD stands for Continuous Delivery.
     Continuous Delivery automates the release process up to the approval stage.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CD 是 Continuous Delivery 的縮寫。
+    持續交付自動化了直到核准前的發布流程。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    CD 是 Continuous Delivery 的縮寫。持續交付自動化了直到核准前的發布流程。
     持續部署
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Continuous Deployment
+    Continuous Deployment...
     Continuous Deployment releases updates automatically without human intervention.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     持續部署在無人介入的情況下自動發布更新。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     產物
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Artifact
+    Artifact...
     Store the build artifact in a secure repository for deployment.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     將建置產物儲存在安全的檔案庫中以供部署。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     環境
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Environment
+    Environment...
     Do not test experimental features directly in the production environment.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     不要直接在正式環境中測試實驗性功能。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     預備環境
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Staging
+    Staging...
     Deploy the code to staging for final verification before live release.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     在正式發布前，部署程式碼到預備環境進行最終驗證。
-    正式環境
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Production
-    A critical bug was found in production affecting real users.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    正式環境
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Production...
+    A critical bug was found in production affecting real users.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     在正式環境發現了一個影響真實使用者的嚴重 Bug。
-    平台工程與基礎設施管理已成為顯學，不再是手動操作，而是程式碼化與可觀察化。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        平台工程與基礎設施管理已成為顯學，不再是手動操作，而是程式碼化與可觀察化。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -120,7 +139,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -132,87 +150,100 @@
   <voice name="zh-TW-HsiaoChenNeural">
     基礎設施即程式碼
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Infrastructure as Code
+    Infrastructure as Code...
     Use Terraform to manage your Infrastructure as Code.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用 Terraform 來管理你的基礎設施即程式碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     平台工程
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Platform Engineering
+    Platform Engineering...
     Platform engineering builds internal developer platforms to speed up delivery.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     平台工程建構內部開發者平台以加速交付。
-    GitOps
   </voice>
 
-  <voice name="en-US-PhoebeMultilingualNeural">
+  <voice name="zh-TW-HsiaoChenNeural">
     GitOps
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    GitOps...
     GitOps uses Git repositories as the source of truth for infrastructure.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     GitOps 使用 Git 儲存庫作為基礎設施的唯一真理來源。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     供應
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Provision
+    Provision...
     The script automatically provisions a new virtual machine.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     這個腳本會自動供應一台新的虛擬機器。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     監控
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Monitoring
+    Monitoring...
     Monitoring tells us the real-time health of the system.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     監控告訴我們系統的即時健康狀態。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     日誌
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Logging
+    Logging...
     Check the centralized error logs to diagnose the issue.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     檢查集中式錯誤日誌以診斷問題。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     指標
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Metric
+    Metric...
     CPU usage is a key metric for scaling decisions.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     CPU 使用率是決定擴展與否的關鍵指標。
-    MLOps
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    MLOps
-    MLOps applies DevOps principles to machine learning workflows.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    MLOps
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    MLOps...
+    MLOps stands for Machine Learning Operations.
+    MLOps applies DevOps principles to machine learning workflows.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    MLOps 是 Machine Learning Operations 的縮寫。
     MLOps 將 DevOps 原則應用於機器學習工作流程。
-    容器化技術改變了我們打包與部署應用程式的方式，接下來是 Docker 的核心概念。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        容器化技術改變了我們打包與部署應用程式的方式。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -222,11 +253,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        是啊，環境一致性解決了所有開發者的痛點，不用再煩惱套件版本衝突了。
+        是啊，環境一致性解決了所有開發者的痛點，不用再煩惱套件版本衝突了。接下來是 Docker 的核心概念。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -234,47 +264,54 @@
   <voice name="zh-TW-HsiaoChenNeural">
     容器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Container
+    Container...
     Containers package code and dependencies together for consistency.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     容器將程式碼與相依性打包在一起以確保一致性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     映像檔
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Image
+    Image...
     Build a Docker image from the Dockerfile instructions.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     根據 Dockerfile 的指令建置 Docker 映像檔。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     註冊表
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Registry
+    Registry...
     Push the built image to the private registry securely.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     將建置好的映像檔安全地推送到私有註冊表。
-    編排
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Orchestration
-    Kubernetes is the standard platform for container orchestration.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    編排
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Orchestration...
+    Kubernetes is the standard platform for container orchestration.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     Kubernetes 是容器編排的標準平台。
-    Kubernetes 是容器調度的標準，雖然複雜但功能強大，接下來這些是 K8s 的基本組成。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Kubernetes 是容器調度的標準，雖然複雜但功能強大。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -284,11 +321,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        但學會之後，你會發現它就像樂高一樣，可以隨心所欲搭建出高可用的服務。
+        但學會之後，你會發現它就像樂高一樣，可以隨心所欲搭建出高可用的服務。接下來這些是 K8s 的基本組成。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -296,76 +332,79 @@
   <voice name="zh-TW-HsiaoChenNeural">
     叢集
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Cluster
+    Cluster...
     The cluster consists of multiple nodes working together.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     這個叢集由多個協同工作的節點組成。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     節點
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Node
+    Node...
     A node can be a physical server or a virtual machine in the cluster.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     節點可以是叢集中的實體伺服器或虛擬機器。
-    Pod
   </voice>
 
-  <voice name="en-US-PhoebeMultilingualNeural">
+  <voice name="zh-TW-HsiaoChenNeural">
     Pod
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pod...
     A pod is the smallest deployable unit in Kubernetes.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Pod 是 Kubernetes 中最小的可部署單位。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     服務
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Service
+    Service...
     Create a service to expose the pods to the network.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     建立一個 Service 將 Pod 暴露給網路。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     副本
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Replica
-    Set the replica count to 3 to ensure high availability.
+    Replica...
+    Set the replica count to 3 to ensure high Phoebeilability.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     將副本數設為 3 以確保高可用性。
-    入口
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Ingress
-    Configure ingress rules to route external traffic to internal services.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    入口
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ingress...
+    Configure ingress rules to route external traffic to internal services.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     設定 Ingress 規則以將外部流量路由至內部服務。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     機密資訊
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Secret
+    Secret...
     Store sensitive API keys in K8s secrets, not in plain text.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     將敏感的 API Key 儲存在 K8s Secrets 中，而非明文儲存。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -398,18 +437,16 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        CI/CD 與 MLOps 已是業界標準。熟悉這些自動化流程不僅能減少重複勞動，更能讓 AI 模型與應用服務穩定落地。感謝收聽。
-        我是雲曦。
+        DevOps 讓開發與部署更順暢。自動化測試與部署能大幅提升團隊效率。
+        我是曉臻，我們下次見。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Automate everything!
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

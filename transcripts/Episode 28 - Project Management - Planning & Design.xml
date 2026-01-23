@@ -1,46 +1,42 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到專案規劃與設計篇。軟體開發不是一個人的事，這集整理了與 PM 及設計師在規劃階段溝通時，最常出現的關鍵字。
+        歡迎來到專案規劃與設計篇。
+        軟體開發不是一個人的事，這集整理了與 PM 及設計師在規劃階段溝通時，最常出現的關鍵字。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，I have a scope creep issue in my life.
+          曉臻，我的生活中有範圍蔓延的問題。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        怎麼了 Nova？
+        怎麼了 Phoebe？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          I just wanted to buy a coffee, but I ended up with a sandwich, a muffin, and a loyalty card. Scope Creep!
+          我只是想買杯咖啡，結果最後買了三明治、馬芬，還有集點卡。範圍蔓延！
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈哈，這就是典型的 Scope Creep（範圍蔓延）。在專案中這可是大忌喔！
-        專案啟動時，確認範圍與目標是首要任務，接下來我們先看規劃階段的關鍵字。
+        哈，這就是典型的 Scope Creep（範圍蔓延）。在專案中這可是大忌喔！專案啟動時，確認範圍與目標是首要任務，我們先看規劃階段的關鍵字。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -48,331 +44,316 @@
   <voice name="zh-TW-HsiaoChenNeural">
     利害關係人
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Stakeholder
+    Stakeholder...
     We need to update the stakeholders on the project progress.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們需要向利害關係人更新專案進度。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     產品需求文件
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    PRD
+    PRD...
     PRD stands for Product Requirements Document.
-    The PRD describes all features and user flows in detail.
+    The PRD outlines the purpose, features, and functionality of the product.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    PRD 是 Product Requirements Document 的縮寫。
+    產品需求文件概述了產品的目的、特性和功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    產品需求文件詳細描述了所有功能與使用者流程。
     產品路線圖
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Roadmap
+    Roadmap...
     Check the roadmap to see upcoming features for next year.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     查看路線圖以了解明年即將推出的功能。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     里程碑
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Milestone
-    We have reached a major milestone by completing the backend.
+    Milestone...
+    Reaching the beta launch is a critical milestone for our team.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    達到 Beta 發布對我們團隊來說是一個關鍵的里程碑。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    完成後端開發讓我們達到了一個主要的里程碑。
     探索階段
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Discovery
+    Discovery...
     We are in the discovery phase to understand user needs.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們正處於探索階段以了解使用者需求。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     截止日期
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Deadline
+    Deadline...
     The deadline is next Friday, so we need to hurry.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     截止日期是下週五，所以我們要快一點。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     時間軸
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Timeline
+    Timeline...
     The project timeline is very tight given the scope.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     考慮到範圍，專案的時間軸非常緊湊。
-    季度
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    第四季
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Quarter
-    Q4
-    Fourth Quarter
+    Q4...
+    Q4 stands for Fourth Quarter.
     This is our main goal for Q4.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Q4 是 Fourth Quarter 的縮寫。
+    這是我們第四季的主要目標。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    這是我們第四季的主要目標。
-    需求定義不清，是專案失敗的主因，因此我們需要接下來這些明確的規格術語。
     規格
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Spec
+    Spec...
     Spec is short for Specification.
-    The feature spec is not finalized, so requirements might change.
+    We need a detailed technical spec before we start coding.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Spec 是規格 (Specification) 的縮寫。
+    在開始寫程式之前，我們需要一份詳細的技術規格。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    功能規格還沒定案，所以需求可能會變。
     用戶故事
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    User Story
+    User Story...
     "As a user, I want to login" implies a user story.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     「作為使用者，我想要登入」暗示了一個用戶故事。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     驗收標準
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Acceptance Criteria
+    Acceptance Criteria...
     The feature must meet all acceptance criteria before QA approves.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     功能必須符合所有驗收標準，QA 才會核准。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     可交付成果
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Deliverable
+    Deliverable...
     What are the key deliverables for this sprint?
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     這個衝刺的關鍵可交付成果是什麼？
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     最小可行性產品
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    MVP
+    MVP...
     MVP stands for Minimum Viable Product.
-    We are launching an MVP to test the market reaction.
+    The MVP includes only the core features necessary to solve the user's problem.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
-    我們正推出 MVP 來測試市場反應。
-    歡迎回到 Project Management Part 2。
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          Is "cleaning my room" out of scope?
-        </lang>
-      </prosody>
-    </mstts:express-as>
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        If it's not in the PRD, it's out of scope!
-      </prosody>
-    </mstts:express-as>
+    MVP 是 Minimum Viable Product 的縮寫。
+    MVP 僅包含解決使用者問題所需的核心功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     範圍
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Scope
+    Scope...
     This request is out of scope for the current phase.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     這個請求超出了目前階段的範圍。
-    設計階段將需求轉化為可見的藍圖，常見的產出物有接下來這幾種。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        設計階段會產生哪些東西啊？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          常見的有 Wireframe、Mockup 和 Prototype，把需求轉化為可見的藍圖。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     線框圖
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Wireframe
+    Wireframe...
     The designer provided the wireframes for the new layout.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     設計師提供了新版面的線框圖。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     視覺稿
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Mockup
+    Mockup...
     The high-fidelity mockup shows exactly how the app will look.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     高保真視覺稿展示了 App 確切看起來會是什麼樣子。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     原型
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Prototype
+    Prototype...
     Build a quick prototype to validate the user interaction.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     建立一個快速原型來驗證使用者互動。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     回饋
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Feedback
+    Feedback...
     We received positive feedback from the beta testers.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們收到來自 Beta 測試者的正面回饋。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     迭代
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Iteration
+    Iteration...
     We improve the product quality in every iteration.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們在每次迭代中改進產品品質。
-    上線與維運是檢驗成果的時刻，接下來這些術語涵蓋了解決最後一哩路的過程。
-    技術債
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Tech Debt
-    We need to pay down tech debt to improve system stability.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    我們需要償還技術債以改善系統穩定性。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        怎麼確保產品符合使用者期待？
+      </prosody>
+    </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          Like paying off a credit card, but for code.
+          需要關注設計與評估，像是 Pain Point、Feasibility 和 Metric。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    部署
+    痛點
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Deploy
-    We will deploy the hotfix to production tonight.
+    Pain Point...
+    Our goal is to solve the user's biggest pain point.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    我們的目標是解決使用者最大的痛點。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    我們今晚會部署 Hotfix 到正式環境。
-    回滾
+    可行性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Rollback
-    We had to rollback the deployment due to a crash.
+    Feasibility...
+    Please analyze the technical feasibility of this idea.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    請分析這個點子的技術可行性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    因為當機，我們必須回滾這次部署。
-    變更紀錄
+    基準
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Changelog
-    Check the changelog for details on what's new.
+    Benchmark...
+    Use the current performance as a benchmark for improvement.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用目前的效能作為改進的基準。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    查看變更紀錄以了解更新細節。
-    功能切換
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Feature Flag
-    Use a feature flag to verify the code in production safely.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    使用功能切換來安全地在正式環境驗證程式碼。
-    維護
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Maintenance
-    The system is under scheduled maintenance for upgrades.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    系統正在進行排程維護以進行升級。
     資源
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Resource
+    Resource...
     We lack the engineering resources to build this now.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們現在缺乏工程資源來打造這個。
-    指標
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Metric
-    User engagement is a key business metric we track.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    指標
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Metric...
+    User engagement is a key business metric we track.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     使用者參與度是我們追蹤的關鍵商業指標。
-    與非技術人員溝通時，使用這些標準術語能有效減少誤解，確保大家都在同一個頻率上。
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          That's all for this sprint. See you in the next iteration!
-        </lang>
+        That's all for this sprint. See you in the next iteration!
       </prosody>
     </mstts:express-as>
   </voice>
-
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -390,7 +371,7 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        所以 User Story 要寫清楚 Acceptance Criteria？
+        所以使用者故事要寫清楚驗收標準？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -401,12 +382,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我是雲曦，我們下次見。
+        我是主持人曉臻，我們下次見！
       </prosody>
     </mstts:express-as>
   </voice>
-
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        And I'm Phoebe. See you next time!
+      </prosody>
+    </mstts:express-as>
+  </voice>
 </speak>

@@ -3,22 +3,22 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 Web 開發基礎篇。在這個萬物互聯的 AI 時代，API 不只是前後端的橋樑，更是 AI Agent 感知世界的觸手。弄懂 HTTP 與現代協定，是每一位開發者的必修課。
+        歡迎來到 Web 開發基礎篇。
+        在這個萬物互聯的 AI 時代，API 不只是前後端的橋樑，更是 AI Agent 感知世界的觸手。
+        弄懂 HTTP 與現代協定，是每一位開發者的必修課。
         我們從一次完整的 HTTP 互動開始，包含請求與回應。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，這就像是網路世界的傳接球遊戲，有去就要有回，如果不回話那就是 Time out 了。
+          曉臻，這就像是網路世界的傳接球遊戲，有去就要有回，如果不回話那就是 Time out 了。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -30,27 +30,28 @@
   <voice name="zh-TW-HsiaoChenNeural">
     請求
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Request
-    The client sends an HTTP request to the server for data.
+    Request...
+    An HTTP request contains the method, headers, and body needed to ask the server for a resource.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    HTTP 請求包含了向伺服器請求資源所需的方法、標頭與主體。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    客戶端發送一個 HTTP 請求到伺服器取得資料。
     回應
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Response
-    The server returns a JSON response containing the user profile.
+    Response...
+    The server responds with a status code and data, telling the client if the operation succeeded.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    伺服器回應狀態碼與資料，告訴客戶端操作是否成功。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    伺服器回傳一個包含使用者資料的 JSON 回應。
     要告訴伺服器做什麼動作，我們需要使用正確的 HTTP 方法與參數設定。
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -60,7 +61,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -72,47 +72,54 @@
   <voice name="zh-TW-HsiaoChenNeural">
     方法
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Method
+    Method...
     GET and POST are the most common HTTP methods used in APIs.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     GET 和 POST 是 API 中最常用的 HTTP 方法。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     端點
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Endpoint
+    Endpoint...
     Hit the login endpoint to authenticate the user credentials.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     呼叫登入端點以驗證使用者憑證。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     參數
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Parameter
+    Parameter...
     Validate the input parameters strictly to avoid errors.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     嚴格驗證輸入參數以避免錯誤。
-    查詢字串
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Query String
-    Pass the search filters in the URL query string.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    查詢字串
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Query String...
+    Pass the search filters in the URL query string.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     在 URL 查詢字串中傳遞搜尋篩選條件。
-    除了傳統的 REST，現在還有更多選擇。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        除了傳統的 REST，現在還有更多選擇。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -122,11 +129,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈哈，沒錯，不再 Over-fetching 真的是一大福音。
+        哈，沒錯，不再 Over-fetching 真的是一大福音。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -134,37 +140,58 @@
   <voice name="zh-TW-HsiaoChenNeural">
     GraphQL
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    GraphQL
+    GraphQL...
     GraphQL is a query language for APIs that allows clients to request exactly what they need.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     GraphQL 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
-    gRPC
   </voice>
 
-  <voice name="en-US-PhoebeMultilingualNeural">
+  <voice name="zh-TW-HsiaoChenNeural">
     gRPC
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    gRPC...
+    gRPC stands for gRPC Remote Procedure Call.
     gRPC is a high-performance RPC framework that uses Protocol Buffers.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    gRPC 是 gRPC Remote Procedure Call 的縮寫。
     gRPC 是一個使用 Protocol Buffers 的高效能 RPC 框架。
-    HTTP/3
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    MQTT
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
+    MQTT...
+    MQTT stands for Message Queuing Telemetry Transport.
+    It is a lightweight publish-subscribe protocol, perfect for IoT devices with limited bandwidth.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    MQTT 是 Message Queuing Telemetry Transport 的縮寫。
+    它是一種輕量的發布訂閱協定，非常適合頻寬有限的物聯網裝置。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     HTTP/3
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    HTTP/3...
     HTTP/3 runs on QUIC to reduce latency over unreliable networks.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     HTTP/3 運作在 QUIC 之上，以減少不穩定網路中的延遲。
-    HTTP 訊息的內部結構，藏著許多重要資訊，通常分為標頭與主體。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        HTTP 訊息的內部結構，藏著許多重要資訊，通常分為標頭與主體。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -174,7 +201,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -186,58 +212,135 @@
   <voice name="zh-TW-HsiaoChenNeural">
     標頭
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Header
+    Header...
     Authentication tokens are usually sent in the Authorization header.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     驗證 Token 通常放在 Authorization 標頭中傳送。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     主體
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Body
+    Body...
     The POST request body contains the form data submitted by the user.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     POST 請求的主體包含了使用者提交的表單資料。
-    載荷
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    酬載
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Payload
+    Payload...
     The JSON payload includes the user ID and email address.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    JSON 酬載包含了使用者 ID 與電子郵件地址。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    JSON 載荷包含了使用者 ID 與電子郵件地址。
     狀態碼
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Status Code
-    A 200 status code indicates the request was successful.
-    Always check for 404 or 500 errors.
+    Status Code...
+    Status codes are the server's way of quickly communicating the result, like 200 for success or 404 for not found.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    狀態碼是伺服器快速溝通結果的方式，例如 200 代表成功，404 代表找不到。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    200 狀態碼表示請求成功。務必檢查 404 或 500 錯誤。
     內容類型
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Content-Type
+    Content-Type...
     Set the Content-Type header to application/json.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    將 Content-Type 標頭設定為 application/json。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    將 Content-Type 標頭設定為 application/json。
-    最後，設計良好的 API 不僅好用，還有各種機制保護系統。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        協定搞定了傳輸，但當資料抵達伺服器時，是誰在門口迎接的呢？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          那就是 Web Server 啦！它們就像是守門員，負責把流量導引到正確的應用程式。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，讓我們來認識這些常見的幕後功臣。
+      </prosody>
+    </mstts:express-as>
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    IIS
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    IIS stands for Internet Information Services.
+    The default web server for Windows, but less common in modern cross-platform deployments.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    IIS 是 Internet Information Services 的縮寫。
+    Windows 的預設網頁伺服器，但在現代跨平台部署中較不常見。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Kestrel
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Kestrel is the cross-platform web server for ASP.NET Core.
+    It's blazing fast but typically sits behind a reverse proxy.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Kestrel 是 ASP.NET Core 的跨平台網頁伺服器。
+    它速度極快，但通常位於反向代理之後。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Nginx
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Nginx is widely used as a reverse proxy and load balancer due to its high performance and event-driven architecture.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Nginx 因其高效能與事件驅動架構，被廣泛用作反向代理與負載平衡器。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Apache HTTP Server.
+    One of the oldest web servers, known for its flexibility with .htaccess files.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache HTTP Server。
+    最古老的網頁伺服器之一，以 .htaccess 檔案的靈活性聞名。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        最後，設計良好的 API 不僅好用，還有各種機制保護系統。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -247,7 +350,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -259,56 +361,57 @@
   <voice name="zh-TW-HsiaoChenNeural">
     RESTful API
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    RESTful API
+    RESTful API...
     RESTful API follows standard HTTP methods and resource-based URLs.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     RESTful API 遵循標準 HTTP 方法與基於資源的 URL。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     冪等性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Idempotency
+    Idempotency...
     Idempotency ensures that making the same request multiple times yields the same result.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     冪等性確保多次執行相同請求會產生相同的結果。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     速率限制
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Rate Limiting
+    Rate Limiting...
     Implement rate limiting to prevent API abuse.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     實作速率限制以防止 API 濫用。
-    分頁
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Pagination
-    Use pagination to return large datasets in smaller chunks.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    分頁
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Pagination...
+    Use pagination to return large datasets in smaller chunks.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     使用分頁將大型資料集分成小區塊回傳。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     版本控制
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Versioning
+    Versioning...
     API versioning helps maintain backward compatibility for existing clients.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     API 版本控制有助於為現有客戶端維持向後相容性。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -338,21 +441,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        HTTP 是網路世界的通用語言。學好它，無論是寫爬蟲、對接第三方服務，還是開發自己的後端，都能得心應手。
-        我是雲曦。
+        HTTP 協定與 API 設計是 Web 開發的基石。RESTful 要語意清楚，版本控制要做好。
+        我是曉臻，我們下次繼續聊。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. See you in the next request!
+        And I'm Phoebe. Catch you later!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

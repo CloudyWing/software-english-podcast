@@ -8,21 +8,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，工程師也要懂 UX 嗎？當然！不然做出來的功能如果沒人會用，那程式碼寫得再漂亮也沒意義啊。
+          曉臻，工程師也要懂 UX 嗎？當然！不然做出來的功能如果沒人會用，那程式碼寫得再漂亮也沒意義啊。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        完全正確，以使用者為中心才是產品成功的關鍵。我們會用到以下核心概念。
+        完全正確，以使用者為中心才是產品成功的關鍵。我們要怎麼了解使用者呢？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,132 +28,148 @@
   <voice name="zh-TW-HsiaoChenNeural">
     使用者介面
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    UI
+    UI...
+    UI stands for User Interface.
     The UI should be intuitive and easy to navigate.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     UI 是 User Interface 的縮寫。使用者介面應該直覺且易於瀏覽。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     使用者體驗
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    UX
+    UX...
+    UX stands for User Experience.
     Good UX design focuses on the user's journey and satisfaction.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     UX 是 User Experience 的縮寫。好的 UX 設計專注於使用者旅程與滿意度。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     使用者旅程
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    User Journey
+    User Journey...
     Map out the user journey to identify pain points.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     繪製使用者旅程以找出痛點。
-    人物誌
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Persona
-    Create a user persona to represent our target audience.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    人物誌
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Persona...
+    Create a user persona to represent our target audience.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     建立一個使用者人物誌來代表我們的目標受眾。
-    從概念到成品，需要經歷不同精細度的設計階段。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        從概念到成品，需要經歷不同精細度的設計階段。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          現在大家都用 Figma 了吧？我也看過有些團隊直接跳過 Wireframe 開始做高保真圖，這樣修改起來成本很高呢。
+          真的。不過現在 Figma 太方便了，導致很多人跳過 Wireframe 直接刻細節。雖然看起來完成度很高，但要改邏輯的時候就痛苦了。
         </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        是啊，循序漸進還是比較保險的做法。
+        接下來，我們就按照這個順序，來看看後續的設計產出。
       </prosody>
     </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        是啊，循序漸進還是比較保險的做法。
-      </prosody>
-    </mstts:express-as>
+    Figma
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Figma is a collaborative design tool used by our team.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Figma 是我們團隊使用的協作設計工具。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     線框圖
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Wireframe
-    A wireframe is a low-fidelity sketch of the layout.
+    Wireframe...
+    A wireframe focuses on layout and structure without the distraction of colors and details.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    線框圖專注於版面配置與結構，排除顏色與細節的干擾。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    線框圖是版面配置的低保真草圖。
     原型
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Prototype
-    We built an interactive prototype to test the user flow.
+    Prototype...
+    Prototypes simulate the interaction flow, allowing us to test usability before writing code.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    原型模擬互動流程，讓我們能在寫程式碼之前測試易用性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    我們建立了一個互動式原型來測試使用者流程。
     視覺稿
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Mockup
+    Mockup...
     The mockup shows the final colors and typography.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     視覺稿展示了最終的顏色與字體排印。
-    Figma
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Figma is a collaborative design tool used by our team.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Figma 是我們團隊使用的協作設計工具。
     生成式 UI
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Generative UI
+    Generative UI...
     Generative UI dynamically creates interfaces based on user intent.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    生成式 UI 根據使用者意圖動態建立介面。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    生成式 UI 根據使用者意圖動態建立介面。
-    為了確保介面的美觀與易用性，設計系統是必不可少的，包含以下元素。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        為了確保介面的美觀與易用性。Phoebe，如果不統一規範，大家的 CSS 可能會打架打得很慘烈吧？
+      </prosody>
+    </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          設計系統就像是前端的元件庫，如果沒有定義好，大家的 CSS 就會開始打架了。
+          沒錯，設計系統就像是前端的元件庫，如果沒有定義好，大家的 CSS 就會開始打架了。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈哈，真的，那樣維護起來會很痛苦。
+        哈，那樣維護起來真的會很痛苦。讓我們來看看設計系統裡有哪些核心元素。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -163,77 +177,85 @@
   <voice name="zh-TW-HsiaoChenNeural">
     排版
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Typography
+    Typography...
     Consistent typography improves readability and brand identity.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     一致的排版提升了易讀性與品牌識別。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     色票
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Color Palette
+    Color Palette...
     Stick to the defined color palette for all UI elements.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     所有 UI 元素都要堅守定義好的色票。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     網格系統
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Grid System
+    Grid System...
     Use a 12-column grid system for alignment and consistency.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用 12 欄網格系統來保持對齊與一致性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     空白
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Whitespace
+    Whitespace...
     Use whitespace effectively to reduce visual clutter.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     有效使用空白以減少視覺混亂。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     響應式設計
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Responsive Design
+    Responsive Design...
     Responsive design adapts the layout to different screen sizes.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     響應式設計使版面配置適應不同的螢幕尺寸。
-    設計 Token
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Design Tokens
-    Design Tokens store UI decisions like color and spacing in a platform-agnostic way.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    設計 Token
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Design Tokens...
+    Design Tokens store UI decisions like color and spacing in a platform-agnostic way.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     設計 Token 以平台無關的方式儲存顏色與間距等 UI 決策。
-    我們來認識一些常見的 UI 元件，這些是構成畫面的基本單位。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        除了設計系統，認識常見的 UI 元件也很重要，這些可是構成畫面的基本單位。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          這些元件名稱都很直覺，但像是 Modal 跟 Dialog 有時候會混用，開發時最好先定義清楚。
+          雖然名稱都很直覺，但像是 Modal 跟 Dialog 有時候會混用，開發時最好先定義清楚。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -245,67 +267,77 @@
   <voice name="zh-TW-HsiaoChenNeural">
     導覽列
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Navbar
+    Navbar...
     The navbar contains links to the main sections of the site.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     導覽列包含通往網站主要區塊的連結。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     側邊欄
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Sidebar
+    Sidebar...
     The sidebar provides quick access to filters and settings.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     側邊欄提供快速存取篩選器與設定的功能。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     模態視窗
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Modal
+    Modal...
     Open a modal window to confirm the delete action.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     開啟模態視窗以確認刪除動作。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     輪播
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Carousel
+    Carousel...
     The carousel displays a slideshow of featured products.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     輪播展示精選產品的幻燈片。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     麵包屑
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Breadcrumb
+    Breadcrumb...
     Breadcrumbs help users understand their location in the site hierarchy.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     麵包屑協助使用者了解他們在網站階層中的位置。
-    行動呼籲
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    CTA
-    Example: The "Sign Up" button is the primary CTA on the landing page.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    行動呼籲
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    CTA...
+    CTA stands for Call to Action.
+    Example: The "Sign Up" button is the primary CTA on the landing page.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     CTA 是 Call to Action 的縮寫。「註冊」按鈕是著陸頁上主要的行動呼籲。
-    最後，透過測試與迭代來驗證設計的成效，我們需要關注這些指標。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        最後，我們可以透過測試與迭代來驗證設計的成效。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -315,11 +347,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        數據驅動的設計才能真正解決問題。
+        數據驅動的設計才能真正解決問題。我們來看看相關的指標。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -327,56 +358,57 @@
   <voice name="zh-TW-HsiaoChenNeural">
     互動
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Interaction
+    Interaction...
     Micro-interactions make the app feel more alive.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     微互動讓應用程式感覺更生動。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     易用性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Usability
+    Usability...
     Conduct usability testing to fix interface issues.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     進行易用性測試以修復介面問題。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     A/B 測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    A/B Testing
+    A/B Testing...
     We are running an A/B test to see which button performs better.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們正在進行 A/B 測試，看看哪個按鈕表現更好。
-    無障礙
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Accessibility
-    Accessibility ensures people with disabilities can use the app.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    無障礙
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Accessibility...
+    Accessibility ensures people with disabilities can use the app.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     無障礙設計確保身心障礙人士也能使用這個應用程式。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     風格指南
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Style Guide
+    Style Guide...
     Follow the style guide to maintain visual consistency.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     遵循風格指南以維持視覺一致性。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -406,21 +438,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        好的設計不僅是好看，更是好用。學會這些術語，你就能在設計評審中精確表達你的技術觀點。感謝收聽。
-        我是雲曦。
+        好的設計從使用者需求開始。Wireframe 與 Prototype 能大幅降低開發成本。
+        我是主持人曉臻，感謝大家的陪伴。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Design for everyone!
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

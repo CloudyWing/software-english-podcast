@@ -3,26 +3,43 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到版本控制進階篇。如果說 git commit 是紀錄，那進階指令就是為了「重寫歷史」與「拯救災難」而存在的。在現代開發流程中，優雅的 Commit History 也是一種藝術。
+        歡迎來到版本控制進階篇。
+        如果說 git commit 是紀錄，那進階指令就是為了「重寫歷史」與「拯救災難」而存在的。
+        在現代開發流程中，優雅的 Commit History 也是一種藝術。
         人非聖賢，孰能無過。寫錯 Commit Message 或是漏了檔案是常有的事。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，只要還沒 Push 出去，歷史都是可以被篡改的！但如果 Push 了，請用 Revert，不要用 Reset，拜託。
+          曉臻，只要還沒 Push 出去，歷史都是可以被修改的！
+          但如果 Push 了，請用 Revert，不要用 Reset，拜託。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這是團隊合作的大忌。我們先看最常用的修補指令。
+        這是團隊合作的大忌。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        那如果我只是不小心寫錯了 Commit Message 呢？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          那就用 Amend 偷偷改掉就好。
+        </lang>
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,55 +47,74 @@
   <voice name="zh-TW-HsiaoChenNeural">
     修正
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Amend
+    Amend...
     Use git commit amend to fix the typo in your last message.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用 amend 來修正你上一則訊息中的錯字。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     重設
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Reset
+    Reset...
     Git reset can undo changes, but be careful with the hard option.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Git reset 可以復原變更，但要小心使用 hard 選項。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     還原
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Revert
+    Revert...
     Git revert creates a new commit that inverses the changes of a previous commit.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Git revert 建立一個新的提交來反轉先前提交的變更。
-    有時候我們的開發過程很雜亂，這時候就需要整理一下，讓歷史紀錄看起來像個故事書。
-    壓縮
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Squash
-    Squash your multiple work-in-progress commits into one clean commit.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    將你多個進行中的 Commits 壓縮成一個乾淨的 Commit。
-    變基
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        有時候開發過程很雜亂，全是 "WIP" 或 "Fypos"，這樣能推出去嗎？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          當然不行！一定要整理得乾乾淨淨。
+        </lang>
+      </prosody>
+    </mstts:express-as>
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    壓縮
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Rebase
+    Squash...
+    Squash your multiple work-in-progress commits into one clean commit.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    將你多個進行中的 Commits 壓縮成一個乾淨的 Commit。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    變基
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Rebase...
     Rebase your branch onto main to keep a linear history.
     Interactive rebase is my favorite tool for polishing pull requests.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    將你的分支變基到 main 上以保持線性的歷史紀錄。
     互動式變基是我用來打磨 Pull Requests 最喜歡的工具。
   </voice>
 
@@ -86,11 +122,10 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         最後，介紹幾個救命用的神兵利器。
-        Nova，當你要切換 Context 或是找 Bug 的時候，都用什麼？
+        Phoebe，當你要切換 Context 或是找 Bug 的時候，都用什麼？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -100,7 +135,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -112,46 +146,46 @@
   <voice name="zh-TW-HsiaoChenNeural">
     暫存
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Stash
+    Stash...
     Git stash temporarily shelves your changes so you can switch branches.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Git stash 暫時擱置你的變更，讓你能夠切換分支。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     摘選
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Cherry-pick
+    Cherry-pick...
     Cherry-pick allows you to apply a specific commit from another branch.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Cherry-pick 讓你能夠套用來自另一個分支的特定提交。
-    究責
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Blame
-    Git blame shows who modified each line of a file.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    究責
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Blame...
+    Git blame shows who modified each line of a file.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     Git blame 顯示是誰修改了檔案的每一行。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     二分搜尋
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Bisect
+    Bisect...
     Git bisect uses binary search to find the commit that introduced a bug.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Git bisect 使用二分搜尋法來找出引入 Bug 的那個 Commit。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -184,18 +218,41 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這集的 Git 進階技巧就到這裡。善用這些工具，你不僅是寫程式的人，更是掌控專案歷史的管理者。
-        我是雲曦。
+        對了，說到歷史紀錄，我在 Pull 的時候常常會產生額外的 Merge Commit，這有辦法避免嗎？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Clean history, clear mind.
+        <lang xml:lang="zh-TW">
+          當然，你可以使用 Pull Rebase。
+          It re-applies your local changes on top of the remote branch, keeping the history linear and clean.
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        原來如此，它會重新套用我的變更在遠端分支之上，保持歷史線性且乾淨。這招學起來了！
       </prosody>
     </mstts:express-as>
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        進階 Git 技巧能讓你從容面對各種狀況。乾淨的歷史紀錄，是給未來自己最好的禮物。
+        我是曉臻，我們下次見！
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        I'm Phoebe. See you next time!
+      </prosody>
+    </mstts:express-as>
+  </voice>
 </speak>

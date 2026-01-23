@@ -3,26 +3,30 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到軟體品質保證篇。即使 AI 能自動生成程式碼，寫出經過測試、穩固的邏輯仍是專業工程師的職責。這集我們深入探討測試種類與 TDD 開發流程。
-        確保軟體品質，我們需要從不同層級進行測試，接下來是常見的測試類型。
+        歡迎來到軟體品質保證篇。
+        即使 AI 能自動生成程式碼，寫出經過測試、穩固的邏輯仍是專業工程師的職責。
+        這集我們深入探討測試種類與 TDD 開發流程。
+  </prosody></mstts:express-as></voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        確保軟體品質，我們需要從不同層級進行測試。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，測試就像是買保險，平常覺得很麻煩又花時間，但出事的時候你會慶幸自己有寫。
+          曉臻，測試就像是買保險，平常覺得很麻煩又花時間，但出事的時候你會慶幸自己有寫。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，特別是 "It works on my machine" 這種事，有測試保護真的差很多。
+        沒錯，特別是 "It works on my machine" 這種鬼故事。測試其實分很多層次，不只是單元測試而已。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,87 +34,100 @@
   <voice name="zh-TW-HsiaoChenNeural">
     單元測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Unit Testing
+    Unit Testing...
     Unit testing verifies individual functions in isolation.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     單元測試在隔離狀態下驗證個別函式。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     整合測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Integration Testing
+    Integration Testing...
     Integration testing checks if different modules work together correctly.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     整合測試檢查不同模組是否能正確協同運作。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     端對端測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    E2E Testing
-    E2E testing simulates the real user scenario from start to finish.
+    E2E Testing...
+    E2E stands for End-to-End.
+    E2E testing simulates a complete user journey, like a customer adding items to a cart and checking out.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    E2E Testing 是 End-to-End Testing 的縮寫。
+    端對端測試模擬完整的使用者旅程，例如客戶將商品加入購物車並結帳。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    E2E Testing 是 End-to-End Testing 的縮寫。端對端測試從頭到尾模擬真實使用者場景。
     手動測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Manual Testing
-    Manual testing is still necessary for UI and UX verification.
+    Manual Testing...
+    Manual testing is essential for catching visual glitches and usability issues that automated scripts might miss.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    手動測試對於捕捉自動化腳本可能遺漏的視覺瑕疵與易用性問題至關重要。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    手動測試對於 UI 和 UX 驗證仍然是必要的。
     冒煙測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Smoke Test
-    Run a quick smoke test to verify the critical path is working.
+    Smoke Test...
+    Run a quick smoke test after deployment to verify that the application successfully starts and the login page loads.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    部署後執行快速的冒煙測試，以驗證應用程式能成功啟動且登入頁面可載入。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    執行快速的冒煙測試以驗證關鍵路徑運作正常。
     回歸測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Regression Testing
-    Run regression testing to ensure new changes didn't break existing features.
+    Regression Testing...
+    Regression testing ensures that the new payment feature didn't accidentally break the existing login functionality.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    回歸測試確保新的支付功能沒有意外破壞現有的登入功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    執行回歸測試以確保新變更沒有破壞現有功能。
     負載測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Load Testing
-    Load testing determines how the system behaves under high traffic.
+    Load Testing...
+    Load testing simulates thousands of concurrent users to see if the server can handle the Black Friday traffic spike.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    負載測試模擬數千名同時上線的使用者，看看伺服器能否處理黑色星期五的流量高峰。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    負載測試決定系統在高流量下的行為表現。
     壓力測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Stress Testing
-    Stress testing pushes the system beyond its limits to see how it breaks.
+    Stress Testing...
+    Stress testing pushes the system to its breaking point to verify that it recovers gracefully without data loss.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    壓力測試將系統推向極限，以驗證它能優雅地復原且不遺失資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    壓力測試將系統推向極限，看看它如何崩潰。
-    AI 時代也帶來了新的測試方法論，主要的流派如下，讓我們接著往下看。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        測試寫起來很累，AI 能不能幫幫忙？
+      </prosody>
+    </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -120,11 +137,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        很難啦，通常都是事後補測試。不過有寫總比沒寫好！
+        很難啦，通常都是事後補測試。不過有信仰總比沒信仰好，我們來看看這些開發哲學。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -132,57 +148,69 @@
   <voice name="zh-TW-HsiaoChenNeural">
     測試驅動開發
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    TDD
+    TDD...
+    TDD stands for Test-Driven Development.
     TDD requires writing tests before writing code.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    TDD 是 Test-Driven Development 的縮寫。
+    測試驅動開發要求在寫程式碼前先寫測試。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    TDD 是 Test-Driven Development 的縮寫。測試驅動開發要求在寫程式碼前先寫測試。
     行為驅動開發
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    BDD
+    BDD...
+    BDD stands for Behavior-Driven Development.
     BDD uses human-readable descriptions for test cases.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    BDD 是 Behavior-Driven Development 的縮寫。
+    行為驅動開發使用人類可讀的描述來撰寫測試案例。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    BDD 是 Behavior-Driven Development 的縮寫。行為驅動開發使用人類可讀的描述來撰寫測試案例。
     AI 驅動測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    AI-Driven Testing
+    AI-Driven Testing...
     AI-driven testing automatically generates test cases based on user behavior.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     AI 驅動測試根據使用者行為自動產生測試案例。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     自我修復測試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Self-Healing Tests
+    Self-Healing Tests...
     Self-healing tests automatically adjust selectors when the UI changes.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     當 UI 變更時，自我修復測試會自動調整選擇器。
-    持續測試
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Continuous Testing
-    Continuous testing executes automated tests as part of the CI pipeline.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    持續測試
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Continuous Testing...
+    Continuous testing executes automated tests as part of the CI pipeline.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     持續測試作為 CI 管線的一部分執行自動化測試。
-    在撰寫測試程式碼時，我們會用到接下來這些具體的技巧與指標。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        在撰寫測試程式碼時，我們會用到一些具體的技巧與指標。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -192,11 +220,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，測試品質比數量更重要。Flaky Test 也是我們最不想面對的噩夢。
+        沒錯，測試品質比數量更重要。Flaky Test 也是我們最不想面對的噩夢。接下來解釋這些術語。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -204,77 +231,87 @@
   <voice name="zh-TW-HsiaoChenNeural">
     測試案例
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Test Case
+    Test Case...
     Write a test case for every edge case you can think of.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     為你能想到的每個邊界情況寫一個測試案例。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     測試套件
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Test Suite
+    Test Suite...
     The entire test suite takes 10 minutes to run.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     整個測試套件需要 10 分鐘才能執行完畢。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     斷言
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Assertion
+    Assertion...
     The assertion fails if the expected value does not match the actual value.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     如果預期值與實際值不符，斷言就會失敗。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     程式碼覆蓋率
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Code Coverage
+    Code Coverage...
     We aim for 80% code coverage on the backend project.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們的目標是後端專案達到 80% 的程式碼覆蓋率。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     模擬
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Mocking
-    Mocking external APIs allows us to test without internet access.
+    Mocking...
+    Mocking the payment gateway allows us to verify transaction logic without actually charging a credit card.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    模擬支付閘道器讓我們可以驗證交易邏輯，而無需實際扣款。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    模擬外部 API 讓我們可以在沒有網路的情況下進行測試。
     存根
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Stubbing
+    Stubbing...
     Use stubbing to provide fixed responses for function calls.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用存根為函式呼叫提供固定的回應。
-    不穩定的測試
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Flaky Test
-    A flaky test passes sometimes and fails others without code changes.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    不穩定的測試
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Flaky Test...
+    A flaky test passes sometimes and fails others without code changes.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     不穩定的測試有時通過有時失敗，即便程式碼沒有變動。
-    最後是關於品質管理與缺陷追蹤的術語，接下來這些是 QA 日常工作的一部分。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        最後是關於品質管理與缺陷追蹤的術語。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -284,11 +321,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        哈哈，所以工程師要學著跟 QA 做朋友，他們可是我們最後的防線。
+        哈，所以工程師要學著跟 QA 做朋友，他們可是我們最後的防線。接下來這些是 QA 日常工作的一部分。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -296,46 +332,48 @@
   <voice name="zh-TW-HsiaoChenNeural">
     品保
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    QA
+    QA...
+    QA stands for Quality Assurance.
     QA engineers are responsible for the overall quality of the release.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    QA 是 Quality Assurance 的縮寫。
+    QA 工程師負責發布版本的整體品質。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    QA 是 Quality Assurance 的縮寫。QA 工程師負責發布版本的整體品質。
     驗收
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Acceptance
+    Acceptance...
     User Acceptance Testing (UAT) is the final step before go-live.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用者驗收測試 (UAT) 是上線前的最後一步。
-    缺陷
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Defect
-    Log the defect in the bug tracking system with reproduction steps.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    缺陷
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Defect...
+    Log the defect in the bug tracking system with reproduction steps.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     在 Bug 追蹤系統中記錄缺陷及其重現步驟。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     修復
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Fix
+    Fix...
     Deploy the hotfix to fix the critical bug immediately.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     部署 Hotfix 以立即修復這個嚴重 Bug。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -365,21 +403,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        測試不是拖慢開發的累贅，而是加速重構的保障。養成寫測試的習慣，你的程式碼品質將會大幅提升。感謝收聽。
-        我是雲曦。
+        測試寫好了，品質有保障了。
+        我是主持人曉臻，祝大家學習愉快，我們下次見！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Tests save lives!
+        I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

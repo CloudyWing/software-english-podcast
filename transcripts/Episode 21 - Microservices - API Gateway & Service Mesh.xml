@@ -3,94 +3,110 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到微服務與雲端原生架構篇。當系統龐大到無法維護時，微服務往往是解決方案。這集我們探討如何拆分單體應用，以及管理分散式服務的關鍵技術。
-        微服務的核心概念，在於將單體拆解為獨立個體，接下來這引入了許多新的架構特性。
+        歡迎來到微服務與雲端原生架構篇。
+        當系統龐大到無法維護時，微服務往往是解決方案。
+        這集我們探討如何拆分單體應用，以及管理分散式服務的關鍵技術。
+      </prosody>
+      </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        微服務的核心概念，在於將單體拆解為獨立個體。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，單體架構雖然笨重，但至少 Debug 的時候只要看一個 Log。微服務一旦出問題，那真的是在成千上萬個 Log 裡大海撈針。
+          曉臻，單體架構雖然笨重，但至少 Debug 的時候只要看一個 Log。微服務一旦出問題，那真的是在成千上萬個 Log 裡大海撈針。
         </lang>
       </prosody>
     </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        沒錯，所以沒有完善的監控和追蹤系統，千萬別輕易嘗試。
+        微服務雖然解決了單體的臃腫，但也帶來了十倍的複雜度。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    可擴展性
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Scalability...
+    Microservices allow for independent scalability of each component.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    微服務允許每個元件獨立擴展。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    微服務
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Microservices...
+    Microservices structure an application as a collection of loosely coupled services.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    微服務將應用程式建構為一組鬆散耦合的服務集合。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    解耦
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Decoupling...
+    Decoupling ensures that changes in one service don't break others.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    解耦確保了一個服務的變更不會破壞其他服務。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    多語言
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Polyglot...
+    A microservice architecture supports polyglot programming using different languages.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    微服務架構支援使用不同語言的多語言程式設計。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    無狀態
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Stateless...
+    Microservices should ideally be stateless for easier scaling.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    理想情況下微服務應是無狀態的，以便更容易擴展。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    有狀態
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Stateful...
+    Managing stateful services in containers requires persistent storage.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    在容器中管理有狀態服務需要持久化儲存。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，所以沒有完善的監控和追蹤系統，千萬別輕易嘗試微服務，不然會死得很慘。
+        服務間的溝通與治理，是架構成功的關鍵。
       </prosody>
     </mstts:express-as>
   </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    單體式
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Monolith
-    The legacy system is a giant monolith that is hard to scale.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    舊系統是一個難以擴展的巨大單體應用。
-    微服務
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Microservices
-    Microservices architecture breaks the app into small, independent services.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    微服務架構將應用程式拆分為小型、獨立的服務。
-    解耦
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Decoupling
-    Decoupling services allows teams to deploy independently.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    解耦服務允許團隊獨立部署。
-    多語言
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Polyglot
-    A microservice architecture supports polyglot programming using different languages.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    微服務架構支援使用不同語言的多語言程式設計。
-    無狀態
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Stateless
-    Microservices should ideally be stateless for easier scaling.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    理想情況下微服務應是無狀態的，以便更容易擴展。
-    有狀態
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Stateful
-    Managing stateful services in containers requires persistent storage.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    在容器中管理有狀態服務需要持久化儲存。
-    服務間的溝通與治理，是架構成功的關鍵，我們需要接下來這些模式來協助管理。
-  </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -100,11 +116,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        API Gateway 就是那個稱職的導遊，幫我們把關所有請求。
+        API Gateway 就是那個稱職的導遊，幫我們把關所有請求。沒有它，這座迷宮可沒人走得出去。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -112,77 +127,91 @@
   <voice name="zh-TW-HsiaoChenNeural">
     前端專屬後端
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    BFF
+    BFF...
+    BFF stands for Backend for Frontend.
     The BFF pattern optimizes the API response for mobile devices.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    BFF 是 Backend for Frontend 的縮寫。
+    BFF 模式為行動裝置最佳化 API 回應。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    BFF 是 Backend for Frontend 的縮寫。BFF 模式為行動裝置最佳化 API 回應。
     API 閘道器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    API Gateway
-    The API gateway acts as a single entry point for all client requests.
+    API Gateway...
+    API stands for Application Programming Interface.
+    The API gateway handles routing, composition, and protocol translation for clients.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    API 是 Application Programming Interface 的縮寫。
+    API 閘道器為客戶端處理路由、組合以及協定轉換。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    API 是 Application Programming Interface 的縮寫。API 閘道器作為所有客戶端請求的單一入口點。
     服務發現
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Service Discovery
+    Service Discovery...
     Service discovery allows services to find each other dynamically.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     服務發現允許服務動態地找到彼此。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     服務網格
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Service Mesh
-    Istio is a popular service mesh for managing microservices communication.
+    Service Mesh...
+    A service mesh is a dedicated infrastructure layer for controlling service-to-service traffic.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    服務網格是專門用來控制服務間流量的基礎設施層。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Istio 是一個用於管理微服務通訊的熱門服務網格。
     邊車模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Sidecar Pattern
+    Sidecar Pattern...
     The sidecar pattern attaches a helper container to the main container.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     邊車模式將一個輔助容器附加到主容器旁。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     事件匯流排
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Event Bus
+    Event Bus...
     Services publish events to the event bus for asynchronous communication.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     服務將事件發布到事件匯流排以進行非同步通訊。
-    Saga 模式
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Saga Pattern
-    Use the Saga pattern to manage distributed transactions across multiple services.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    Saga 模式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Saga Pattern...
+    Use the Saga pattern to manage distributed transactions across multiple services.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     使用 Saga 模式來管理跨多個服務的分散式交易。
-    維運微服務需要更強的可觀測性與自動化，接下來這些工具能幫助我們看清系統內部。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        維運微服務需要更強的可觀測性與自動化。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -192,11 +221,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒有 Tracing，Debug 就像瞎子摸象。可觀測性是微服務的靈魂。
+        沒有 Tracing，Debug 就像瞎子摸象。可觀測性是微服務的靈魂。接下來這些工具能幫助我們看清系統內部。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -204,67 +232,78 @@
   <voice name="zh-TW-HsiaoChenNeural">
     內部開發者平台
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    IDP
+    IDP...
+    IDP stands for Internal Developer Platform.
     An IDP helps developers self-serve infrastructure and deployment.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    IDP 是 Internal Developer Platform 的縮寫。
+    內部開發者平台幫助開發者自助服務基礎設施與部署。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    IDP 是 Internal Developer Platform 的縮寫。內部開發者平台幫助開發者自助服務基礎設施與部署。
     容器編排
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Container Orchestration
+    Container Orchestration...
     Kubernetes handles container orchestration for our microservices.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Kubernetes 為我們的微服務處理容器編排。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     分散式追蹤
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Distributed Tracing
-    Use distributed tracing to visualize the request flow across services.
+    Distributed Tracing...
+    Distributed tracing tracks a request's journey across multiple microservices to pinpoint latency.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    分散式追蹤追蹤請求跨越多個微服務的旅程，以找出延遲所在。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    使用分散式追蹤來視覺化跨服務的請求流程。
     可觀測性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Observability
+    Observability...
     Good observability helps you understand the internal state of the system based on outputs.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     良好的可觀測性幫助你根據輸出來了解系統的內部狀態。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     健康檢查
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Health Check
+    Health Check...
     Kubernetes restarts pods that fail the health check.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     Kubernetes 會重啟未通過健康檢查的 Pod。
-    負載平衡
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Load Balancing
-    Load balancing distributes traffic evenly across service instances.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    負載平衡
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Load Balancing...
+    Load balancing distributes traffic evenly across service instances.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     負載平衡將流量均勻分配到服務實例上。
-    面對網路的不確定性，我們需要更穩健的錯誤處理機制，例如接下來幾種模式。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        面對網路的不確定性，我們需要更穩健的錯誤處理機制。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -274,11 +313,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        所以指數退避 (Exponential Backoff) 很重要，給系統一點喘息的空間。
+        所以指數退避 (Exponential Backoff) 很重要，給系統一點喘息的空間。例如接下來幾種模式。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -286,67 +324,76 @@
   <voice name="zh-TW-HsiaoChenNeural">
     斷路器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Circuit Breaker
+    Circuit Breaker...
     The circuit breaker stops the request to a failing service to prevent overload.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     斷路器停止對故障服務的請求以防止過載。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     冪等性
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Idempotency
+    Idempotency...
     Ensure the API is idempotent so retrying requests doesn't duplicate actions.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    確保 API 具冪等性，這樣重試請求就不會重複動作。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    API 是 Application Programming Interface 的縮寫。確保 API 具冪等性，這樣重試請求就不會重複動作。
     重試
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Retry
+    Retry...
     Implement a retry logic with exponential backoff.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     實作帶有指數退避的重試邏輯。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     超時
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Timeout
+    Timeout...
     Set a timeout to prevent waiting indefinitely for a response.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     設定一個超時時間以防止無限期等待回應。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     延遲
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Latency
+    Latency...
     Network latency can be an issue in microservice communication.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     網路延遲可能是微服務通訊中的一個問題。
-    故障隔離
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Fault Isolation
-    Microservices provide better fault isolation than monoliths.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    故障隔離
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Fault Isolation...
+    Microservices provide better fault isolation than monoliths.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     微服務比單體應用提供更好的故障隔離。
-    最後是關於部署策略的進階術語，接下來這些方法能協助我們達到零停機部署。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        最後是關於部署策略的進階術語。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -356,11 +403,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        確保了大部分使用者的安全，這是現代發布流程的標準配備。
+        確保了大部分使用者的安全，這是現代發布流程的標準配備。接下來這些方法能協助我們達到零停機部署。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -368,26 +414,24 @@
   <voice name="zh-TW-HsiaoChenNeural">
     藍綠部署
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Blue-Green Deployment
+    Blue-Green Deployment...
     Blue-green deployment minimizes downtime by switching traffic instantly.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    藍綠部署透過瞬間切換流量來最小化停機時間。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    藍綠部署透過瞬間切換流量來最小化停機時間。
     金絲雀發布
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Canary Release
+    Canary Release...
     Canary release rolls out the feature to a small percentage of users first.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     金絲雀發布先將功能推供給一小部分的用戶。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -420,18 +464,16 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        微服務雖然強大，但也帶來了維運的複雜度。理解這些治理模式，將幫助你在擴展系統時避開常見的陷阱。感謝收聽。
-        我是雲曦。
+        微服務架構帶來了靈活性，也帶來了複雜度。API Gateway 與 Service Mesh 能幫助我們管理這些複雜度。
+        我是曉臻，感謝收聽，我們下次見！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Think distributed!
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

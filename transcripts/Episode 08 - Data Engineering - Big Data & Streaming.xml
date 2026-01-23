@@ -3,26 +3,25 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到資料工程篇。在 AI 時代，資料工程師是 AI 金字塔的基石。沒有高品質的資料管線，就沒有準確的模型。
-        以前我們常說 ETL，但現在更流行的是 ELT。Nova，為什麼順序變了？
+        歡迎來到資料工程篇。
+        在 AI 時代，資料工程師是 AI 金字塔的基石。沒有高品質的資料管線，就沒有準確的模型。
+        以前我們常說 ETL，但現在更流行的是 ELT。Phoebe，為什麼順序變了？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，因為現在的雲端倉儲太強大了。我們先把原始資料全部 Load 進去，再用 SQL 進行 Transform。這樣更保留了原始資料的彈性。
+          曉臻，因為現在的雲端倉儲太強大了。我們先把原始資料全部 Load 進去，再用 SQL 進行 Transform。這樣更保留了原始資料的彈性。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這就是現代資料堆疊的核心概念。
+        這就是雲端時代的暴力美學：先存再說。那資料都存哪裡呢？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,81 +29,103 @@
   <voice name="zh-TW-HsiaoChenNeural">
     擷取、載入、轉換
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    ELT
+    ELT...
     ELT stands for Extract, Load, and Transform.
     We use tools like dbt to transform data inside the warehouse.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    ELT 是 Extract, Load, Transform 的縮寫。
+    ELT 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    ELT 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
+    資料倉儲
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Warehouse...
+    A Data Warehouse stores structured data optimized for analysis and reporting.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料倉儲儲存為了分析與報表而最佳化的結構化資料。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料湖
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Lake...
+    A Data Lake stores raw data in its native format, including unstructured data like logs and images.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料湖以原始格式儲存資料，包括 Log 和圖片等非結構化資料。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     資料湖倉
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Data Lakehouse
+    Data Lakehouse...
     A Data Lakehouse combines the structure of a warehouse with the flexibility of a data lake.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     資料湖倉結合了倉儲的結構化與湖泊的靈活性。
-    除了存得好，現在的業務更要求「快」。批次處理 (Batch) 已經不夠了，我們需要即時串流。
-    Apache Kafka
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Apache Kafka
-    Kafka is a distributed event streaming platform used for high-performance data pipelines.
+    存下來只是冷數據，我們要讓它流動起來。在這個講求即時的時代，Batch 已經太慢了。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Kafka 是一個用於高效能資料管線的分散式事件串流平台。
+    Apache Kafka
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Apache Kafka is a distributed event streaming platform used for high-performance data pipelines.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache Kafka 是一個分散式事件串流平台，常用於建構高效能的資料管線。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     串流處理
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Stream Processing
+    Stream Processing...
     Stream processing analyzes data in real-time as it arrives, rather than in batches.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     串流處理在資料抵達時即時分析，而非分批處理。
-    處理完大量的資料流後，我們還需要一個強大的引擎來進行複雜運算，以及一個指揮家來管理這些任務。
-    Apache Spark
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Apache Spark
-    Spark is a unified analytics engine for big data processing, known for its in-memory speed.
+    傳輸解決了，但面對 PB 級的資料量，我們需要一台運算怪獸。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Spark 是一個用於大數據處理的統一分析引擎，以記憶體內運算速度聞名。
-    編排
+    Apache Spark
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Orchestration
-    Airflow is a popular platform to programmatically author, schedule, and monitor workflows.
+    Apache Spark is a unified analytics engine for big data processing, known for its in-memory speed.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache Spark 是一個用於大數據處理的統一分析引擎，以記憶體內運算速度聞名。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    Airflow 是一個熱門的平台，用於透過程式碼撰寫、排程與監控工作流程。
+    Apache Airflow
   </voice>
-
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Apache Airflow is a popular platform to programmatically author, schedule, and monitor workflows.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Apache Airflow 是一個熱門的平台，讓你透過程式碼來撰寫、排程與監控工作流程。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        我發現現在大家都在談「資料湖倉」，這跟傳統的 Data Warehouse 有什麼不一樣？
+        我發現現在大家都在談「資料湖倉」，這跟傳統的「資料倉儲」有什麼不一樣？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        A Data Lakehouse combines the best of both worlds: the structure of a warehouse and the flexibility of a lake. It pairs perfectly with Apache Spark for massive processing.
+        It unifies them. You don't need to move data between a Lake and a Warehouse. You can run BI and AI workloads on the same data, often powered by Apache Spark.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -122,21 +143,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這集的資料工程與大數據就到這裡。記住，垃圾進，垃圾出。工程師的職責就是確保流入 AI 大腦的是純淨的資訊。
-        我是雲曦。
+        大數據與串流處理是現代系統的核心能力。資料流動起來，價值才會顯現。
+        我是曉臻，感謝你的收聽。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Keep your pipelines flowing.
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

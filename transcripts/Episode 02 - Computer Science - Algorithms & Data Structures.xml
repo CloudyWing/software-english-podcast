@@ -8,21 +8,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          沒錯，雲曦，尤其是雲端計算是按毫秒計費的。演算法寫得爛，帳單可是會爆炸的。
+          沒錯，曉臻，尤其是雲端計算是按毫秒計費的。演算法寫得爛，帳單可是會爆炸的。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        真的，效能就是金錢。我們來看最基本的評估單位。
+        真的，效能就是金錢。在雲端時代，每毫秒都是成本，我們需要一把尺來測量它。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,54 +28,58 @@
   <voice name="zh-TW-HsiaoChenNeural">
     時間複雜度
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Time Complexity
+    Time Complexity...
     Time complexity estimates how the runtime increases with the input size.
     Reducing time complexity from O-N-squared to O-N-log-N can save hours of processing time.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    時間複雜度估算執行時間如何隨輸入大小增加而變化。
     將時間複雜度從 O(n^2) 降低到 O(n log n) 可以節省數小時的處理時間。
-    空間複雜度
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    空間複雜度
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Space Complexity
+    Space Complexity...
     Space complexity measures the memory required by the algorithm.
     In mobile development, optimizing space complexity is often more critical than speed.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    空間複雜度衡量演算法所需的記憶體。
+    在行動開發中，優化空間複雜度往往比速度更關鍵。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    在行動開發中，優化空間複雜度往往比速度更關鍵。
     大 O 符號
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Big O Notation
+    Big O Notation...
     Big O notation describes the worst-case performance of an algorithm.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     大 O 符號描述演算法在最差情況下的效能表現。
-    常數時間
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Constant Time
-    Accessing an array index takes constant time, or O(1).
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    常數時間
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Constant Time...
+    Accessing an array index takes constant time, or O(1).
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     存取陣列索引花費常數時間，即 O(1)。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     對數時間
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Logarithmic Time
+    Logarithmic Time...
     Binary search runs in logarithmic time, or O(log n).
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     二元搜尋以對數時間執行，即 O(log n)。
   </voice>
@@ -86,11 +88,10 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         懂了怎麼衡量，接下來我們要有工具。資料結構就是我們存放資料的容器。
-        Nova，在 AI 時代，我們對資料結構的選擇還是一樣嗎？
+        Phoebe，在 AI 時代，我們對資料結構的選擇還是一樣嗎？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -100,11 +101,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        讓我們從經典款開始複習。
+        讓我們從經典的開始複習。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -112,99 +112,112 @@
   <voice name="zh-TW-HsiaoChenNeural">
     堆疊
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Stack
+    Stack...
     A stack follows the First-In-Last-Out (LIFO) principle.
     Undo features in text editors are typically implemented using a stack.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    堆疊遵循先進後出 (LIFO) 原則。
     文字編輯器中的復原功能通常是使用堆疊實作的。
-    佇列
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    佇列
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Queue
+    Queue...
     A queue follows the First-In-First-Out (FIFO) principle.
     Message brokers like RabbitMQ rely heavily on efficient queue structures.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    佇列遵循先進先出 (FIFO) 的原則。
     像 RabbitMQ 這樣的訊息代理高度依賴高效的佇列結構。
-    雜湊表
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    雜湊表
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Hash Map
+    Hash Map...
     Use a hash map for fast lookups based on keys.
     Distributed caches like Redis are essentially giant, networked hash maps.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    使用雜湊表來根據鍵值進行快速查找。
+    像 Redis 這樣的分散式快取本質上就是巨大的網路化雜湊表。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    像 Redis 這樣的分散式快取本質上就是巨大的網路化雜湊表。
     圖
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Graph
+    Graph...
     Graphs are used to model social networks and map routes.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     圖被用來模擬社群網路與地圖路徑。
-    接下來這個是 AI 時代的新寵兒。為了讓電腦「理解」語意，我們需要一種能儲存高維度特徵的結構。
-    向量資料庫
   </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Vector Database
-    Vector databases are optimized for storing and querying high-dimensional vector embeddings.
-    This is the backbone of RAG systems for retrieving strict context for LLMs.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    向量資料庫針對儲存與查詢高維度向量嵌入進行了最佳化。這是 RAG 系統為大型語言模型檢索精確上下文的骨幹。
-    有了結構，最後我們需要演算法來驅動資料。
-    演算法不僅僅是刷題，它是解決問題的 SOP。
-    遞迴
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Recursion
-    Recursion occurs when a function calls itself.
-    Be careful with recursion depth to avoid stack overflow errors.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    小心遞迴深度以避免堆疊溢位錯誤。
-    排序
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Sorting
-    Quick sort is a highly efficient sorting algorithm.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    快速排序是一種高效的排序演算法。
-    動態規劃
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Dynamic Programming
-    Dynamic Programming optimizes recursive problems by caching intermediate results.
-  </voice>
-
-  <voice name="zh-TW-HsiaoChenNeural">
-    動態規劃透過快取中間結果來優化遞迴問題。
-  </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Nova，面試的時候常常被問 Time Complexity，但在 AI 時代，我們真的還需要手寫 Sorting 演算法嗎？
+        接下來這個是 AI 時代的新寵兒。為了讓電腦「理解」語意，我們需要一種能儲存高維度特徵的結構。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="en-US-PhoebeMultilingualNeural">
+    向量資料庫
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Vector Database...
+    Vector databases are optimized for storing and querying high-dimensional vector embeddings.
+    This is the backbone of RAG systems for retrieving strict context for LLMs.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    向量資料庫針對儲存與查詢高維度向量嵌入進行了最佳化。這是 RAG 系統為大型語言模型檢索精確上下文的骨幹。
+    有了結構，最後我們需要演算法來驅動資料。
+    資料結構是食材，演算法就是食譜。只有兩者搭配，才能端出好菜。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    遞迴
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Recursion...
+    Recursion breaks a complex problem into smaller self-similar sub-problems.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    遞迴將一個複雜的問題分解成更小的自我相似子問題。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    排序
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Sorting...
+    Efficient sorting algorithms like Quick Sort are fundamental for optimizing search operations.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    像快速排序這樣的高效排序演算法，是最佳化搜尋操作的基礎。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    動態規劃
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Dynamic Programming...
+    Dynamic Programming optimizes recursive problems by caching intermediate results.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    動態規劃透過快取中間結果來優化遞迴問題。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        Phoebe，面試的時候常常被問 Time Complexity，但在 AI 時代，我們真的還需要手寫 Sorting 演算法嗎？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -229,21 +242,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這集的演算法與資料結構就到這邊。從傳統的 Hash Map 到 AI 時代的 Vector Database，掌握這些工具，你就能以不變應萬變。
-        我是雲曦。
+        演算法與資料結構是工程師的內功。練好內功，招式才打得出來。
+        我是曉臻，祝你寫出高效的程式碼！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Optimize your code, and see you next time.
+        I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

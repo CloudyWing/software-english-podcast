@@ -20,9 +20,8 @@
 
 1. **劇本 (Transcripts)**：使用 **SSML** (Speech Synthesis Markup Language) 撰寫，精細控制發音、語氣 (`express-as`) 與節奏 (`prosody`)。包含中英對照、例句與模擬對話。
 2. **角色 (Voices)**：
-   * **雲曦**：中文主持人。由 `zh-TW-HsiaoChenNeural` 飾演。負責引導話題、提供背景脈絡，並替聽眾提出疑問。
-   * **Nova**：英文技術專家。由 `en-US-PhoebeMultilingualNeural` 飾演。負責發音示範、技術解說，以及職場溝通的情境演練。
-   * *(註：角色名稱僅為開發過程中與 AI 隨機討論產生的代號，並無特殊含義)*。
+   * **曉臻**：中文主持人。由 `zh-TW-HsiaoChenNeural` 飾演。負責引導話題、提供背景脈絡，並替聽眾提出疑問。
+   * **Phoebe**：英文技術專家。由 `en-US-PhoebeMultilingualNeural` 飾演。負責發音示範、技術解說，以及職場溝通的情境演練。
    * **特別調整**：加上了 `Cheerful` 風格，讓她們聽起來像在聊天，而不是機器人唸經。
 3. **自動化 (Scripts)**：寫了 PowerShell 腳本，一鍵把 30 集 SSML 全部轉成 MP3。
 
@@ -41,12 +40,12 @@ graph TD
 
 ## 📖 內容規劃
 
-目前整理了 30 集，涵蓋我平常工作會碰到的領域：
+目前整理了 30 集，涵蓋我平常工作或未來可能會碰到的領域：
 
-* **基礎**：CS Basics (OS, Network, Algo)
-* **開發**：Git, Database, Backend (.NET), Frontend
-* **進階**：Cloud (AWS/Azure), Architecture, DevOps
-* **軟實力**：溝通、開會、職涯發展
+* **基礎**：CS Basics (OS, Network, Algo)。
+* **開發**：Git, Database, Backend (.NET), Frontend。
+* **進階**：Cloud (AWS/Azure), Architecture, DevOps。
+* **軟實力**：溝通、開會、職涯發展。
 
 ## 🚀 How to Run
 
@@ -58,10 +57,8 @@ $env:TTS_KEY = "your_key"
 $env:TTS_REGION = "eastasia" 
 
 # 執行轉換
-
-## 🐛 Known Issues
-
-* **語音停頓問題**：目前的 SSML 設計在「英文單字」與「英文例句」之間缺乏足夠的 `<break>` 標籤，導致 Nova 在朗讀時會將兩者連在一起唸，預計下個月額度重置後修復。
+./scripts/Batch-Convert.ps1
+```
 
 ## 🔗 Reference
 

@@ -3,26 +3,34 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到設計模式與原則篇。儘管 AI 可以幫我們寫出大量程式碼，但決定系統體質的架構設計，依然是資深工程師的核心價值。這集我們挑戰軟體工程的基石。
-        首先，我們從最經典的 SOLID 原則與其他設計心法開始，接下來這是良好設計的基礎。
+        歡迎來到設計模式與原則篇。
+        儘管 AI 可以幫我們寫出大量程式碼，但決定系統體質的架構設計，依然是資深工程師的核心價值。
+        這集我們挑戰軟體工程的基石。
       </prosody>
     </mstts:express-as>
   </voice>
-
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        首先，我們從最經典的 SOLID 原則與其他設計心法開始。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，很多人都說程式碼能跑就好，管什麼原則。但等到要維護的時候，就會看著那些像義大利麵一樣的 Code 欲哭無淚了。
+          曉臻，很多人都說程式碼能跑就好，管什麼原則。
+          但等到要維護的時候，就會看著那些像義大利麵一樣的 Code 欲哭無淚了。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，Spaghetti Code 是所有人的噩夢。遵守原則就像整理房間，雖然麻煩，但找東西時會很感謝自己。
+        沒錯，Spaghetti Code 是所有人的噩夢。
+        設計原則就像是程式碼的物理定律，違反它，系統遲早會崩塌。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,91 +38,113 @@
   <voice name="zh-TW-HsiaoChenNeural">
     單一職責原則
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Single Responsibility Principle
+    Single Responsibility Principle...
     A class should have only one reason to change.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     一個類別應該只有一個改變的理由。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     開放封閉原則
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Open Closed Principle
+    Open Closed Principle...
     Software should be open for extension but closed for modification.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     軟體應該對擴展開放，但對修改封閉。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     里氏替換原則
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Liskov Substitution Principle
+    Liskov Substitution Principle...
     Subtypes must be substitutable for their base types without breaking code.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     子型別必須能替換其基底型別而不破壞程式碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     介面隔離原則
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Interface Segregation Principle
+    Interface Segregation Principle...
     Clients should not depend on interfaces they don't actually use.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     客戶端不應依賴他們實際上不使用的介面。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     依賴反轉原則
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Dependency Inversion Principle
+    Dependency Inversion Principle...
     High-level modules should depend on abstractions, not concretions.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     高層模組應依賴抽象，而非實作細節。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     不要重複自己
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    DRY
+    DRY...
+    DRY stands for Don't Repeat Yourself.
     Refactor the code to adhere to the DRY principle.
   </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    DRY 是 Don't Repeat Yourself 的縮寫。
+    重構程式碼以遵守 DRY 原則。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    DRY 是 Don't Repeat Yourself 的縮寫。重構程式碼以遵守 DRY 原則。
     保持簡單
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    KISS
+    KISS...
+    KISS stands for Keep It Simple, Stupid.
     Apply the KISS principle, don't overengineer the solution.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    KISS 是 Keep It Simple, Stupid 的縮寫。
+    應用 KISS 原則，不要過度設計解決方案。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    KISS 是 Keep It Simple, Stupid 的縮寫。應用 KISS 原則，不要過度設計解決方案。
-    接下來，我們來看看其他重要的原則。
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        接下來，我們來看看軟體設計的黃金準則。
+      </prosody>
+    </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          高內聚低耦合這六個字每次面試都會被問到，但實際寫 Code 的時候真的很難拿捏耶。
+          你是說「高內聚低耦合」嗎？這六個字每次面試都會被問到，但實際寫 Code 的時候，往往為了切分而切分，最後 Component 碎滿地。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這是需要經驗累積的，寫久了你就會有「手感」，知道怎樣切分模組最舒服。
+        真的，過度設計比不設計更可怕。Phoebe，你不覺得感情其實也該追求「高內聚低耦合」嗎？？
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          哈哈，真的！兩個人要能各自精彩，但湊在一起又很有默契。
+        </lang>
       </prosody>
     </mstts:express-as>
   </voice>
@@ -122,37 +152,43 @@
   <voice name="zh-TW-HsiaoChenNeural">
     關注點分離
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Separation of Concerns
+    Separation of Concerns...
     Separation of concerns makes the code easier to maintain and test.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     關注點分離讓程式碼更易於維護與測試。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     高內聚
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    High Cohesion
+    High Cohesion...
     Aim for high cohesion where related functions are kept together.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     目標是高內聚，將相關的功能保持在一起。
-    低耦合
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Low Coupling
-    Low coupling reduces the impact of changes on other modules.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    低耦合
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Low Coupling...
+    Low coupling reduces the impact of changes on other modules.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     低耦合降低了變更對其他模組造成的影響。
-    程式碼品質的維護，與架構設計一樣重要，接下來我們需要了解這些關於壞味道與重構的詞彙。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        程式碼品質的維護，與架構設計一樣重要。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -162,11 +198,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這比喻太傳神了。我們最好每個月都還一點債，也就是持續重構，才不會最後破產。
+        這比喻太傳神了。我們最好每個月都還一點債。但我們要怎麼知道債務已經開始堆積了呢？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -174,47 +209,54 @@
   <voice name="zh-TW-HsiaoChenNeural">
     重構
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Refactoring
+    Refactoring...
     Refactoring improves code structure without changing its behavior.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     重構在不改變行為的前提下改善程式碼結構。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     技術債
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Technical Debt
+    Technical Debt...
     We need to pay down technical debt to maintain development speed.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     我們需要償還技術債以維持開發速度。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     遺留程式碼
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Legacy Code
+    Legacy Code...
     Working with legacy code without tests can be challenging.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     處理沒有測試的遺留程式碼極具挑戰性。
-    程式碼異味
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Code Smell
-    Long methods and large classes are common code smells.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    程式碼異味
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Code Smell...
+    Long methods and large classes are common code smells.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     過長的方法和過大的類別是常見的程式碼異味。
-    設計模式提供了解決常見問題的模板，接下來我們從建立型與行為型模式看起。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        設計模式提供了解決常見問題的模板。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -224,11 +266,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        沒錯，不要為了用模式而用模式，KISS 原則永遠要放在心上。
+        沒錯，不要為了用模式而用模式，KISS 原則永遠要放在心上。接下來我們從建立型與行為型模式看起。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -236,57 +277,65 @@
   <voice name="zh-TW-HsiaoChenNeural">
     單例模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Singleton
+    Singleton...
     Use the singleton pattern for the global database connection pool.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用單例模式來處理全域資料庫連線池。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     工廠模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Factory
+    Factory...
     The factory pattern creates objects without specifying the exact class.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     工廠模式在不指定確切類別的情況下建立物件。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     建造者模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Builder
+    Builder...
     The builder pattern helps construct complex objects step by step.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     建造者模式協助逐步建構複雜物件。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     策略模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Strategy
+    Strategy...
     Use the strategy pattern to swap sorting algorithms at runtime.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用策略模式在執行階段切換排序演算法。
-    觀察者模式
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Observer
-    The observer pattern is key to implementing event-driven systems.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    觀察者模式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Observer...
+    The observer pattern is key to implementing event-driven systems.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     觀察者模式是實作事件驅動系統的關鍵。
-    結構型模式則關注於物件的組成與介面適配，例如接下來幾種。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        結構型模式則關注於物件的組成與介面適配。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -296,11 +345,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        很生動的例子！生活中的智慧往往也能應用在軟體架構上。
+        很生動的例子！生活中的智慧往往也能應用在軟體架構上，例如接下來幾種。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -308,57 +356,65 @@
   <voice name="zh-TW-HsiaoChenNeural">
     裝飾者模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Decorator
+    Decorator...
     Add functionality dynamically to an object using the decorator pattern.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用裝飾者模式動態增加物件的功能。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     轉接器模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Adapter
+    Adapter...
     The adapter allows incompatible interfaces to work together seamlessly.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     轉接器允許不相容的介面無縫地協同工作。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     外觀模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Facade
+    Facade...
     Provide a simple interface to a complex system via a facade.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     透過外觀模式為複雜系統提供一個簡單介面。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     代理模式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Proxy
+    Proxy...
     Use a proxy to control access or add logging to the object.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     使用代理模式來控制存取或為物件增加日誌記錄。
-    儲存庫模式
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Repository
-    The repository pattern abstracts data access logic from business logic.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    儲存庫模式
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Repository...
+    The repository pattern abstracts data access logic from business logic.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     儲存庫模式將資料存取邏輯從商業邏輯中抽象出來。
-    最後，讓我們接著看決定系統的大方向的幾種常見架構。
   </voice>
 
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        最後，讓我們接著看決定系統的大方向的幾種常見架構。
+      </prosody>
+    </mstts:express-as>
+  </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -368,7 +424,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -380,56 +435,59 @@
   <voice name="zh-TW-HsiaoChenNeural">
     單體式
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Monolith
+    Monolith...
     The startup began with a monolithic architecture for simplicity.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     這家新創公司為了簡單起見，以單體式架構起步。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     整潔架構
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Clean Architecture
+    Clean Architecture...
     Clean architecture separates core business logic from frameworks and UI.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     整潔架構將核心商業邏輯與框架及 UI 分離。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     分層架構
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Layered Architecture
+    Layered Architecture...
     Typical layered architecture includes presentation, business, and data layers.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     典型的分層架構包含展示層、商業層和資料層。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     事件驅動
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Event-Driven
+    Event-Driven...
     Event-driven architecture improves scalability by decoupling services.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     事件驅動架構透過解耦服務提升了可擴展性。
-    網域驅動設計
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    DDD
-    DDD focuses on the core business logic and domain model.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    DDD 是 Domain-Driven Design 的縮寫。DDD 專注於核心商業邏輯與領域模型。
+    網域驅動設計
   </voice>
-
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DDD...
+    DDD stands for Domain-Driven Design.
+    DDD focuses on the core business logic and domain model.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    DDD 是 Domain-Driven Design 的縮寫。
+    DDD 專注於核心商業邏輯與領域模型。
+  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -459,21 +517,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        設計模式是前人智慧的結晶。當你遇到架構難題時，回頭看看這些經典模式，往往能找到靈感。感謝收聽。
-        我是雲曦。
+        設計模式是前人智慧的結晶。
+        我是主持人曉臻，期待下次再與大家空中相見。
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Keep it simple!
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

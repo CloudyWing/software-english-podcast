@@ -3,8 +3,10 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到現代電腦科學基礎篇。在這個 AI 應用無所不在的時代，重新審視電腦底層運作與網路傳輸，是每一位開發者掌握效能瓶頸的關鍵。
-        今天我們不談電腦組裝，而是深入那些影響大規模運算的硬體架構與通訊協定。Nova，現在的硬體思維跟以前很不一樣了吧？
+        歡迎來到現代電腦科學基礎篇。
+        在這個 AI 應用無所不在的時代，重新審視電腦底層運作與網路傳輸，是每一位開發者掌握效能瓶頸的關鍵。
+        今天我們不談電腦組裝，而是深入那些影響大規模運算的硬體架構與通訊協定。
+        Phoebe，現在的硬體思維跟以前很不一樣了吧？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -13,50 +15,69 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          絕對不同，雲曦。現在我們談論硬體，通常是在解決 AI 推論的延遲與吞吐量問題。如果你的 Web API 回應很慢，問題可能不在程式碼，而在硬體資源的調度。
+          絕對不同，曉臻。
+          現在我們談論硬體，通常是在解決 AI 推論的延遲與吞吐量問題。
+          如果你的 Web API 回應很慢，問題可能不在程式碼，而在硬體資源的調度。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        正如 Nova 所提到的「資源調度」，這一切的根源，還是回到那個最重要的運算核心。
+        正如 Phoebe 所提到的「資源調度」，這一切的根源，還是回到那個最重要的運算核心。
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     中央處理器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    CPU
-    CPU stands for Central Processing Unit. Even with AI accelerators, the CPU still orchestrates the entire control flow and business logic.
+    CPU...
+    CPU stands for Central Processing Unit.
+    Even with AI accelerators, the CPU still orchestrates the entire control flow and business logic.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CPU 是 Central Processing Unit 的縮寫。即使有了 AI 加速器，CPU 仍然負責協調整個控制流程與商業邏輯。
   </voice>
 
-  <voice name="zh-TW-HsiaoChenNeural">
-    即使有了 AI 加速器，CPU 仍然負責協調整個控制流程與商業邏輯。
-  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        聊完總指揮，接下來是這幾年最昂貴的運算單元，也是支撐現代 AI 的功臣。
+        CPU 是系統的總指揮。但在 AI 時代，我們需要更強大的平行運算能力。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          沒錯，現在大家都在搶購 GPU。
+        </lang>
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    圖形處理器
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    GPU
-    GPU stands for Graphics Processing Unit. We now abuse GPUs for parallel matrix multiplication in model training, not just for rendering graphics.
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        真的，這可是現代 AI 的功臣。
+      </prosody>
+    </mstts:express-as>
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    我們現在大量濫用 GPU 來進行模型訓練中的平行矩陣運算，而不僅僅是為了渲染圖形。
+    圖形處理器
   </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    GPU...
+    GPU stands for Graphics Processing Unit.
+    We now abuse GPUs for parallel matrix multiplication in model training, not just for rendering graphics.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    GPU 是 Graphics Processing Unit 的縮寫。我們現在大量濫用 GPU 來進行模型訓練中的平行矩陣運算，而不僅僅是為了渲染圖形。
+  </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -64,95 +85,96 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     神經網路處理器
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    NPU
-    NPU stands for Neural Processing Unit. Offloading local inference to the NPU extends battery life and frees up the main processor.
+    NPU...
+    NPU stands for Neural Processing Unit.
+    Offloading local inference to the NPU extends battery life and frees up the main processor.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    NPU 是 Neural Processing Unit 的縮寫。將本機推論工作卸載到 NPU 可以延長電池壽命，並釋放主處理器的資源。
   </voice>
 
-  <voice name="zh-TW-HsiaoChenNeural">
-    將本機推論工作卸載到 NPU 可以延長電池壽命，並釋放主處理器的資源。
-  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        有了強大的算力，還需要一個管理者來分配資源。當我們在容器化環境除錯時，常常會碰到它的邊界。
+        有了強大的算力，硬體還是只是一堆金屬。是誰在負責溝通軟體與硬體？
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     核心
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Kernel
+    Kernel...
     The kernel functions as a bridge between applications and the actual data processing done at the hardware level.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     核心充當應用程式與硬體層級實際資料處理之間的橋樑。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        除了運算，資料的暫存空間也至關重要。特別是當你要載入大型語言模型時，記憶體的大小決定了你的模型能不能跑得動。
+        運算解決了，那資料放哪裡？大型語言模型動輒幾十 GB，載入速度決定了體驗。
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     隨機存取記憶體
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    RAM
+    RAM...
     RAM stands for Random Access Memory. Loading a 70 billion parameter model into RAM makes you really appreciate every gigabyte of memory.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    RAM 是 Random Access Memory 的縮寫。
     將一個 700 億參數的模型載入 RAM 會讓你真心感謝每一 GB 的記憶體空間。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        記憶體斷電後資料就不見了，所以我們需要持久化儲存。現在我們已經很少說 Hard Drive，基本都是指高速的固態硬碟。
+        但記憶體斷電後資料就不見了。我們需要能永久儲存資料的地方。
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     固態硬碟
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    SSD
-    SSD stands for Solid State Drive. Modern DirectStorage APIs rely on fast NVMe SSDs to bypass the CPU for massive asset loading.
+    SSD...
+    SSD stands for Solid State Drive.
+    Modern DirectStorage APIs rely on fast NVMe SSDs to bypass the CPU for massive asset loading.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
-    現代的 DirectStorage API 依賴快速的 NVMe SSD 來繞過 CPU 進行大量的資產載入。
+    SSD 是 Solid State Drive 的縮寫。現代的 DirectStorage API 依賴快速的 NVMe SSD 來繞過 CPU 進行大量的資產載入。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         硬體建構了單機的強大，但網路連接了世界。
-        Nova，在分散式系統和微服務架構下，網路觀念有什麼改變嗎？
+        Phoebe，在分散式系統和微服務架構下，網路觀念有什麼改變嗎？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          改變可大了。以前我們假設網路是可靠的，現在我們假設網路隨時會斷。而且在 Kubernetes 叢集裡，識別服務的方式也變得更加動態。
+          改變可大了。
+          以前我們假設網路是可靠的，現在我們假設網路隨時會斷。
+          而且在 Kubernetes 叢集裡，識別服務的方式也變得更加動態。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -160,18 +182,18 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     本機
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Localhost
+    Localhost...
     "It works on localhost" is the most dangerous phrase in distributed systems development.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     「在本機上可以跑」是分散式系統開發中最危險的一句話。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -179,18 +201,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     IP 位址
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    IP Address
+    IP Address...
     IP Address stands for Internet Protocol Address. Managing IP allow-lists in a dynamic cluster is a nightmare without a service mesh.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    IP Address 是 Internet Protocol Address 的縮寫。
     在動態叢集中管理 IP 允許清單，如果沒有服務網格協助，簡直是場惡夢。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -198,18 +221,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     網域名稱系統
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    DNS
+    DNS...
     DNS stands for Domain Name System. It's always DNS. If your microservices can't discover each other, check the internal DNS first.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
+    DNS 是 Domain Name System 的縮寫。
     總是 DNS 的問題。如果你的微服務找不到彼此，先檢查內部 DNS。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -217,18 +241,19 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     連接埠
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
-    Port
+    Port...
     Container orchestration typically maps ephemeral ports, so hardcoding port 80 is a relic of the past.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     容器調度通常會映射臨時連接埠，所以寫死 Port 80 已經是過去式了。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -236,18 +261,18 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     插座
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Socket
+    Socket...
     WebSockets provide the persistent bi-directional link needed for real-time AI agents.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     WebSocket 提供了即時 AI 代理所需的持久雙向連結。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -255,18 +280,18 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     協定
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Protocol
+    Protocol...
     Choosing between gRPC and REST is a protocol decision that drastically impacts your API performance.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     在 gRPC 和 REST 之間做選擇，是個會劇烈影響 API 效能的協定決策。
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -274,15 +299,14 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     延遲
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Latency
+    Latency...
     For edge AI applications, network latency is the ultimate enemy of user experience.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     對於邊緣 AI 應用程式來說，網路延遲是使用者體驗的終極敵人。
   </voice>
@@ -290,11 +314,10 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Nova，我們今天講了這麼多硬體跟網路概念，但在處理高併發系統設計時，到底哪個才是瓶頸？是 CPU 還是網路延遲？
+        Phoebe，我們今天講了這麼多硬體跟網路概念，但在處理高併發系統設計時，到底哪個才是瓶頸？是 CPU 還是網路延遲？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -302,7 +325,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -310,7 +332,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -322,18 +343,16 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這集的電腦科學基礎就到這裡。從 NPU 的算力支援到微服務間的網路延遲，希望這些關鍵字能幫助你更精準地描述現代技術架構。
-        我是雲曦。
+        硬體與網路是基礎。下集，我們也會繼續探討讓電腦運作的核心原理。
+        我是曉臻，下集見！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Keep coding and stay connected.
+        And I'm Phoebe. Catch you later!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>

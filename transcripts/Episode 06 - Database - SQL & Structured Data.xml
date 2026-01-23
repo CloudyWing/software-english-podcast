@@ -3,7 +3,8 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        歡迎來到 SQL 與結構化資料篇。雖然 NoSQL 在前幾年很紅，但到了今天，關聯式資料庫依然是金融與核心交易系統的霸主。
+        歡迎來到 SQL 與結構化資料篇。
+        雖然 NoSQL 在前幾年很紅，但到了今天，關聯式資料庫依然是金融與核心交易系統的霸主。
         很多新人會問，為什麼不全部用 JSON 存就好？
       </prosody>
     </mstts:express-as>
@@ -13,16 +14,15 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          雲曦，因為關聯和約束 (Constraints) 才是資料品質的保證啊。隨便存的結果就是以後隨便壞。
+          曉臻，因為關聯和約束 (Constraints) 才是資料品質的保證啊。隨便存的結果就是以後隨便壞。
         </lang>
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        真的。我們從最基本的結構開始。
+        真的。在開始 Query 之前，我們得先蓋好房子的地基。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,32 +30,32 @@
   <voice name="zh-TW-HsiaoChenNeural">
     綱要
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Schema
+    Schema...
     Database schema changes in production should always be backwards compatible.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     正式環境的資料庫綱要變更應該永遠保持向下相容。
-    主鍵
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Primary Key
-    We use UUIDs as primary keys instead of auto-incrementing integers to avoid enumeration attacks.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    主鍵
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Primary Key...
+    We use UUIDs as primary keys instead of auto-incrementing integers to avoid enumeration attacks.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     我們使用 UUID 作為主鍵，而不是自動遞增的整數，以避免枚舉攻擊。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     外來鍵
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Foreign Key
+    Foreign Key...
     Foreign keys ensure referential integrity between tables.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     外來鍵確保資料表之間的參考完整性。
   </voice>
@@ -64,11 +64,10 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         有了結構，接下來是操作。在現代開發中，我們更依賴 ORM，但原生的 SQL 優化能力還是很重要。
-        Nova，對於查詢效能，你有什麼慘痛經驗嗎？
+        Phoebe，對於查詢效能，你有什麼慘痛經驗嗎？
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -78,11 +77,10 @@
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        好，我們來學學這些術語。
+        N+1 確實是效能殺手。我們來看看怎麼用這些關鍵字寫出高效的 Query。
       </prosody>
     </mstts:express-as>
   </voice>
@@ -90,67 +88,70 @@
   <voice name="zh-TW-HsiaoChenNeural">
     查詢
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Query
-    Optimize your SQL query to reduce the database load.
+    Query...
+    A well-optimized SQL query fetches only necessary data, preventing database bottlenecks.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    一個最佳化良好的 SQL 查詢只擷取必要的資料，防止資料庫瓶頸。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    優化你的 SQL 查詢以降低資料庫負載。
     連結
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Join
-    Use an inner join to combine rows from two tables.
+    Join...
+    Joins allow us to reconstruct related data that was normalized across multiple tables.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    連結讓我們能夠重建分散在多個正規化資料表中的相關資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    使用內部連結來結合兩個資料表的列。
     索引
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Index
+    Index...
     Adding an index can significantly speed up partial matching searches.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     加上索引可以顯著加快部分比對搜尋的速度。
-    交易
-  </voice>
-
-  <voice name="en-US-PhoebeMultilingualNeural">
-    Transaction
-    Transactions ensure that a series of operations either all succeed or all fail.
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    交易
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Transaction...
+    Transactions ensure that a series of operations either all succeed or all fail.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
     交易確保一系列的操作要麽全部成功，要麽全部失敗。
-    最後，資料庫不只是寫寫 SQL 而已，它也是 DevOps 的一環。
+    除了寫 Query，資料庫的維運也是一門學問。Schema 不是設了就不能改的。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     遷移
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
-    Migration
+    Migration...
     Database migrations should be automated in the CI/CD pipeline.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料庫遷移應該在 CI/CD 管線中自動化執行。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
-    資料庫遷移應該在 CI/CD 管線中自動化執行。
     正規化
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
-    Normalization
+    Normalization...
     Normalization reduces data redundancy and improves data integrity.
   </voice>
-
   <voice name="zh-TW-HsiaoChenNeural">
     正規化減少資料冗餘並提升資料完整性。
   </voice>
-
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -180,21 +181,20 @@
       </prosody>
     </mstts:express-as>
   </voice>
+
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        這集的 SQL 資料庫基礎就到這裡。資料是公司的資產，保護好它，就是保護好你的飯碗。
-        我是雲曦。
+        關聯式資料庫很強大，但還有一種不同的選擇。下集我們繼續聊聊資料庫系統。
+        我是曉臻，下集見！
       </prosody>
     </mstts:express-as>
   </voice>
-
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        And I'm Nova. Select star from happiness using index.
+        And I'm Phoebe. See you next time!
       </prosody>
     </mstts:express-as>
   </voice>
-
 </speak>
