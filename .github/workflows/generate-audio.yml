@@ -1,0 +1,105 @@
+name: Generate Audio
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  generate-audio:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect changed transcripts
+        id: changed
+        run: |
+          CURRENT_TAG="${{ github.ref_name }}"
+          PREV_TAG=$(git tag --sort=-version:refname | grep -v "^${CURRENT_TAG}$" | head -n 1)
+
+          {
+            echo "changed_files<<EOF"
+            if [ -z "$PREV_TAG" ]; then
+              echo "No previous tag found. Converting all transcripts." >&2
+              find transcripts -name "*.xml"
+            else
+              echo "Comparing ${PREV_TAG}...${CURRENT_TAG}" >&2
+              git diff --name-only "${PREV_TAG}...HEAD" -- 'transcripts/*.xml'
+            fi
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Convert transcripts to MP3
+        if: steps.changed.outputs.changed_files != ''
+        id: convert
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.changed_files }}
+          TTS_KEY: ${{ secrets.TTS_KEY }}
+          TTS_REGION: ${{ secrets.TTS_REGION }}
+        run: |
+          MAX_RETRY=3
+          FAILED_LIST=""
+          SUCCESS_LIST=""
+
+          while IFS= read -r FILE; do
+            [ -z "$FILE" ] && continue
+            ATTEMPT=0
+            SUCCESS=false
+            OUTPUT_FILE="$(basename "${FILE%.xml}.mp3")"
+
+            while [ $ATTEMPT -lt $MAX_RETRY ]; do
+              ATTEMPT=$((ATTEMPT + 1))
+              echo "Converting $FILE (attempt $ATTEMPT/$MAX_RETRY)..."
+
+              if pwsh scripts/Convert-Podcast.ps1 \
+                -InputFile "$FILE" \
+                -ApiKey "$TTS_KEY" \
+                -Region "$TTS_REGION" \
+                -OutputFile "$OUTPUT_FILE"; then
+                SUCCESS=true
+                SUCCESS_LIST="${SUCCESS_LIST}"$'\n'"${OUTPUT_FILE}"
+                break
+              fi
+
+              echo "Retry $ATTEMPT/$MAX_RETRY for $FILE"
+              sleep 5
+            done
+
+            if [ "$SUCCESS" = false ]; then
+              FAILED_LIST="${FAILED_LIST}"$'\n'"${FILE}"
+            fi
+          done <<< "$CHANGED_FILES"
+
+          {
+            echo "success_list<<EOF"
+            echo "$SUCCESS_LIST"
+            echo "EOF"
+            echo "failed_list<<EOF"
+            echo "$FAILED_LIST"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Upload MP3 to Release
+        if: steps.convert.outputs.success_list != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUCCESS_LIST: ${{ steps.convert.outputs.success_list }}
+        run: |
+          TAG="${{ github.ref_name }}"
+          while IFS= read -r MP3; do
+            [ -z "$MP3" ] && continue
+            echo "Uploading $MP3..."
+            gh release upload "$TAG" "$MP3" --clobber
+          done <<< "$SUCCESS_LIST"
+
+      - name: Report failures
+        if: steps.convert.outputs.failed_list != ''
+        env:
+          FAILED_LIST: ${{ steps.convert.outputs.failed_list }}
+        run: |
+          echo "❌ The following files failed to convert after 3 retries:"
+          echo "$FAILED_LIST"
+          exit 1
