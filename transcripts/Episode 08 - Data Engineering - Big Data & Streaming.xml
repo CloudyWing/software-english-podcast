@@ -5,7 +5,7 @@
       <prosody rate="+10%">
         歡迎來到資料工程篇。
         在 AI 時代，資料工程師是 AI 金字塔的基石。沒有高品質的資料管線，就沒有準確的模型。
-        以前我們常說 ETL，但現在更流行的是 ELT。Phoebe，為什麼順序變了？
+        以前我們常說 ETL，但現在更流行的是 E L T。Phoebe，為什麼順序變了？
       </prosody>
     </mstts:express-as>
   </voice>
@@ -30,13 +30,13 @@
     擷取、載入、轉換
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    ELT...
-    ELT stands for Extract, Load, and Transform.
+    E L T...
+    E L T stands for Extract, Load, and Transform.
     We use tools like dbt to transform data inside the warehouse.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    ELT 是 Extract, Load, Transform 的縮寫。
-    ELT 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
+    E L T 是 Extract, Load, Transform 的縮寫。
+    E L T 代表擷取、載入與轉換。我們使用像 dbt 這樣的工具直接在倉儲內轉換資料。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

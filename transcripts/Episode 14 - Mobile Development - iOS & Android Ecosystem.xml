@@ -184,22 +184,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-  <voice name="en-US-PhoebeMultilingualNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          說到工具，Android Studio 吃記憶體的功力可是世界級的，我的筆電風扇每次都轉得跟直升機一樣。
-        </lang>
-      </prosody>
-    </mstts:express-as>
-  </voice>
-  <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        Xcode 也沒好到哪去，下載一次更新都要半天。這就是行動開發者的日常啊。
-      </prosody>
-    </mstts:express-as>
-  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     模擬器
@@ -276,22 +260,6 @@
       </prosody>
     </mstts:express-as>
   </voice>
-  <voice name="en-US-PhoebeMultilingualNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          能在手機上跑模型真的很重要，不用連網又保有隱私，現在連相簿分類都靠它了。
-        </lang>
-      </prosody>
-    </mstts:express-as>
-  </voice>
-  <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        沒錯，Edge AI 是未來的趨勢，學會如何優化模型體積是關鍵。
-      </prosody>
-    </mstts:express-as>
-  </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     裝置端 AI
@@ -326,22 +294,6 @@
 
   <voice name="zh-TW-HsiaoChenNeural">
     寫程式過程中，各種除錯手段與設計模式也是不可或缺，例如以下這幾個：
-  </voice>
-  <voice name="en-US-PhoebeMultilingualNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          遇到 Crash 的時候最怕那種偶發性的，看 Crash Report 也不一定找得到原因，那時候真的會懷疑人生。
-        </lang>
-      </prosody>
-    </mstts:express-as>
-  </voice>
-  <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        所以 Log 要埋得好，除錯沒煩惱。
-      </prosody>
-    </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
@@ -397,22 +349,6 @@
 
   <voice name="zh-TW-HsiaoChenNeural">
     發布 App 前，還有許多設定與審查流程需要注意，接下來別忘了這些步驟。
-  </voice>
-  <voice name="en-US-PhoebeMultilingualNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        <lang xml:lang="zh-TW">
-          上架 App Store 前的等待最煎熬了，只要看到「Rejected」心都涼了一半，通常只是因為一個小小的 Metadata 問題。
-        </lang>
-      </prosody>
-    </mstts:express-as>
-  </voice>
-  <voice name="zh-TW-HsiaoChenNeural">
-    <mstts:express-as style="cheerful">
-      <prosody rate="+10%">
-        而且每次審查標準好像都不太一樣，真的要很有耐心。
-      </prosody>
-    </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">

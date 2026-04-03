@@ -34,7 +34,7 @@
     Azure
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    We deploy our .NET applications to Microsoft Azure App Service.
+    We deploy our <sub alias="Dot Net">.NET</sub> applications to Microsoft Azure App Service.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們將 .NET 應用程式部署到 Microsoft Azure App Service。
