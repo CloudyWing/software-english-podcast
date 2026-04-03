@@ -21,8 +21,12 @@ temp/
 !scripts/Convert-Podcast.ps1
 
 # ---- AI 工具工作目錄 ----
-# Claude Code 產生的對話紀錄與內部狀態
-.claude/
+*local.md
+*.local.json
+.local/
+.claude/*
+!.claude/CLAUDE.md
+!.claude/skills/
 
 # ---- 備份與暫存 ----
 *.bak
