@@ -20,9 +20,9 @@
 
 1. **劇本 (Transcripts)**：使用 **SSML** (Speech Synthesis Markup Language) 撰寫，精細控制發音、語氣 (`express-as`) 與節奏 (`prosody`)。包含中英對照、例句與模擬對話。
 2. **角色 (Voices)**：
-   * **曉臻**：中文主持人。由 `zh-TW-HsiaoChenNeural` 飾演。負責引導話題、提供背景脈絡，並替聽眾提出疑問。
-   * **Phoebe**：英文技術專家。由 `en-US-PhoebeMultilingualNeural` 飾演。負責發音示範、技術解說，以及職場溝通的情境演練。
-   * **特別調整**：加上了 `Cheerful` 風格，讓她們聽起來像在聊天，而不是機器人唸經。
+   - **曉臻**：中文主持人。由 `zh-TW-HsiaoChenNeural` 飾演。負責引導話題、提供背景脈絡，並替聽眾提出疑問。
+   - **Phoebe**：英文技術專家。由 `en-US-PhoebeMultilingualNeural` 飾演。負責發音示範、技術解說，以及職場溝通的情境演練。
+   - **特別調整**：加上了 `Cheerful` 風格，讓她們聽起來像在聊天，而不是機器人唸經。
 3. **自動化 (Scripts)**：寫了 PowerShell 腳本，一鍵把 30 集 SSML 全部轉成 MP3。
 
 ## 📂 專案結構
@@ -31,38 +31,47 @@
 graph TD
     Root[SoftwareEnglishPodcast] --> Transcripts[transcripts/]
     Root --> Scripts[scripts/]
-    Root --> Assets[assets/]
+    Root --> Workflows[.github/workflows/]
+    Root --> AgentSkills[.agent/skills/]
 ```
 
-* **transcripts/**: 每一集的內容 (XML)。
-* **scripts/**: 轉換用的工具程式。
-* **assets/**: 產出的 MP3 檔案。
+- **transcripts/**: 每一集的內容 (XML)。
+- **scripts/**: 轉換用的工具程式（本機手動執行）。
+- **.github/workflows/**: CI/CD 自動化流程。
+  - `create-release.yml`：push tag 時自動建立 GitHub Release。
+  - `generate-audio.yml`：Release published 時自動轉換 TTS 並上傳 MP3。
+- **.agent/skills/**: AI 技能定義目錄。
+  - `podcast-episode/`：Episode XML 生成規範。
+  - `podcast-vocab/`：詞彙擴充流程規範。
 
 ## 📖 內容規劃
 
 目前整理了 30 集，涵蓋我平常工作或未來可能會碰到的領域：
 
-* **基礎**：CS Basics (OS, Network, Algo)。
-* **開發**：Git, Database, Backend (.NET), Frontend。
-* **進階**：Cloud (AWS/Azure), Architecture, DevOps。
-* **軟實力**：溝通、開會、職涯發展。
+- **基礎**：CS Basics (OS, Network, Algo)。
+- **開發**：Git, Database, Backend (.NET), Frontend。
+- **進階**：Cloud (AWS/Azure), Architecture, DevOps。
+- **軟實力**：溝通、開會、職涯發展。
 
 ## 🚀 How to Run
 
-如果你也有 Azure 帳號，想自己生一份來聽：
+### 本機手動執行
 
 ```powershell
 # 設定 Azure Speech Key
 $env:TTS_KEY = "your_key"
-$env:TTS_REGION = "eastasia" 
+$env:TTS_REGION = "eastasia"
 
-# 執行轉換
+# 一次轉換所有集數
 ./scripts/Batch-Convert.ps1
+
+# 或單獨轉換某一集
+./scripts/Convert-Podcast.ps1 -InputFile "transcripts/Episode 01 - ..." -ApiKey $env:TTS_KEY -Region $env:TTS_REGION
 ```
 
 ## 🔗 Reference
 
-* [Speech Synthesis Markup Language (SSML) overview](https://learn.microsoft.com/zh-tw/azure/ai-services/speech-service/speech-synthesis-markup-voice)
+- [Speech Synthesis Markup Language (SSML) overview](https://learn.microsoft.com/zh-tw/azure/ai-services/speech-service/speech-synthesis-markup-voice)
 
 ## ⚠️ Disclaimer
 
