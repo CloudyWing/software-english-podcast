@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -44,9 +44,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Visual Studio Code is a lightweight but powerful source code editor.
+    Visual Studio Code's extensions marketplace has over thirty thousand extensions, covering everything from Git integration to AI-powered autocompletion.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Visual Studio Code 是一個輕量但強大的原始碼編輯器。
+    Visual Studio Code 的擴充套件市集擁有超過三萬個擴充套件，涵蓋從 Git 整合到 AI 驅動自動補全的所有功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -242,9 +244,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Use Postman to test the API endpoints before integrating them.
+    Postman Collections let you group related requests and run them as automated tests in your C I pipeline.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     整合前先使用 Postman 測試 API 端點。
+    Postman Collections 讓你將相關的請求分組，並在 CI 流水線中作為自動化測試執行。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -252,9 +256,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Make sure Docker Desktop is running before you build the image.
+    Docker Desktop's Dev Environments feature lets teams share a reproducible development setup as a single configuration file.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在建置映像檔前，確認 Docker Desktop 正在執行。
+    Docker Desktop 的開發環境功能讓團隊能夠以單一設定檔分享可重現的開發環境。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -262,9 +268,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     I found the solution to this error on Stack Overflow.
+    Stack Overflow's annual Developer Survey tracks which languages, frameworks, and tools engineers actually use worldwide.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我在 Stack Overflow 上找到了這個錯誤的解決方案。
+    Stack Overflow 的年度開發者調查追蹤工程師在全球實際使用的語言、框架和工具。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -305,9 +313,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Write the README file using Markdown syntax.
+    Many documentation platforms like GitHub and Notion render Markdown in real time, making it the default format for developer docs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     使用 Markdown 語法撰寫 README 檔案。
+    許多文件平台如 GitHub 和 Notion 會即時渲染 Markdown，使其成為開發者文件的預設格式。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -330,6 +340,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     你可以在設定中自訂編輯器的字體大小。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    開發者體驗
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Developer Experience...
+    Developer experience, or D X, describes how productive and satisfied engineers feel when working with a tool, platform, or codebase.
+    Investing in D X by reducing onboarding time and improving local build speeds directly increases team velocity and reduces turnover.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    開發者體驗，即 DX，描述工程師在使用工具、平台或程式碼庫時感受到的生產力和滿意度。
+    透過縮短入職時間和提升本機建置速度來投資 DX，可以直接提高團隊速度並降低人員流動率。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

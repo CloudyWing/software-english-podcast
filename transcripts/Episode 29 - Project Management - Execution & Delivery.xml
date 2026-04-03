@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -164,9 +164,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Estimation...
     What is your time estimation for completing this feature?
+    My estimation was off because I did not account for the integration testing time; always add a buffer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     你對完成這個功能的時間估算是多少？
+    我的估算有誤，因為我沒有把整合測試時間計算進去；永遠要加上緩衝時間。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -448,6 +450,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們與設計師和 QA 在跨功能團隊中工作。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    DORA 指標
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    D O R A...
+    D O R A stands for DevOps Research and Assessment.
+    The D O R A metrics track deployment frequency, lead time for changes, change failure rate, and time to restore service to measure engineering team performance.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    DORA 是 DevOps Research and Assessment 的縮寫。
+    DORA 指標追蹤部署頻率、變更前置時間、變更失敗率和服務恢復時間，以衡量工程團隊績效。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

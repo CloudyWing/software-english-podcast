@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -162,9 +162,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Touch Base...
     Can we touch base tomorrow morning regarding the progress?
+    Let's touch base after the deployment to confirm everything went smoothly.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們明天早上可以聯繫一下進度嗎？
+    讓我們在部署後保持聯繫，確認一切進展順利。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -377,9 +379,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Workaround...
     Is there a temporary workaround while we fix the bug?
+    We shipped a workaround to unblock the release, but a proper fix is tracked in the backlog.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在我們修復 Bug 的同時，有暫時的變通解決方法嗎？
+    我們發布了一個解決方法來解除發布的阻礙，但適當的修正已在待辦清單中追蹤。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -399,9 +403,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Summarize...
     Can you use AI to summarize the key points of this thread?
+    Please summarize the meeting decisions in the shared doc so everyone is aligned.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     你能用 AI 摘要這個討論串的重點嗎？
+    請在共享文件中摘要會議決策，讓所有人保持一致。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -435,6 +441,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     除非使用者變更，否則使用預設設定。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    心理安全感
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Psychological Safety...
+    Psychological safety is the belief that you can speak up, ask questions, or admit mistakes without fear of punishment.
+    Teams with high psychological safety ship faster because engineers raise concerns early instead of hiding problems until they become crises.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    心理安全感是一種信念，讓你相信自己可以發言、提問或承認錯誤而不必擔心受到懲罰。
+    心理安全感高的團隊交付速度更快，因為工程師會提早提出問題，而不是將問題隱藏直到演變成危機。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

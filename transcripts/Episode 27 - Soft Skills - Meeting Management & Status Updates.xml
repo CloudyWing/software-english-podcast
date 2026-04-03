@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -54,9 +54,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Reschedule...
     Can we reschedule our 1:1 to Monday?
+    We need to reschedule the sprint review because the demo environment is still broken.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們可以在週一重新安排我們的一對一會議嗎？
+    我們需要改期衝刺審查，因為演示環境仍然無法正常運作。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -148,9 +150,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Alternative...
     Do we have an alternative library for PDF generation?
+    If the vendor cannot meet the deadline, let's discuss alternatives so we are not blocked.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們有產生 PDF 的替代函式庫嗎？
+    如果供應商無法在截止日期前完成，讓我們討論替代方案，這樣我們才不會被卡住。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -170,9 +174,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Push Back...
     Can we push back the deadline by two days?
+    I want to push back on this architectural decision; I think we are underestimating the migration cost.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們可以將截止日期推遲兩天嗎？
+    我想對這個架構決策提出異議；我認為我們低估了遷移成本。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -208,10 +214,12 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Recording...
-    Is the meeting recording Phoebeilable for those who missed it?
+    Is the meeting recording available for those who missed it?
+    I will share the recording link in the team channel after the call ends.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     錯過會議的人可以觀看錄影嗎？
+    通話結束後，我會在團隊頻道中分享錄影連結。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -309,9 +317,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     On Call...
     Who is on call this weekend for emergencies?
+    Being on call taught me more about production reliability than any course could.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     這週末誰負責待命處理緊急狀況？
+    待命讓我對生產可靠性的了解比任何課程都多。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -422,5 +432,4 @@
       </prosody>
     </mstts:express-as>
   </voice>
-</speak>
 </speak>

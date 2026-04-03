@@ -174,9 +174,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Deliverable...
     What are the key deliverables for this sprint?
+    Clearly defining deliverables at the start prevents scope creep and sets shared expectations with stakeholders.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     這個衝刺的關鍵可交付成果是什麼？
+    在開始時清楚定義可交付成果可以防止範圍蔓延，並與利害關係人建立共同預期。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -345,6 +347,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     使用者參與度是我們追蹤的關鍵商業指標。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    OKR
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    O K R...
+    O K R stands for Objectives and Key Results.
+    The engineering team's O K R was to improve deployment frequency, measured by shipping to production at least ten times per week.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    OKR 是 Objectives and Key Results 的縮寫。
+    工程團隊的 OKR 是提升部署頻率，以每週至少向正式環境發布十次來衡量。
   </voice>
 
   <voice name="en-US-PhoebeMultilingualNeural">
