@@ -20,3 +20,24 @@ temp/
 !scripts/Batch-Convert.ps1
 !scripts/Convert-Podcast.ps1
 
+# ---- AI 工具工作目錄 ----
+# Claude Code 產生的對話紀錄與內部狀態
+.claude/
+
+# ---- 備份與暫存 ----
+*.bak
+*.tmp
+*.swp
+*~
+
+# ---- 本地工作檔案（不應 commit）----
+# Session 上下文交接
+*.local.md
+!templates/CONTEXT.local.md
+
+# 跨 Agent 交接目錄
+.local/
+
+# ---- 機敏資訊 ----
+*.env
+*.env.*
