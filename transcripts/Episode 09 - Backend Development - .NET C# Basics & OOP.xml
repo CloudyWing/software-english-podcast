@@ -31,9 +31,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Solution...
     A solution acts as a container for organizing multiple related projects and their dependencies.
+    A single solution can contain both the main API project and the unit test project, making it easy to run all tests with one command.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     解決方案充當一個容器，用來組織多個相關的專案及其相依性。
+    一個解決方案可以同時包含主要 API 專案和單元測試專案，讓你只需一個命令就能執行所有測試。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -42,9 +44,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Namespace...
     File-scoped namespaces reduce indentation and make code cleaner.
+    Consistent namespace naming prevents ambiguity when two libraries define classes with the same name.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     檔案範圍的命名空間減少了縮排，讓程式碼更乾淨。
+    一致的命名空間命名可防止在兩個函式庫定義了同名類別時產生歧義。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -73,9 +77,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Record...
     Records are immutable reference types with value-based equality. Great for DTOs.
+    Use records for API response models because their built-in equality makes unit testing assertions much simpler.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Records 是具有基於值相等性的不可變參考型別。非常適合用於資料傳輸物件 (DTO)。
+    將 Record 用於 API 回應模型，因為其內建的相等性使單元測試斷言更加簡單。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -84,9 +90,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Interface...
     Interfaces decouple implementation from definition, allowing for flexible and testable code.
+    Designing to interfaces makes it trivial to swap out a real database with an in-memory fake during testing.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     介面將實作與定義解耦，從而允許彈性且可測試的程式碼。
+    針對介面設計讓在測試時將真實資料庫替換為記憶體中的假實作變得輕而易舉。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -103,9 +111,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Nullable Reference Types...
     When enabled, the compiler warns you about potential null reference issues at compile time.
+    Marking a method parameter as non-nullable documents your intent that callers must always provide a value.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     啟用後，編譯器會在編譯時警告你可能的 null 參考問題。
+    將方法參數標記為不可為 null，明確記錄了你的意圖：呼叫端必須始終提供值。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -114,9 +124,37 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Pattern Matching...
     Pattern matching allows expressive logic in switch expressions.
+    The list pattern introduced in C# 11 lets you deconstruct collections directly in switch expressions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     模式比對允許在 switch 運算式中使用具表現力的邏輯。
+    C# 11 引入的清單模式讓你可以直接在 switch 運算式中解構集合。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    泛型
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Generic...
+    Generics let you write type-safe code once and reuse it for any type.
+    Defining a generic repository interface avoids duplicating data access code for every entity type.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    泛型讓你只需撰寫一次型別安全的程式碼，即可對任何型別重複使用。
+    定義泛型儲存庫介面，避免為每種實體型別重複撰寫資料存取程式碼。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    委派
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Delegate...
+    A delegate is a type that holds a reference to a method with a specific signature.
+    Built-in delegates like Func and Action let you pass behavior as arguments without defining custom delegate types.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    委派是一種持有特定簽章方法參考的型別。
+    像 Func 和 Action 這樣的內建委派讓你可以將行為作為引數傳遞，而無需定義自訂委派型別。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

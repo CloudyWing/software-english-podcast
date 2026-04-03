@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -33,9 +33,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Document Database...
     MongoDB allows flexible schema design by storing data as documents.
+    When user-generated content has unpredictable fields, a document database adapts without schema migrations.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     MongoDB 透過將資料儲存為文件，允許靈活的綱要設計。
+    當使用者生成的內容具有不可預測的欄位時，文件資料庫無需綱要遷移即可自動適應。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     鍵值儲存
@@ -44,9 +46,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Key-Value Store...
     Redis is the standard choice for caching and session management.
+    Rate-limiting counters are a perfect fit for key-value stores because each key maps to a simple integer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Redis 是快取與工作階段管理的標準選擇。
+    速率限制計數器非常適合鍵值儲存，因為每個鍵只對應一個簡單的整數。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     向量資料庫
@@ -55,9 +59,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Vector Database...
     Modern search engines use vector databases to power semantic search and recommendation systems.
+    Retrieval-Augmented Generation architectures rely on vector databases to fetch relevant context before calling the language model.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     現代搜尋引擎使用向量資料庫來驅動語意搜尋與推薦系統。
+    檢索增強生成架構依賴向量資料庫，在呼叫語言模型前獲取相關上下文。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -90,11 +96,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     CAP Theorem...
-    CAP stands for Consistency, Phoebeilability, and Partition tolerance.
+    CAP stands for Consistency, Availability, and Partition tolerance.
     The CAP theorem states that you can only provide two of these three guarantees.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    CAP 是 Consistency, Phoebeilability, and Partition tolerance 的縮寫。
+    CAP 是 Consistency, Availability, and Partition tolerance 的縮寫。
     CAP 定理指出，在一致性、可用性與分區容錯性中，你只能同時滿足其中兩項。
   </voice>
 
@@ -104,9 +110,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Sharding...
     Sharding splits your database across multiple servers to handle massive write loads.
+    Choosing a poor shard key can cause hot spots where most writes hit only one shard.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將資料庫分片到多台伺服器上，以處理巨大的寫入負載。
+    選擇不佳的分片鍵可能導致熱點問題，使大多數寫入都集中在同一個分片上。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -114,10 +122,25 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Replica Set...
-    A replica set ensures high Phoebeilability by maintaining multiple copies of your data.
+    A replica set ensures high Availability by maintaining multiple copies of your data.
+    In MongoDB, a replica set elects a primary node automatically when the current primary becomes unavailable.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     複本集透過維護資料的多份複本來確保高可用性。
+    在 MongoDB 中，當目前的主節點變得不可用時，複本集會自動選出新的主節點。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    時間序列資料庫
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Time Series Database...
+    A time series database is optimized for storing and querying data indexed by timestamp.
+    Prometheus uses a time series database to record application metrics and trigger alerts when values exceed thresholds.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    時間序列資料庫針對以時間戳記為索引的資料儲存與查詢進行了最佳化。
+    Prometheus 使用時間序列資料庫記錄應用程式指標，並在數值超過閾值時觸發警報。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -131,9 +154,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Supabase...
     Supabase is an open-source alternative to Firebase, built on top of PostgreSQL.
+    Supabase's Row Level Security lets you enforce access control directly in the database, not just in the application layer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Supabase 是一個基於 PostgreSQL 之上的 Firebase 開源替代方案。
+    Supabase 的資料列層級安全性讓你可以直接在資料庫中強制執行存取控制，而不僅僅依賴應用程式層。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     全文檢索
@@ -142,9 +167,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Full-text Search...
     Elasticsearch provides powerful full-text search capabilities using inverted indexes.
+    Implement full-text search with Elasticsearch to support fuzzy matching and typo tolerance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Elasticsearch 使用倒排索引提供強大的全文檢索能力。
+    使用 Elasticsearch 實作全文檢索，以支援模糊比對和容錯功能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -171,7 +198,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It guarantees that you can't have it all. You have to choose between Consistency and Phoebeilability, especially when using Sharding.
+        It guarantees that you can't have it all. You have to choose between Consistency and Availability, especially when using Sharding.
       </prosody>
     </mstts:express-as>
   </voice>

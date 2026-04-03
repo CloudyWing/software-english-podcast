@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -317,9 +317,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Nginx is widely used as a reverse proxy and load balancer due to its high performance and event-driven architecture.
+    Nginx terminates TLS at the edge and forwards plain HTTP to application servers, simplifying certificate management.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Nginx 因其高效能與事件驅動架構，被廣泛用作反向代理與負載平衡器。
+    Nginx 在邊緣終止 TLS 並將純 HTTP 轉發給應用程式伺服器，從而簡化憑證管理。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -332,6 +334,32 @@
   <voice name="zh-TW-HsiaoChenNeural">
     Apache HTTP Server。
     最古老的網頁伺服器之一，以 .htaccess 檔案的靈活性聞名。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    跨來源資源共用
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    C O R S...
+    C O R S stands for Cross-Origin Resource Sharing.
+    Browsers block cross-origin requests by default; configure CORS headers on your API server to allow specific domains.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    CORS 是 Cross-Origin Resource Sharing 的縮寫。
+    瀏覽器預設會封鎖跨來源請求；在 API 伺服器上設定 CORS 標頭，以允許特定的網域。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    JSON Web Token
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    J W T...
+    J W T stands for JSON Web Token.
+    Use J W T s to pass authenticated user claims between services without hitting the database on every request.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    JWT 是 JSON Web Token 的縮寫。
+    使用 JWT 在服務之間傳遞已驗證的使用者宣告，無需在每次請求時查詢資料庫。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -32,9 +32,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Async Await...
     Async and Await allow non-blocking operations, releasing the thread for other requests.
+    Always await async calls in ASP.NET Core to prevent thread pool starvation under high load.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Async 與 Await 允許非阻塞操作，釋放執行緒給其他請求使用。
+    在 ASP.NET Core 中務必 await 非同步呼叫，以防止在高負載下發生執行緒集區耗盡。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -43,9 +45,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Span...
     Span of T provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory.
+    Parsing HTTP headers with Span instead of Substring eliminates heap allocations in the hot path.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Span of T 提供了任意連續記憶體區域的型別安全與記憶體安全表示。
+    使用 Span 而非 Substring 來解析 HTTP 標頭，可消除熱路徑中的堆積記憶體配置。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -54,9 +58,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Source Generators...
     Source Generators run during compilation to generate code, avoiding expensive runtime reflection.
+    System.Text.Json uses source generators to produce serialization code at compile time, improving startup performance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     來源產生器在編譯期間執行以產生程式碼，避免了昂貴的執行時期反射。
+    System.Text.Json 使用來源產生器在編譯時產生序列化程式碼，提升啟動效能。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -82,9 +88,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Dependency Injection...
     .NET has built-in support for Dependency Injection to achieve loose coupling.
+    Register services with the correct lifetime (transient, scoped, singleton) to avoid subtle memory and concurrency bugs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <sub alias="Dot Net">.NET</sub> 內建支援相依性注入，以實現鬆散耦合。
+    以正確的生命週期（暫時性、範圍、單例）註冊服務，以避免細微的記憶體與並發 Bug。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -93,9 +101,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Middleware...
     Middleware components form a pipeline to handle HTTP requests and responses.
+    Add authentication middleware before authorization middleware so the user identity is established before checking permissions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     中介軟體元件形成一個管線來處理 HTTP 請求與回應。
+    在授權中介軟體之前加入驗證中介軟體，確保在檢查權限之前已建立使用者身分。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -125,9 +135,36 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Extension Method...
     Extension methods enable you to "add" methods to existing types without creating a new derived type.
+    LINQ's Where, Select, and OrderBy are all extension methods on IEnumerable, which is why they compose so cleanly.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     擴充方法讓你能在不建立新衍生型別的情況下，為現有型別「新增」方法。
+    LINQ 的 Where、Select 和 OrderBy 都是 IEnumerable 的擴充方法，這就是它們能夠如此優雅地組合的原因。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    通道
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Channel...
+    A channel provides a thread-safe, producer-consumer pipeline for in-process message passing.
+    Background jobs that process work items asynchronously often use channels to decouple producers from consumers without external queues.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    通道提供了執行緒安全的生產者-消費者管線，用於行程內的訊息傳遞。
+    非同步處理工作項目的背景作業通常使用通道將生產者與消費者解耦，而無需外部佇列。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Minimal API
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Minimal APIs in ASP.NET Core allow you to define HTTP endpoints with minimal boilerplate code.
+    Startup latency drops significantly when you replace a full MVC controller with a minimal API for lightweight microservices.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    ASP.NET Core 中的 Minimal API 讓你可以以最少的樣板程式碼定義 HTTP 端點。
+    對於輕量級微服務，將完整的 MVC Controller 替換為 Minimal API 能顯著降低啟動延遲。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

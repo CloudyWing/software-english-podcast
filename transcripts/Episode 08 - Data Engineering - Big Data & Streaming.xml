@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -78,9 +78,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Apache Kafka is a distributed event streaming platform used for high-performance data pipelines.
+    Kafka's consumer groups allow multiple services to independently process the same stream of events without blocking each other.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Apache Kafka 是一個分散式事件串流平台，常用於建構高效能的資料管線。
+    Kafka 的消費者群組允許多個服務獨立處理相同的事件流，而不會互相阻塞。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -100,9 +102,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Apache Spark is a unified analytics engine for big data processing, known for its in-memory speed.
+    Spark's in-memory processing makes it up to 100 times faster than Hadoop MapReduce for iterative machine learning workloads.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Apache Spark 是一個用於大數據處理的統一分析引擎，以記憶體內運算速度聞名。
+    Spark 的記憶體內處理使其在迭代式機器學習工作負載上比 Hadoop MapReduce 快高達 100 倍。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -110,9 +114,37 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Apache Airflow is a popular platform to programmatically author, schedule, and monitor workflows.
+    Airflow's DAG-based scheduling ensures each step of your data pipeline waits for its upstream dependencies to complete.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Apache Airflow 是一個熱門的平台，讓你透過程式碼來撰寫、排程與監控工作流程。
+    Airflow 基於有向無環圖的排程確保資料管線中的每個步驟都等待其上游相依性完成。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料血緣
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Lineage...
+    Data lineage tracks the origin, movement, and transformation of data through every step of a pipeline.
+    When a business metric suddenly changes, data lineage lets you trace exactly which upstream table or job caused the issue.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料血緣追蹤資料在管線每個步驟中的來源、移動和轉換過程。
+    當業務指標突然變化時，資料血緣讓你能夠精確追蹤是哪個上游資料表或作業導致了問題。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料合約
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Data Contract...
+    A data contract is a formal agreement that defines the schema, quality, and delivery guarantees of a dataset.
+    Teams that adopt data contracts catch breaking changes before they silently corrupt downstream dashboards.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料合約是一種正式協議，定義資料集的綱要、品質和交付保證。
+    採用資料合約的團隊能夠在破壞性變更默默損毀下游儀表板之前就發現問題。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
