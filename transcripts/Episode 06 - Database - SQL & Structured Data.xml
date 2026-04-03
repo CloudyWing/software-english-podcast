@@ -33,9 +33,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Schema...
     Database schema changes in production should always be backwards compatible.
+    Zero-downtime schema migrations require backward-compatible changes, such as adding nullable columns first.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     正式環境的資料庫綱要變更應該永遠保持向下相容。
+    零停機的綱要遷移需要向下相容的變更，例如先新增可為 null 的欄位。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -44,9 +46,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Primary Key...
     We use UUIDs as primary keys instead of auto-incrementing integers to avoid enumeration attacks.
+    Composite primary keys should be avoided in favor of surrogate keys like UUIDs for better flexibility.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們使用 UUID 作為主鍵，而不是自動遞增的整數，以避免枚舉攻擊。
+    應避免使用複合主鍵，改用 UUID 等代理鍵以獲得更好的彈性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -55,11 +59,25 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Foreign Key...
     Foreign keys ensure referential integrity between tables.
+    Dropping a foreign key constraint without a migration plan can lead to orphaned records and data corruption.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     外來鍵確保資料表之間的參考完整性。
+    在沒有遷移計畫的情況下刪除外來鍵約束，可能導致孤立記錄和資料損毀。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    約束
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Constraint...
+    Database constraints enforce rules on the data in a table, such as NOT NULL or UNIQUE.
+    Adding a check constraint prevents invalid data from being inserted at the database level rather than the application layer.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    資料庫約束在資料表上強制執行規則，例如 NOT NULL 或 UNIQUE。在資料庫層面加上 CHECK 約束，可防止無效資料插入，而不依賴應用程式層。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -91,9 +109,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Query...
     A well-optimized SQL query fetches only necessary data, preventing database bottlenecks.
+    Use parameterized queries to prevent SQL injection attacks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     一個最佳化良好的 SQL 查詢只擷取必要的資料，防止資料庫瓶頸。
+    使用參數化查詢可防止 SQL Injection 攻擊。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -102,9 +122,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Join...
     Joins allow us to reconstruct related data that was normalized across multiple tables.
+    A LEFT JOIN returns all rows from the left table even if there is no matching row in the right table.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     連結讓我們能夠重建分散在多個正規化資料表中的相關資料。
+    LEFT JOIN 會返回左側資料表的所有列，即使右側資料表中沒有相符的列。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -113,9 +135,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Index...
     Adding an index can significantly speed up partial matching searches.
+    Covering indexes include all the columns needed by a query, eliminating the need to access the main table.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     加上索引可以顯著加快部分比對搜尋的速度。
+    覆蓋索引包含查詢所需的所有欄位，省去了存取主資料表的需要。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -124,10 +148,37 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Transaction...
     Transactions ensure that a series of operations either all succeed or all fail.
+    Use short transactions to reduce lock contention in high-concurrency environments.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     交易確保一系列的操作要麽全部成功，要麽全部失敗。
+    在高併發環境中使用短交易，以減少鎖定競爭。
     除了寫 Query，資料庫的維運也是一門學問。Schema 不是設了就不能改的。
+  </voice>
+
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    ACID
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    A C I D...
+    A C I D stands for Atomicity, Consistency, Isolation, and Durability.
+    A C I D compliance is what separates true relational databases from simpler data stores when handling financial transactions.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    ACID 是 Atomicity, Consistency, Isolation, Durability 的縮寫。在處理金融交易時，ACID 合規性是真正的關聯式資料庫與更簡單的資料儲存之間的區別所在。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    死結
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Deadlock...
+    A deadlock occurs when two transactions each hold a lock that the other needs, causing both to wait forever.
+    Setting a transaction timeout is the simplest safeguard against deadlocks in production.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    死結發生在兩個交易各自持有對方所需的鎖，導致雙方永久等待。設定交易超時是在正式環境中防範死結最簡單的保護措施。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -137,9 +188,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Migration...
     Database migrations should be automated in the CI/CD pipeline.
+    Always include a rollback script alongside every migration to minimize recovery time after a failed deployment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     資料庫遷移應該在 CI/CD 管線中自動化執行。
+    每次遷移都應附上回滾腳本，以在部署失敗後縮短復原時間。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -148,11 +201,25 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Normalization...
     Normalization reduces data redundancy and improves data integrity.
+    Third normal form eliminates transitive dependencies, but sometimes controlled denormalization is needed for read performance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     正規化減少資料冗餘並提升資料完整性。
+    第三正規化消除了傳遞相依性，但有時需要有意識地反正規化以提升讀取效能。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    檢視表
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    View...
+    A view is a virtual table built from a saved SQL query.
+    Use views to simplify complex joins and hide implementation details from the application layer.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    檢視表是從已儲存的 SQL 查詢建立的虛擬資料表。使用檢視表可以簡化複雜的連結，並向應用程式層隱藏實作細節。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">

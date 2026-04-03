@@ -50,9 +50,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Amend...
     Use git commit amend to fix the typo in your last message.
+    You can also use amend to add a forgotten file to the last commit without changing the message.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     使用 amend 來修正你上一則訊息中的錯字。
+    你也可以使用 amend 將遺漏的檔案加入最後一次提交，而不更改提交訊息。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -61,9 +63,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Reset...
     Git reset can undo changes, but be careful with the hard option.
+    git reset --soft HEAD~1 un-commits the last change but keeps it staged, ready to recommit.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Git reset 可以復原變更，但要小心使用 hard 選項。
+    git reset --soft HEAD~1 會撤銷最後一次提交，但保留暫存狀態，可直接重新提交。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -72,11 +76,25 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Revert...
     Git revert creates a new commit that inverses the changes of a previous commit.
+    On a protected main branch, revert is the only safe way to undo a broken deployment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Git revert 建立一個新的提交來反轉先前提交的變更。
+    在受保護的主分支上，revert 是撤銷失敗部署的唯一安全方式。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    參照日誌
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Reflog...
+    Git reflog records every change to branch pointers, including resets and rebases.
+    If you accidentally delete a branch, reflog can show you the SHA to recover it.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Git reflog 記錄分支指標的每次變更，包括重設和變基。如果你不小心刪除了分支，reflog 可以顯示用於復原的 SHA。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -100,9 +118,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Squash...
     Squash your multiple work-in-progress commits into one clean commit.
+    Squashing commits before merging keeps the main branch history readable for future code archaeologists.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將你多個進行中的 Commits 壓縮成一個乾淨的 Commit。
+    合併前壓縮提交，可讓主分支歷史保持可讀性，方便日後的「程式碼考古學家」。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -118,6 +138,17 @@
     互動式變基是我用來打磨 Pull Requests 最喜歡的工具。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Submodule
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Git submodules link a specific commit of an external repository inside your project.
+    Use submodules when multiple projects depend on the exact same version of a shared library.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Git Submodule 將外部儲存庫的特定提交連結到你的專案中。當多個專案依賴共用函式庫的完全相同版本時，可使用 Submodule。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -149,9 +180,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Stash...
     Git stash temporarily shelves your changes so you can switch branches.
+    Name your stash with git stash push -m "message" so you can identify it later with git stash list.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Git stash 暫時擱置你的變更，讓你能夠切換分支。
+    使用 git stash push -m "訊息" 為暫存命名，以便日後用 git stash list 識別。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -160,9 +193,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Cherry-pick...
     Cherry-pick allows you to apply a specific commit from another branch.
+    Cherry-pick is useful for backporting a critical hotfix from the main branch to a release branch.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Cherry-pick 讓你能夠套用來自另一個分支的特定提交。
+    Cherry-pick 對於將主分支的緊急修復移植到發佈分支非常有用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -171,9 +206,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Blame...
     Git blame shows who modified each line of a file.
+    Use git blame with -L to restrict the output to specific line ranges in a large file.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Git blame 顯示是誰修改了檔案的每一行。
+    在大型檔案中使用 git blame 搭配 -L 參數，可將輸出限制在特定的行範圍內。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -182,9 +219,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Bisect...
     Git bisect uses binary search to find the commit that introduced a bug.
+    Automate git bisect with a test script so it can find the bad commit without manual intervention.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Git bisect 使用二分搜尋法來找出引入 Bug 的那個 Commit。
+    使用測試腳本自動化 git bisect，讓它無需人工介入即可找到有問題的提交。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

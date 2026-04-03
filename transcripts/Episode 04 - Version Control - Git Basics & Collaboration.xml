@@ -32,9 +32,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Repository...
     The repository contains all your project files and the entire revision history.
+    A monorepo stores multiple related projects in one repository, simplifying dependency management.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     檔案庫包含你所有的專案檔案以及完整的修訂歷史。
+    Monorepo 將多個相關專案存放在同一個儲存庫中，簡化相依性管理。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -56,11 +58,36 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Remote...
     The origin remote typically points to your GitHub repository.
+    You can add multiple remotes to sync your fork with both the upstream project and your own server.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     origin 遠端通常指向你的 GitHub 檔案庫。
+    你可以新增多個遠端，讓你的 Fork 與上游專案和你自己的伺服器保持同步。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    標籤
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tag...
+    Tags mark specific commits as important milestones, typically used for version releases.
+    Annotated tags are preferred for releases because they store the tagger name, email, and date.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    標籤將特定提交標記為重要里程碑，通常用於版本發佈。帶注解的標籤更適合發佈使用，因為它們會儲存標記者的姓名、電子郵件和日期。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Fork
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Fork the repository to your own account before submitting a pull request to an open-source project.
+    A fork lets you experiment freely without affecting the original upstream repository.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    在向開源專案提交 Pull Request 之前，先將儲存庫 Fork 到你自己的帳戶。Fork 讓你可以自由實驗，而不會影響原始的上游儲存庫。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
@@ -92,9 +119,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Stage...
     Staging allows you to selectively choose which file changes are ready to be included in the next snapshot.
+    Use git add -p to interactively stage specific hunks instead of all changes in a file at once.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     暫存讓你能夠選擇性地挑選哪些檔案變更準備好要包含在下一個快照中。
+    使用 git add -p 以互動方式暫存特定區塊，而不是一次暫存檔案中的所有變更。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -116,9 +145,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Push...
     Pushing synchronizes your local commits with the remote server, sharing your work with the team.
+    Use git push --force-with-lease instead of --force to avoid overwriting someone else's commits.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     推送將你的本機提交與遠端伺服器同步，與團隊分享你的工作成果。
+    使用 git push --force-with-lease 而非 --force，以避免覆蓋他人的提交。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -169,9 +200,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Branch...
     Branching creates an isolated environment to develop new features without affecting the stable code.
+    Short-lived feature branches reduce integration risk; aim to merge within one or two days of creation.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     分支建立了一個隔離環境來開發新功能，而不會影響穩定的程式碼。
+    短期的功能分支可降低整合風險；目標是在建立後一到兩天內完成合併。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -180,9 +213,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Merge...
     Merge the feature branch into main after the code review.
+    A fast-forward merge keeps the history linear, while a merge commit preserves the branch topology.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在程式碼審查後，將功能分支合併進主分支。
+    Fast-forward 合併保持歷史線性，而 Merge Commit 則保留分支的拓樸結構。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -192,10 +227,12 @@
     Pull Request...
     Open a Pull Request to initiate a code review.
     It's often abbreviated as PR.
+    Link the pull request to a related issue so the issue closes automatically when the PR is merged.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     開啟一個 Pull Request 來啟動程式碼審查。
     它通常被縮寫為 PR。
+    將 Pull Request 連結到相關 Issue，這樣當 PR 合併時 Issue 就會自動關閉。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -204,11 +241,25 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Conflict...
     Resolve the merge conflict manually in your editor.
+    Running git pull --rebase before pushing reduces the chance of conflicts in shared branches.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在你的編輯器中手動解決合併衝突。
+    在推送前執行 git pull --rebase 可降低在共用分支中發生衝突的機率。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    鉤子
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hook...
+    Git hooks are scripts that run automatically before or after events like commits and pushes.
+    A pre-commit hook can run linters and tests to block low-quality code from entering the repository.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Git 鉤子是在提交和推送等事件之前或之後自動執行的腳本。Pre-commit 鉤子可以執行 linter 和測試，阻止低品質的程式碼進入儲存庫。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">

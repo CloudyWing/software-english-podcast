@@ -37,9 +37,11 @@
     CPU...
     CPU stands for Central Processing Unit.
     Even with AI accelerators, the CPU still orchestrates the entire control flow and business logic.
+    A high core-count CPU is essential for compiling large codebases and running containerized workloads simultaneously.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     CPU 是 Central Processing Unit 的縮寫。即使有了 AI 加速器，CPU 仍然負責協調整個控制流程與商業邏輯。
+    高核心數的 CPU 對於同時編譯大型程式碼庫和執行容器化工作負載至關重要。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -99,6 +101,18 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    張量處理器
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    T P U...
+    T P U stands for Tensor Processing Unit.
+    Google designed T P U s to accelerate deep learning workloads in data centers.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    T P U 是 Tensor Processing Unit 的縮寫。Google 設計了 T P U 來加速資料中心的深度學習工作負載。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         有了強大的算力，硬體還是只是一堆金屬。是誰在負責溝通軟體與硬體？
@@ -112,9 +126,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Kernel...
     The kernel functions as a bridge between applications and the actual data processing done at the hardware level.
+    The Linux kernel is the foundation for both Android and most cloud server operating systems.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     核心充當應用程式與硬體層級實際資料處理之間的橋樑。
+    Linux 核心是 Android 與大多數雲端伺服器作業系統的基礎。
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -130,10 +146,12 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     RAM...
     RAM stands for Random Access Memory. Loading a 70 billion parameter model into RAM makes you really appreciate every gigabyte of memory.
+    Container memory limits prevent one noisy neighbor from consuming all available RAM.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     RAM 是 Random Access Memory 的縮寫。
     將一個 700 億參數的模型載入 RAM 會讓你真心感謝每一 GB 的記憶體空間。
+    容器記憶體限制可防止一個「吵鬧的鄰居」耗盡所有可用的 RAM。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -151,9 +169,11 @@
     SSD...
     SSD stands for Solid State Drive.
     Modern DirectStorage APIs rely on fast NVMe SSDs to bypass the CPU for massive asset loading.
+    Databases benefit from NVMe SSDs because random I/O latency drops to microseconds instead of milliseconds.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     SSD 是 Solid State Drive 的縮寫。現代的 DirectStorage API 依賴快速的 NVMe SSD 來繞過 CPU 進行大量的資產載入。
+    資料庫受益於 NVMe SSD，因為隨機 I/O 延遲從毫秒降至微秒。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -192,6 +212,7 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     「在本機上可以跑」是分散式系統開發中最危險的一句話。
+    在偵錯來自第三方服務的 Webhook 時，可使用 ngrok 等通道工具將本機暴露至網際網路。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -208,10 +229,12 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     IP Address...
     IP Address stands for Internet Protocol Address. Managing IP allow-lists in a dynamic cluster is a nightmare without a service mesh.
+    IPv6 was designed to solve the address exhaustion problem of IPv4.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     IP Address 是 Internet Protocol Address 的縮寫。
     在動態叢集中管理 IP 允許清單，如果沒有服務網格協助，簡直是場惡夢。
+    IPv6 的設計目的是解決 IPv4 位址耗盡的問題。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -228,10 +251,12 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     DNS...
     DNS stands for Domain Name System. It's always DNS. If your microservices can't discover each other, check the internal DNS first.
+    DNS TTL values control how long clients cache resolved IP addresses.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     DNS 是 Domain Name System 的縮寫。
     總是 DNS 的問題。如果你的微服務找不到彼此，先檢查內部 DNS。
+    DNS TTL 值控制客戶端快取解析出的 IP 位址的時間。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -249,9 +274,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Port...
     Container orchestration typically maps ephemeral ports, so hardcoding port 80 is a relic of the past.
+    Port 443 is the standard for HTTPS traffic, while port 22 is reserved for SSH.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     容器調度通常會映射臨時連接埠，所以寫死 Port 80 已經是過去式了。
+    Port 443 是 HTTPS 流量的標準埠，而 Port 22 保留給 SSH 使用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -268,9 +295,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Socket...
     WebSockets provide the persistent bi-directional link needed for real-time AI agents.
+    gRPC streaming relies on persistent socket connections to push updates from server to client.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     WebSocket 提供了即時 AI 代理所需的持久雙向連結。
+    gRPC 串流依賴持久的 Socket 連線，將伺服器更新推送給客戶端。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -287,9 +316,35 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Protocol...
     Choosing between gRPC and REST is a protocol decision that drastically impacts your API performance.
+    The HTTP/3 protocol uses QUIC instead of TCP to reduce connection setup latency.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在 gRPC 和 REST 之間做選擇，是個會劇烈影響 API 效能的協定決策。
+    HTTP/3 協定使用 QUIC 而非 TCP，以降低連線建立的延遲。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    頻寬
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Bandwidth...
+    Bandwidth is the maximum data transfer rate of a network connection.
+    Low bandwidth between services can cause bottlenecks even when individual servers are fast.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    頻寬是網路連線的最大資料傳輸速率。即使各伺服器本身很快，服務之間的頻寬不足仍可能造成瓶頸。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    吞吐量
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Throughput...
+    Throughput measures how much data is actually transferred in a given time period.
+    Benchmarking API throughput under peak load helps you plan capacity before launch.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    吞吐量衡量在特定時間內實際傳輸了多少資料。在峰值負載下對 API 吞吐量進行基準測試，有助於在上線前規劃容量。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -306,9 +361,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Latency...
     For edge AI applications, network latency is the ultimate enemy of user experience.
+    P99 latency matters more than average latency because it reflects the worst user experience.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     對於邊緣 AI 應用程式來說，網路延遲是使用者體驗的終極敵人。
+    P99 延遲比平均延遲更重要，因為它反映了最糟糕的使用者體驗。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

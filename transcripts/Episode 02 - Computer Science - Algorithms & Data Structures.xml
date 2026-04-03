@@ -57,9 +57,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Big O Notation...
     Big O notation describes the worst-case performance of an algorithm.
+    O(1) space complexity means the algorithm uses the same amount of memory regardless of input size.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     大 O 符號描述演算法在最差情況下的效能表現。
+    O(1) 空間複雜度表示演算法使用的記憶體量不隨輸入大小改變。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -68,9 +70,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Constant Time...
     Accessing an array index takes constant time, or O(1).
+    Hash table lookups are O(1) on average, making them ideal for caching key-value data.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     存取陣列索引花費常數時間，即 O(1)。
+    雜湊表查找平均為 O(1)，使其成為快取鍵值資料的理想選擇。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -79,9 +83,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Logarithmic Time...
     Binary search runs in logarithmic time, or O(log n).
+    B-tree indexes in relational databases provide O(log N) lookups, which is why they scale so well.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     二元搜尋以對數時間執行，即 O(log n)。
+    關聯式資料庫中的 B-tree 索引提供 O(log N) 的查找效能，這就是它們能夠良好擴展的原因。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -154,9 +160,47 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Graph...
     Graphs are used to model social networks and map routes.
+    Kubernetes uses a directed acyclic graph to resolve the order of resource dependencies.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     圖被用來模擬社群網路與地圖路徑。
+    Kubernetes 使用有向無環圖來解析資源相依性的順序。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    鏈結串列
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Linked List...
+    A linked list stores elements in nodes, where each node holds a value and a pointer to the next.
+    Linked lists allow O(1) insertions at the head but O(N) lookups, unlike arrays.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    鏈結串列以節點儲存元素，每個節點包含值和指向下一個節點的指標。鏈結串列允許在頭部進行 O(1) 插入，但查找需要 O(N)，與陣列不同。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    樹
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Tree...
+    A tree is a hierarchical data structure with a root and child nodes.
+    Binary search trees enable O(log N) lookups when the tree is balanced.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    樹是一種具有根節點和子節點的階層式資料結構。平衡的二元搜尋樹可實現 O(log N) 的查找。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    堆積
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Heap...
+    A heap is a tree-based data structure that always keeps the minimum or maximum element at the root.
+    Priority queues in task schedulers are typically implemented using a min-heap.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    堆積是一種基於樹的資料結構，始終將最小或最大元素保留在根節點。任務排程器中的優先佇列通常使用最小堆積來實作。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -167,7 +211,7 @@
     </mstts:express-as>
   </voice>
 
-  <voice name="en-US-PhoebeMultilingualNeural">
+  <voice name="zh-TW-HsiaoChenNeural">
     向量資料庫
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
@@ -187,9 +231,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Recursion...
     Recursion breaks a complex problem into smaller self-similar sub-problems.
+    Tree traversal algorithms are naturally expressed with recursion since each subtree is itself a tree.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     遞迴將一個複雜的問題分解成更小的自我相似子問題。
+    樹的走訪演算法天然適合用遞迴表達，因為每個子樹本身就是一棵樹。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -198,9 +244,11 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Sorting...
     Efficient sorting algorithms like Quick Sort are fundamental for optimizing search operations.
+    Merge sort is often preferred for stable sorts because it preserves the relative order of equal elements.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     像快速排序這樣的高效排序演算法，是最佳化搜尋操作的基礎。
+    合併排序常用於穩定排序，因為它會保留相等元素的相對順序。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -209,11 +257,25 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Dynamic Programming...
     Dynamic Programming optimizes recursive problems by caching intermediate results.
+    The longest common subsequence algorithm, used in diff tools, is a classic dynamic programming problem.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     動態規劃透過快取中間結果來優化遞迴問題。
+    用於 diff 工具的最長公共子序列演算法，是動態規劃的經典問題。
   </voice>
 
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    貪婪演算法
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Greedy Algorithm...
+    A greedy algorithm always picks the locally optimal choice at each step.
+    Dijkstra's shortest path algorithm is a classic example of a greedy approach.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    貪婪演算法在每一步都選取當下最優的選擇。Dijkstra 最短路徑演算法是貪婪策略的經典範例。
+  </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
