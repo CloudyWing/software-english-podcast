@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -354,6 +354,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     消毒使用者輸入以防止惡意腳本執行。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    秘密管理
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Secret Management...
+    Secret management centralizes the storage, rotation, and access control of credentials, API keys, and certificates.
+    Tools like HashiCorp Vault and Azure Key Vault ensure that application secrets are never hardcoded in source code and are automatically rotated on schedule.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    秘密管理集中處理憑證、API 金鑰和憑證的儲存、輪換和存取控制。
+    HashiCorp Vault 和 Azure Key Vault 等工具確保應用程式的機密資料永遠不會被硬編碼在原始碼中，並按計畫自動輪換。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

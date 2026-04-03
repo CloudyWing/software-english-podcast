@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -305,6 +305,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     閱讀白皮書以了解專案的技術細節。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    重新質押
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Restaking...
+    Restaking allows validators to reuse their staked assets to simultaneously secure multiple protocols, earning additional yield.
+    EigenLayer popularized restaking on Ethereum, letting node operators extend their economic security to new services without locking up additional capital.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    重新質押允許驗證者重複使用其質押資產，同時為多個協議提供安全保障並獲得額外收益。
+    EigenLayer 在以太坊上推廣了重新質押，讓節點運營商無需鎖定額外資本就能為新服務擴展其經濟安全性。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

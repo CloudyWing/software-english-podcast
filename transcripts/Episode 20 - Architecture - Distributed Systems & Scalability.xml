@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -288,6 +288,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     訊息代理人負責將訊息路由至正確的消費者。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    服務水準目標
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    S L O...
+    S L O stands for Service Level Objective.
+    Set an S L O of 99.9 percent availability and alert your on-call engineer whenever the error budget starts burning too fast.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    SLO 是 Service Level Objective 的縮寫。
+    設定 99.9% 可用性的 SLO，並在錯誤預算消耗過快時向待命工程師發出警報。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

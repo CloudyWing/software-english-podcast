@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -299,6 +299,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     封包嗅探擷取敏感的網路流量。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    深度偽造
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Deepfake...
+    A deepfake uses AI to generate convincing fake audio or video of a real person, making them appear to say or do things they never did.
+    Attackers used a deepfake audio of a CEO's voice to authorize a fraudulent wire transfer of over two hundred thousand dollars.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    深度偽造使用 AI 生成一個真實人物令人信服的偽造音訊或影片，讓他們看起來說了或做了從未發生的事。
+    攻擊者使用執行長聲音的深度偽造音訊，授權了一筆超過二十萬美元的詐欺電匯。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

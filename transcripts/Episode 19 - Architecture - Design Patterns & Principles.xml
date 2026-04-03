@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -487,6 +487,32 @@
   <voice name="zh-TW-HsiaoChenNeural">
     DDD 是 Domain-Driven Design 的縮寫。
     DDD 專注於核心商業邏輯與領域模型。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    特性旗標
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Feature Flag...
+    A feature flag lets you enable or disable a feature at runtime without deploying new code.
+    Teams use feature flags to do canary releases, gradually rolling out a new checkout flow to one percent of users before enabling it for everyone.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    特性旗標讓你無需部署新程式碼就能在執行時期啟用或停用功能。
+    團隊使用特性旗標進行金絲雀發布，在為所有人啟用之前先將新結帳流程逐步推出給百分之一的使用者。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    六角形架構
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Hexagonal Architecture...
+    Hexagonal architecture isolates the core domain logic from external systems like databases and APIs using ports and adapters.
+    Because the business logic has no dependency on the database, you can swap from SQL Server to PostgreSQL with zero changes to the domain layer.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    六角形架構使用連接埠和轉接器，將核心領域邏輯與資料庫和 API 等外部系統隔離。
+    因為業務邏輯不依賴資料庫，所以你可以從 SQL Server 換到 PostgreSQL，而不需要對領域層做任何更動。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

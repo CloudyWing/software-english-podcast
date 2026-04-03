@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -431,6 +431,18 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     金絲雀發布先將功能推供給一小部分的用戶。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenTelemetry
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    OpenTelemetry is the open-source standard for collecting traces, metrics, and logs from distributed systems.
+    By instrumenting your services with the OpenTelemetry SDK, you can send telemetry data to any backend, whether it is Jaeger, Prometheus, or Datadog.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    OpenTelemetry 是從分散式系統收集追蹤、指標和日誌的開源標準。
+    透過使用 OpenTelemetry SDK 對你的服務進行監測，你可以將遙測資料傳送到任何後端，無論是 Jaeger、Prometheus 還是 Datadog。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
