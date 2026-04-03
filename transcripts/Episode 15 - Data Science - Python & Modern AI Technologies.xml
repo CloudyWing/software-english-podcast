@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -31,9 +31,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Python is widely used for data analysis and AI development.
+    Python's extensive ecosystem of libraries like NumPy, Pandas, and PyTorch makes it the de facto language for machine learning.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Python 廣泛用於資料分析與 AI 開發。
+    Python 豐富的函式庫生態系，如 NumPy、Pandas 和 PyTorch，使其成為機器學習事實上的標準語言。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -107,9 +109,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Jupyter Notebook allows you to mix executable code, equations, and visualizations in one document.
+    Data scientists share Jupyter Notebooks as reproducible reports so colleagues can re-run the exact same analysis.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Jupyter Notebook 讓你能在同一份文件中混合可執行的程式碼、公式和視覺化圖表。
+    資料科學家以 Jupyter Notebook 分享可重現的報告，讓同事能夠重新執行完全相同的分析。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -414,9 +418,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     OpenAI developed the GPT series and ChatGPT.
+    OpenAI's API allows developers to integrate large language models into their products with just a few lines of code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     OpenAI 開發了 GPT 系列與 ChatGPT。
+    OpenAI 的 API 讓開發者只需幾行程式碼就能將大型語言模型整合到他們的產品中。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -424,9 +430,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Anthropic focuses on AI safety and developed the Claude models.
+    Anthropic's Constitutional AI training technique aims to make models more helpful, harmless, and honest.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Anthropic 專注於 AI 安全並開發了 Claude 模型。
+    Anthropic 的 Constitutional AI 訓練技術旨在使模型更有幫助、無害且誠實。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -434,9 +442,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Hugging Face is the leading platform for sharing open-source AI models.
+    You can download and run Hugging Face models locally with just a few lines using the Transformers library.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Hugging Face 是分享開源 AI 模型的領先平台。
+    你只需幾行程式碼，使用 Transformers 函式庫即可在本機下載和執行 Hugging Face 上的模型。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -468,9 +478,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     ChatGPT by OpenAI has set the standard for conversational AI.
+    ChatGPT's custom instructions feature lets you set a persistent persona and behavior for all your conversations.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     由 OpenAI 推出的 ChatGPT 樹立了對話式 AI 的標竿。
+    ChatGPT 的自訂指令功能讓你可以為所有對話設定持久的角色和行為。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -478,9 +490,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Gemini is Google's most capable model, known for its massive context window and multimodal skills.
+    Gemini is natively integrated into Google Search and Workspace, bringing AI into the tools millions already use daily.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Gemini 是 Google 最有能力的模型，以其龐大的上下文視窗與多模態能力聞名。
+    Gemini 原生整合在 Google Search 和 Workspace 中，將 AI 帶入數百萬人每天已在使用的工具裡。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -488,9 +502,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Anthropic's Claude is highly praised for its natural reasoning and coding capabilities.
+    Claude's extended context window makes it ideal for analyzing long documents like legal contracts or research papers.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Anthropic 的 Claude 因其自然的推理與寫程式能力而廣受讚譽。
+    Claude 的超長上下文視窗使其非常適合分析法律合約或研究論文等長篇文件。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -509,9 +525,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     NotebookLM turns your documents into an expert that you can interact with.
+    NotebookLM's audio overview feature can generate a podcast-style conversation summarizing your documents.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     NotebookLM 將你的文件轉變為可以互動的專家。
+    NotebookLM 的音訊概覽功能可以生成一段播客風格的對話，對你的文件進行摘要。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -582,6 +600,32 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     微調讓你能夠將預訓練模型調整為適合你的任務。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    多模態
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Multimodal...
+    A multimodal AI model can process and generate multiple types of data, such as text, images, and audio.
+    Multimodal models like GPT-4o can analyze a screenshot of your code and explain the bug directly.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    多模態 AI 模型可以處理和生成多種類型的資料，例如文字、圖像和音訊。
+    像 GPT-4o 這樣的多模態模型可以分析你程式碼的截圖並直接解釋 Bug。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 代理人
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    A I Agent...
+    An A I agent uses a language model as its brain to reason, plan, and execute multi-step tasks autonomously.
+    A I agents can browse the web, write and run code, and call external APIs to complete complex goals without human intervention.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    AI 代理人以語言模型作為大腦，自主地推理、規劃並執行多步驟任務。
+    AI 代理人可以瀏覽網頁、撰寫並執行程式碼，以及呼叫外部 API，無需人工介入即可完成複雜目標。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -44,9 +44,11 @@
     Android
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
+    Android's Jetpack Compose brings a declarative UI approach similar to React and SwiftUI.
     Android development requires understanding the Activity lifecycle.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
+    Android 的 Jetpack Compose 帶來了類似 React 和 SwiftUI 的宣告式 UI 方式。
     Android 開發需要理解 Activity 的生命週期。
   </voice>
 
@@ -55,9 +57,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Swift is the modern language for building iOS apps.
+    Swift's strong type system and optionals eliminate entire categories of runtime crashes.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Swift 是建構 iOS App 的現代語言。
+    Swift 的強型別系統和可選值消除了整類的執行時期崩潰。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -65,9 +69,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Kotlin is the preferred language for Android development.
+    Kotlin coroutines handle asynchronous operations more naturally than Java threads.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Kotlin 是 Android 開發的首選語言。
+    Kotlin 協程比 Java 執行緒更自然地處理非同步操作。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -75,19 +81,35 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Flutter allows you to build cross-platform apps from a single codebase.
+    Flutter's widget tree compiles to native code, giving it performance closer to native apps than web-based frameworks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Flutter 讓你從單一程式碼庫建構跨平台 App。
+    Flutter 的 Widget 樹編譯為原生程式碼，使其效能比基於 Web 的框架更接近原生 App。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
     React Native
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    React Native uses JPhoebeScript to create native mobile apps.
+    React Native uses JavaScript to create native mobile apps.
+    With React Native's Expo framework, you can prototype a mobile app and test it on your phone in minutes.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
-    React Native 使用 JPhoebeScript 來建立原生行動 App。
+    React Native 使用 JavaScript 來建立原生行動 App。
+    透過 React Native 的 Expo 框架，你可以在幾分鐘內原型化一個行動 App 並在手機上測試。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    SwiftUI
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    SwiftUI is Apple's modern declarative UI framework that replaces UIKit for most new iOS apps.
+    SwiftUI's live preview in Xcode lets you see UI changes in real time without running the full simulator.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    SwiftUI 是 Apple 現代的宣告式 UI 框架，取代了 UIKit 用於大多數新 iOS App。
+    SwiftUI 在 Xcode 中的即時預覽讓你無需運行完整模擬器即可即時看到 UI 變更。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -277,9 +299,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Core ML integrates machine learning models into your iOS app.
+    Core ML runs models entirely on-device, so sensitive health data never leaves the user's iPhone.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Core ML 將機器學習模型整合進你的 iOS App。
+    Core ML 完全在裝置端執行模型，因此敏感的健康資料永遠不會離開使用者的 iPhone。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -287,9 +311,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     TensorFlow Lite is designed for mobile and edge devices.
+    Quantizing a model for TensorFlow Lite reduces its size by four times with minimal accuracy loss.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     TensorFlow Lite 是專為行動與邊緣裝置所設計。
+    為 TensorFlow Lite 量化模型可將其大小縮小四倍，且準確率損失極小。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

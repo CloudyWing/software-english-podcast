@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -373,6 +373,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     部署 Hotfix 以立即修復這個嚴重 Bug。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    合約測試
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Contract Testing...
+    Contract testing verifies that the API messages exchanged between services match a shared contract.
+    Tools like Pact run contract tests independently on each service so you can catch integration issues without a full staging environment.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    合約測試驗證服務之間交換的 API 訊息是否符合共享合約。
+    像 Pact 這樣的工具會在每個服務上獨立執行合約測試，讓你無需完整的預備環境即可找出整合問題。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

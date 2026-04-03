@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -35,9 +35,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     We deploy our <sub alias="Dot Net">.NET</sub> applications to Microsoft Azure App Service.
+    Azure Active Directory integrates with enterprise identity providers to enable single sign-on across all company applications.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們將 .NET 應用程式部署到 Microsoft Azure App Service。
+    Azure Active Directory 與企業身份供應商整合，讓所有公司應用程式能夠使用單一登入。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -57,9 +59,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     We use Google Cloud Platform for its strong data analytics tools.
+    Google Cloud's BigQuery lets you run SQL queries across petabytes of data in seconds without managing infrastructure.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們使用 Google Cloud Platform，因為它有強大的資料分析工具。
+    Google Cloud 的 BigQuery 讓你無需管理基礎設施，就能在幾秒內對 PB 級資料執行 SQL 查詢。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -165,8 +169,8 @@
     可用區域
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Phoebeilability Zone...
-    Deploy resources across multiple Phoebeilability zones for redundancy.
+    Availability Zone...
+    Deploy resources across multiple availability zones for redundancy.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     跨多個可用區域部署資源以達冗餘效果。
@@ -453,6 +457,19 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    災難復原
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Disaster Recovery...
+    Disaster recovery defines the procedures for restoring systems after a major outage or data loss event.
+    Cloud providers offer cross-region replication to reduce recovery time objectives to minutes instead of days.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    災難復原定義了在重大中斷或資料遺失事件後恢復系統的程序。
+    雲端供應商提供跨區域複寫，將恢復時間目標從幾天縮短至幾分鐘。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         雲端服務這麼多，Serverless 聽起來最省錢，是萬能的嗎？
@@ -469,14 +486,14 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        原來如此，還要考慮 Region 和 Phoebeilability Zone 沒錯吧？
+        原來如此，還要考慮 Region 和 Availability Zone 沒錯吧？
       </prosody>
     </mstts:express-as>
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Yes. Designing for failure meant leveraging multi-Phoebeilability Zone redundancy. Don't put all your eggs in one basket.
+        Yes. Designing for failure meant leveraging multi-Availability Zone redundancy. Don't put all your eggs in one basket.
       </prosody>
     </mstts:express-as>
   </voice>

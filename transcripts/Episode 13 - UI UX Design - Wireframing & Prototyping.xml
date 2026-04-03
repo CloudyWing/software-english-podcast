@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -101,9 +101,11 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Figma is a collaborative design tool used by our team.
+    Figma's component libraries and auto-layout features let designers build consistent UI systems that engineers can reference directly.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Figma 是我們團隊使用的協作設計工具。
+    Figma 的元件庫和自動排版功能讓設計師能夠建立一致的 UI 系統，工程師可以直接參照使用。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -408,6 +410,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     遵循風格指南以維持視覺一致性。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    設計系統
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Design System...
+    A design system is a collection of reusable components, guidelines, and patterns that ensure visual and functional consistency across a product.
+    Companies like Airbnb and Google open-sourced their design systems to help teams build faster without reinventing the wheel.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    設計系統是一組可重複使用的元件、指南和模式，確保產品在視覺和功能上的一致性。
+    Airbnb 和 Google 等公司開源了他們的設計系統，幫助團隊在不重複造輪的情況下更快速地建構。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">

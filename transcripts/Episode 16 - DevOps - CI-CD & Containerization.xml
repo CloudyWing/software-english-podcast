@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -404,6 +404,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將敏感的 API Key 儲存在 K8s Secrets 中，而非明文儲存。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    混沌工程
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Chaos Engineering...
+    Chaos engineering deliberately injects failures into production systems to uncover weaknesses before they cause incidents.
+    Netflix pioneered chaos engineering with Chaos Monkey, a tool that randomly terminates instances to ensure services are fault-tolerant.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    混沌工程故意向正式系統注入故障，以在事故發生前找出弱點。
+    Netflix 以 Chaos Monkey 開創了混沌工程，這個工具隨機終止執行個體，確保服務具有容錯能力。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
