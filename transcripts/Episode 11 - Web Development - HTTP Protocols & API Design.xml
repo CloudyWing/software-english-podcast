@@ -32,7 +32,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Request...
-    An HTTP request contains the method, headers, and body needed to ask the server for a resource.
+    An H T T P request contains the method, headers, and body needed to ask the server for a resource.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     HTTP 請求包含了向伺服器請求資源所需的方法、標頭與主體。
@@ -74,7 +74,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Method...
-    GET and POST are the most common HTTP methods used in APIs.
+    GET and POST are the most common H T T P methods used in APIs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     GET 和 POST 是 API 中最常用的 HTTP 方法。
@@ -124,7 +124,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          你是說像 GraphQL 嗎？前端工程師的最愛，終於不用為了拿一個欄位呼叫五個 API 了。
+          你是說像 <sub alias="graph cue el">GraphQL</sub> 嗎？前端工程師的最愛，終於不用為了拿一個欄位呼叫五個 A P I 了。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -141,8 +141,8 @@
     GraphQL
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    GraphQL...
-    GraphQL is a query language for APIs that allows clients to request exactly what they need.
+    <sub alias="graph cue el">GraphQL</sub>...
+    <sub alias="graph cue el">GraphQL</sub> is a query language for APIs that allows clients to request exactly what they need.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     GraphQL 是一種 API 查詢語言，允許客戶端只請求他們需要的資料。
@@ -178,8 +178,8 @@
     HTTP/3
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    HTTP/3...
-    HTTP/3 runs on QUIC to reduce latency over unreliable networks.
+    H T T P/3...
+    H T T P/3 runs on QUIC to reduce latency over unreliable networks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     HTTP/3 運作在 QUIC 之上，以減少不穩定網路中的延遲。
@@ -317,7 +317,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Nginx is widely used as a reverse proxy and load balancer due to its high performance and event-driven architecture.
-    Nginx terminates TLS at the edge and forwards plain HTTP to application servers, simplifying certificate management.
+    Nginx terminates T L S at the edge and forwards plain H T T P to application servers, simplifying certificate management.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Nginx 因其高效能與事件驅動架構，被廣泛用作反向代理與負載平衡器。
@@ -328,7 +328,7 @@
     Apache
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Apache HTTP Server.
+    Apache H T T P Server.
     One of the oldest web servers, known for its flexibility with .htaccess files.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -342,7 +342,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     C O R S...
     C O R S stands for Cross-Origin Resource Sharing.
-    Browsers block cross-origin requests by default; configure CORS headers on your API server to allow specific domains.
+    Browsers block cross-origin requests by default; configure CORS headers on your A P I server to allow specific domains.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     CORS 是 Cross-Origin Resource Sharing 的縮寫。
@@ -373,7 +373,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          還有文件也很重要！沒人想要猜你的 API 到底要傳什麼參數。Swagger 是你的好朋友。
+          還有文件也很重要！沒人想要猜你的 A P I 到底要傳什麼參數。Swagger 是你的好朋友。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -390,8 +390,8 @@
     RESTful API
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    RESTful API...
-    RESTful API follows standard HTTP methods and resource-based URLs.
+    RESTful A P I...
+    RESTful A P I follows standard H T T P methods and resource-based URLs.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     RESTful API 遵循標準 HTTP 方法與基於資源的 URL。
@@ -413,7 +413,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Rate Limiting...
-    Implement rate limiting to prevent API abuse.
+    Implement rate limiting to prevent A P I abuse.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     實作速率限制以防止 API 濫用。
@@ -435,7 +435,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Versioning...
-    API versioning helps maintain backward compatibility for existing clients.
+    A P I versioning helps maintain backward compatibility for existing clients.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     API 版本控制有助於為現有客戶端維持向後相容性。
@@ -451,7 +451,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        If you have a complex frontend that needs specific data fields, GraphQL helps avoid over-fetching. But for standard microservices, RESTful API or gRPC might be simpler and faster.
+        If you have a complex frontend that needs specific data fields, <sub alias="graph cue el">GraphQL</sub> helps avoid over-fetching. But for standard microservices, RESTful A P I or gRPC might be simpler and faster.
       </prosody>
     </mstts:express-as>
   </voice>

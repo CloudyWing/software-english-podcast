@@ -246,7 +246,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Training...
-    The training process takes hours on a GPU.
+    The training process takes hours on a G P U.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     訓練過程在 GPU 上需要花費數小時。
@@ -418,7 +418,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     OpenAI developed the GPT series and ChatGPT.
-    OpenAI's API allows developers to integrate large language models into their products with just a few lines of code.
+    OpenAI's A P I allows developers to integrate large language models into their products with just a few lines of code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     OpenAI 開發了 GPT 系列與 ChatGPT。

@@ -18,7 +18,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，說到 CI/CD，工程師最怕的應該是週五下午五點按部署吧？那真的是心臟要很大顆。
+          曉臻，說到 C I / C D，工程師最怕的應該是週五下午五點按部署吧？那真的是心臟要很大顆。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -218,7 +218,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Metric...
-    CPU usage is a key metric for scaling decisions.
+    C P U usage is a key metric for scaling decisions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     CPU 使用率是決定擴展與否的關鍵指標。
@@ -400,7 +400,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Secret...
-    Store sensitive API keys in K8s secrets, not in plain text.
+    Store sensitive A P I keys in K8s secrets, not in plain text.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將敏感的 API Key 儲存在 K8s Secrets 中，而非明文儲存。
@@ -429,7 +429,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Automation is freedom. A good CI/CD Pipeline ensures that your Artifact runs the same way in Staging as it does in Production. And with Containers, "it works on my machine" is no longer an excuse.
+        Automation is freedom. A good C I / C D Pipeline ensures that your Artifact runs the same way in Staging as it does in Production. And with Containers, "it works on my machine" is no longer an excuse.
       </prosody>
     </mstts:express-as>
   </voice>

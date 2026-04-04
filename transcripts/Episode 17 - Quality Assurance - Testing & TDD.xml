@@ -132,7 +132,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          說到 TDD，理論上大家都知道很棒，但趕時程的時候真的有人能嚴格遵守「紅燈、綠燈、重構」嗎？
+          說到 T D D，理論上大家都知道很棒，但趕時程的時候真的有人能嚴格遵守「紅燈、綠燈、重構」嗎？
         </lang>
       </prosody>
     </mstts:express-as>
@@ -149,9 +149,9 @@
     測試驅動開發
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    TDD...
-    TDD stands for Test-Driven Development.
-    TDD requires writing tests before writing code.
+    T D D...
+    T D D stands for Test-Driven Development.
+    T D D requires writing tests before writing code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     TDD 是 Test-Driven Development 的縮寫。
@@ -380,7 +380,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Contract Testing...
-    Contract testing verifies that the API messages exchanged between services match a shared contract.
+    Contract testing verifies that the A P I messages exchanged between services match a shared contract.
     Tools like Pact run contract tests independently on each service so you can catch integration issues without a full staging environment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">

@@ -59,7 +59,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     We use Google Cloud Platform for its strong data analytics tools.
-    Google Cloud's BigQuery lets you run SQL queries across petabytes of data in seconds without managing infrastructure.
+    Google Cloud's BigQuery lets you run <sub alias="sequel">SQL</sub> queries across petabytes of data in seconds without managing infrastructure.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     我們使用 Google Cloud Platform，因為它有強大的資料分析工具。
@@ -248,7 +248,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          現在訓練模型動不動就需要超強 GPU，自己買一張卡貴鬆鬆，還是在雲端按個按鈕租用比較划算。
+          現在訓練模型動不動就需要超強 G P U，自己買一張卡貴鬆鬆，還是在雲端按個按鈕租用比較划算。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -265,8 +265,8 @@
     GPU 執行個體
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    GPU Instance...
-    Train the deep learning model on a high-performance GPU instance.
+    G P U Instance...
+    Train the deep learning model on a high-performance G P U instance.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在高效能 GPU 執行個體上訓練深度學習模型。
@@ -288,7 +288,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Inference Endpoint...
-    Deploy the model API to a scalable inference endpoint.
+    Deploy the model A P I to a scalable inference endpoint.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將模型 API 部署到可擴展的推論端點。

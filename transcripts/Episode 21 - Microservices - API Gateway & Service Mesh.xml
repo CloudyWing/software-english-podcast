@@ -130,7 +130,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     BFF...
     BFF stands for Backend for Frontend.
-    The BFF pattern optimizes the API response for mobile devices.
+    The BFF pattern optimizes the A P I response for mobile devices.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     BFF 是 Backend for Frontend 的縮寫。
@@ -141,9 +141,9 @@
     API 閘道器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    API Gateway...
-    API stands for Application Programming Interface.
-    The API gateway handles routing, composition, and protocol translation for clients.
+    A P I Gateway...
+    A P I stands for Application Programming Interface.
+    The A P I gateway handles routing, composition, and protocol translation for clients.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     API 是 Application Programming Interface 的縮寫。
@@ -337,7 +337,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Idempotency...
-    Ensure the API is idempotent so retrying requests doesn't duplicate actions.
+    Ensure the A P I is idempotent so retrying requests doesn't duplicate actions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     確保 API 具冪等性，這樣重試請求就不會重複動作。
@@ -438,7 +438,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     OpenTelemetry is the open-source standard for collecting traces, metrics, and logs from distributed systems.
-    By instrumenting your services with the OpenTelemetry SDK, you can send telemetry data to any backend, whether it is Jaeger, Prometheus, or Datadog.
+    By instrumenting your services with the OpenTelemetry S D K, you can send telemetry data to any backend, whether it is Jaeger, Prometheus, or Datadog.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     OpenTelemetry 是從分散式系統收集追蹤、指標和日誌的開源標準。
@@ -455,7 +455,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        That's why Distributed Tracing and Observability are mandatory. You need a Service Mesh or at least a good API Gateway to track the traffic.
+        That's why Distributed Tracing and Observability are mandatory. You need a Service Mesh or at least a good A P I Gateway to track the traffic.
       </prosody>
     </mstts:express-as>
   </voice>

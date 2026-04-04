@@ -13,7 +13,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，Span 是高效能的秘密武器。它允許我們在不複製記憶體的情況下操作資料片段。這對於高流量的 API 服務器來說至關重要。
+          曉臻，Span 是高效能的秘密武器。它允許我們在不複製記憶體的情況下操作資料片段。這對於高流量的 A P I 服務器來說至關重要。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -45,7 +45,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Span...
     Span of T provides a type-safe and memory-safe representation of a contiguous region of arbitrary memory.
-    Parsing HTTP headers with Span instead of Substring eliminates heap allocations in the hot path.
+    Parsing H T T P headers with Span instead of Substring eliminates heap allocations in the hot path.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Span of T 提供了任意連續記憶體區域的型別安全與記憶體安全表示。
@@ -100,7 +100,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Middleware...
-    Middleware components form a pipeline to handle HTTP requests and responses.
+    Middleware components form a pipeline to handle H T T P requests and responses.
     Add authentication middleware before authorization middleware so the user identity is established before checking permissions.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -122,7 +122,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     LINQ...
     LINQ stands for Language Integrated Query.
-    LINQ allows you to query collections using a SQL-like syntax in C#.
+    LINQ allows you to query collections using a <sub alias="sequel">SQL</sub>-like syntax in C#.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     LINQ 是 Language Integrated Query 的縮寫。
@@ -159,8 +159,8 @@
     Minimal API
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Minimal APIs in ASP.NET Core allow you to define HTTP endpoints with minimal boilerplate code.
-    Startup latency drops significantly when you replace a full MVC controller with a minimal API for lightweight microservices.
+    Minimal APIs in ASP.NET Core allow you to define H T T P endpoints with minimal boilerplate code.
+    Startup latency drops significantly when you replace a full MVC controller with a minimal A P I for lightweight microservices.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     ASP.NET Core 中的 Minimal API 讓你可以以最少的樣板程式碼定義 HTTP 端點。
@@ -191,7 +191,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Async, Await is non-negotiable for web servers. It frees up threads so your API can handle high concurrency without blocking.
+        Async, Await is non-negotiable for web servers. It frees up threads so your A P I can handle high concurrency without blocking.
       </prosody>
     </mstts:express-as>
   </voice>

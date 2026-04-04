@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -14,7 +14,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，真的，尤其是當 GUI 介面卡死還是要靠 SSH 進去救火的時候。
+          曉臻，真的，尤其是當 GUI 介面卡死還是要靠 S S H 進去救火的時候。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -69,10 +69,10 @@
     安全殼層
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SSH...
-    SSH stands for Secure Shell.
-    Always use SSH keys instead of passwords for authentication to prevent brute-force attacks.
-    SSH key-based authentication is required by GitHub and most cloud providers to push code securely.
+    S S H...
+    S S H stands for Secure Shell.
+    Always use S S H keys instead of passwords for authentication to prevent brute-force attacks.
+    S S H key-based authentication is required by GitHub and most cloud providers to push code securely.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     SSH 是 Secure Shell 的縮寫。
@@ -165,7 +165,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Environment Variable...
     Environment variables store configuration values outside your source code.
-    Never hardcode API keys in scripts; use environment variables and inject them through a secrets manager.
+    Never hardcode A P I keys in scripts; use environment variables and inject them through a secrets manager.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     環境變數將設定值儲存在原始碼之外。切勿將 API 金鑰硬編碼在腳本中；應使用環境變數，並透過密鑰管理員注入。
@@ -243,7 +243,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Because GUI tools can fail, but the Shell never lies. When you need to restart a stuck Daemon or fix a Permission issue on a remote server via SSH, the Terminal is your only friend.
+        Because GUI tools can fail, but the Shell never lies. When you need to restart a stuck Daemon or fix a Permission issue on a remote server via S S H, the Terminal is your only friend.
       </prosody>
     </mstts:express-as>
   </voice>

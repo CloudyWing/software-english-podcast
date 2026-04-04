@@ -110,9 +110,9 @@
     傳輸層安全性
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    TLS...
-    TLS stands for Transport Layer Security.
-    TLS encrypts traffic over the internet, replacing SSL.
+    T L S...
+    T L S stands for Transport Layer Security.
+    T L S encrypts traffic over the internet, replacing S S L.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     TLS 是 Transport Layer Security 的縮寫。
@@ -361,7 +361,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Secret Management...
-    Secret management centralizes the storage, rotation, and access control of credentials, API keys, and certificates.
+    Secret management centralizes the storage, rotation, and access control of credentials, A P I keys, and certificates.
     Tools like HashiCorp Vault and Azure Key Vault ensure that application secrets are never hardcoded in source code and are automatically rotated on schedule.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">

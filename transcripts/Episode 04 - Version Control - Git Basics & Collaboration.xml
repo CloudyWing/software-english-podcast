@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -45,7 +45,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Clone...
     Clone the repository to your local machine to start working.
-    Nowadays, we prefer cloning via SSH or GitHub CLI for better security.
+    Nowadays, we prefer cloning via S S H or GitHub CLI for better security.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     將儲存庫複製到你的本機以開始工作。

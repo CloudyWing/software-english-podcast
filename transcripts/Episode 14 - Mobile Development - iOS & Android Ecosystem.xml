@@ -244,9 +244,9 @@
     軟體開發套件
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SDK...
-    SDK stands for Software Development Kit.
-    Download the Android SDK to start developing.
+    S D K...
+    S D K stands for Software Development Kit.
+    Download the Android S D K to start developing.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     SDK 是 Software Development Kit 的縮寫。下載 Android SDK 以開始開發。
@@ -353,9 +353,9 @@
     除錯橋
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    ADB...
-    ADB stands for Android Debug Bridge.
-    Use ADB to install APKs manually.
+    A D B...
+    A D B stands for Android Debug Bridge.
+    Use A D B to install APKs manually.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     ADB 是 Android Debug Bridge 的縮寫。

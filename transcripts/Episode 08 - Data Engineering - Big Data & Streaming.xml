@@ -13,7 +13,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          曉臻，因為現在的雲端倉儲太強大了。我們先把原始資料全部 Load 進去，再用 SQL 進行 Transform。這樣更保留了原始資料的彈性。
+          曉臻，因為現在的雲端倉儲太強大了。我們先把原始資料全部 Load 進去，再用 <sub alias="sequel">SQL</sub> 進行 Transform。這樣更保留了原始資料的彈性。
         </lang>
       </prosody>
     </mstts:express-as>

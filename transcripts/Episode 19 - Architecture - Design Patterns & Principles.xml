@@ -508,7 +508,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Hexagonal Architecture...
     Hexagonal architecture isolates the core domain logic from external systems like databases and APIs using ports and adapters.
-    Because the business logic has no dependency on the database, you can swap from SQL Server to PostgreSQL with zero changes to the domain layer.
+    Because the business logic has no dependency on the database, you can swap from <sub alias="sequel">SQL</sub> Server to PostgreSQL with zero changes to the domain layer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     六角形架構使用連接埠和轉接器，將核心領域邏輯與資料庫和 API 等外部系統隔離。

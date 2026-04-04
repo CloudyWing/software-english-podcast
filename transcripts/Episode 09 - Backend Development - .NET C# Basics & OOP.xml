@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -31,7 +31,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Solution...
     A solution acts as a container for organizing multiple related projects and their dependencies.
-    A single solution can contain both the main API project and the unit test project, making it easy to run all tests with one command.
+    A single solution can contain both the main A P I project and the unit test project, making it easy to run all tests with one command.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     解決方案充當一個容器，用來組織多個相關的專案及其相依性。
@@ -77,7 +77,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Record...
     Records are immutable reference types with value-based equality. Great for DTOs.
-    Use records for API response models because their built-in equality makes unit testing assertions much simpler.
+    Use records for A P I response models because their built-in equality makes unit testing assertions much simpler.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Records 是具有基於值相等性的不可變參考型別。非常適合用於資料傳輸物件 (DTO)。

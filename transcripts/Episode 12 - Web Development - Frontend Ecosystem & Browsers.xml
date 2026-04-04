@@ -253,7 +253,7 @@
     Angular
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    Angular provides a full-featured framework with built-in tools for routing, forms, and HTTP requests.
+    Angular provides a full-featured framework with built-in tools for routing, forms, and H T T P requests.
     Angular's built-in dependency injection system makes it easy to swap services for testing without changing component code.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -414,7 +414,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     SSE...
     SSE stands for Server-Sent Events.
-    SSE allows the server to push updates to the client via HTTP.
+    SSE allows the server to push updates to the client via H T T P.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     SSE 是 Server-Sent Events 的縮寫。SSE 允許伺服器透過 HTTP 推送更新給客戶端。
@@ -437,7 +437,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Cookie...
-    Cookies are small data sent with every HTTP request, mainly used for authentication.
+    Cookies are small data sent with every H T T P request, mainly used for authentication.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     Cookie 是隨每個 HTTP 請求發送的小型資料，主要用於身分驗證。

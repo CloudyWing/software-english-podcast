@@ -182,7 +182,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          你是說像 SQL Injection 那樣嗎？感覺這是從我剛開始學程式就一直聽到的名詞耶。
+          你是說像 <sub alias="sequel">SQL</sub> Injection 那樣嗎？感覺這是從我剛開始學程式就一直聽到的名詞耶。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -200,7 +200,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Injection...
-    SQL injection occurs when malicious SQL statements are inserted into entry fields for execution.
+    <sub alias="sequel">SQL</sub> injection occurs when malicious <sub alias="sequel">SQL</sub> statements are inserted into entry fields for execution.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     當惡意 SQL 語句被插入到輸入欄位執行時，就會發生 SQL 注入。
@@ -340,7 +340,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Often it's simple things like unpatched Vulnerabilities or Phishing. But in code, SQL Injection and XSS are still surprisingly common.
+        Often it's simple things like unpatched Vulnerabilities or Phishing. But in code, <sub alias="sequel">SQL</sub> Injection and XSS are still surprisingly common.
       </prosody>
     </mstts:express-as>
   </voice>

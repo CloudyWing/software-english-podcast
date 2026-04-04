@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -108,8 +108,8 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Query...
-    A well-optimized SQL query fetches only necessary data, preventing database bottlenecks.
-    Use parameterized queries to prevent SQL injection attacks.
+    A well-optimized <sub alias="sequel">SQL</sub> query fetches only necessary data, preventing database bottlenecks.
+    Use parameterized queries to prevent <sub alias="sequel">SQL</sub> injection attacks.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     一個最佳化良好的 SQL 查詢只擷取必要的資料，防止資料庫瓶頸。
@@ -187,7 +187,7 @@
 
   <voice name="en-US-PhoebeMultilingualNeural">
     Migration...
-    Database migrations should be automated in the CI/CD pipeline.
+    Database migrations should be automated in the C I / C D pipeline.
     Always include a rollback script alongside every migration to minimize recovery time after a failed deployment.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -214,7 +214,7 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     View...
-    A view is a virtual table built from a saved SQL query.
+    A view is a virtual table built from a saved <sub alias="sequel">SQL</sub> query.
     Use views to simplify complex joins and hide implementation details from the application layer.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">

@@ -1,4 +1,4 @@
-<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
+﻿<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xml:lang="zh-TW">
 
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
@@ -17,7 +17,7 @@
         <lang xml:lang="zh-TW">
           絕對不同，曉臻。
           現在我們談論硬體，通常是在解決 AI 推論的延遲與吞吐量問題。
-          如果你的 Web API 回應很慢，問題可能不在程式碼，而在硬體資源的調度。
+          如果你的 Web A P I 回應很慢，問題可能不在程式碼，而在硬體資源的調度。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -34,10 +34,10 @@
     中央處理器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    CPU...
-    CPU stands for Central Processing Unit.
-    Even with AI accelerators, the CPU still orchestrates the entire control flow and business logic.
-    A high core-count CPU is essential for compiling large codebases and running containerized workloads simultaneously.
+    C P U...
+    C P U stands for Central Processing Unit.
+    Even with AI accelerators, the C P U still orchestrates the entire control flow and business logic.
+    A high core-count C P U is essential for compiling large codebases and running containerized workloads simultaneously.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     CPU 是 Central Processing Unit 的縮寫。即使有了 AI 加速器，CPU 仍然負責協調整個控制流程與商業邏輯。
@@ -55,7 +55,7 @@
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         <lang xml:lang="zh-TW">
-          沒錯，現在大家都在搶購 GPU。
+          沒錯，現在大家都在搶購 G P U。
         </lang>
       </prosody>
     </mstts:express-as>
@@ -72,8 +72,8 @@
     圖形處理器
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    GPU...
-    GPU stands for Graphics Processing Unit.
+    G P U...
+    G P U stands for Graphics Processing Unit.
     We now abuse GPUs for parallel matrix multiplication in model training, not just for rendering graphics.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -144,9 +144,9 @@
     隨機存取記憶體
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    RAM...
-    RAM stands for Random Access Memory. Loading a 70 billion parameter model into RAM makes you really appreciate every gigabyte of memory.
-    Container memory limits prevent one noisy neighbor from consuming all available RAM.
+    R A M...
+    R A M stands for Random Access Memory. Loading a 70 billion parameter model into R A M makes you really appreciate every gigabyte of memory.
+    Container memory limits prevent one noisy neighbor from consuming all available R A M.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     RAM 是 Random Access Memory 的縮寫。
@@ -166,9 +166,9 @@
     固態硬碟
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    SSD...
-    SSD stands for Solid State Drive.
-    Modern DirectStorage APIs rely on fast NVMe SSDs to bypass the CPU for massive asset loading.
+    S S D...
+    S S D stands for Solid State Drive.
+    Modern DirectStorage APIs rely on fast NVMe SSDs to bypass the C P U for massive asset loading.
     Databases benefit from NVMe SSDs because random I/O latency drops to microseconds instead of milliseconds.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
@@ -249,9 +249,9 @@
     網域名稱系統
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
-    DNS...
-    DNS stands for Domain Name System. It's always DNS. If your microservices can't discover each other, check the internal DNS first.
-    DNS TTL values control how long clients cache resolved IP addresses.
+    D N S...
+    D N S stands for Domain Name System. It's always D N S. If your microservices can't discover each other, check the internal D N S first.
+    D N S TTL values control how long clients cache resolved IP addresses.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     DNS 是 Domain Name System 的縮寫。
@@ -274,7 +274,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Port...
     Container orchestration typically maps ephemeral ports, so hardcoding port 80 is a relic of the past.
-    Port 443 is the standard for HTTPS traffic, while port 22 is reserved for SSH.
+    Port 443 is the standard for H T T P S traffic, while port 22 is reserved for S S H.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     容器調度通常會映射臨時連接埠，所以寫死 Port 80 已經是過去式了。
@@ -315,8 +315,8 @@
   </voice>
   <voice name="en-US-PhoebeMultilingualNeural">
     Protocol...
-    Choosing between gRPC and REST is a protocol decision that drastically impacts your API performance.
-    The HTTP/3 protocol uses QUIC instead of TCP to reduce connection setup latency.
+    Choosing between gRPC and REST is a protocol decision that drastically impacts your A P I performance.
+    The H T T P/3 protocol uses QUIC instead of TCP to reduce connection setup latency.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     在 gRPC 和 REST 之間做選擇，是個會劇烈影響 API 效能的協定決策。
@@ -341,7 +341,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     Throughput...
     Throughput measures how much data is actually transferred in a given time period.
-    Benchmarking API throughput under peak load helps you plan capacity before launch.
+    Benchmarking A P I throughput under peak load helps you plan capacity before launch.
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     吞吐量衡量在特定時間內實際傳輸了多少資料。在峰值負載下對 API 吞吐量進行基準測試，有助於在上線前規劃容量。
@@ -378,7 +378,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        It depends, but usually, it's a mix. If you have a high throughput requirement, you definitely need a powerful CPU and sufficient RAM to handle concurrent connections. But, if your Latency is high, no matter how fast your NPU or SSD is, the user will still feel the lag.
+        It depends, but usually, it's a mix. If you have a high throughput requirement, you definitely need a powerful C P U and sufficient R A M to handle concurrent connections. But, if your Latency is high, no matter how fast your NPU or S S D is, the user will still feel the lag.
       </prosody>
     </mstts:express-as>
   </voice>
@@ -392,7 +392,7 @@
   <voice name="en-US-PhoebeMultilingualNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
-        Exactly. That's why understanding the underlying Protocol and optimizing your DNS resolution is just as critical as upgrading your hardware specs.
+        Exactly. That's why understanding the underlying Protocol and optimizing your D N S resolution is just as critical as upgrading your hardware specs.
       </prosody>
     </mstts:express-as>
   </voice>
