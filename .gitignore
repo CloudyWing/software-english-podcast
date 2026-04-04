@@ -45,3 +45,6 @@ temp/
 # ---- 機敏資訊 ----
 *.env
 *.env.*
+
+# ---- 產出檔案（由 GitHub Release 管理）----
+assets/
