@@ -3,6 +3,15 @@ name: Generate Audio
 on:
   release:
     types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: '要轉換的 tag（如 v1.0.0）'
+        required: true
+        type: string
+
+permissions:
+  contents: write
 
 jobs:
   generate-audio:
@@ -17,7 +26,7 @@ jobs:
       - name: Detect changed transcripts
         id: changed
         run: |
-          CURRENT_TAG="${{ github.ref_name }}"
+          CURRENT_TAG="${{ github.event.inputs.tag || github.ref_name }}"
           PREV_TAG=$(git tag --sort=-version:refname | grep -v "^${CURRENT_TAG}$" | head -n 1)
 
           if [ -z "$PREV_TAG" ]; then
@@ -91,7 +100,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          TAG="${{ github.ref_name }}"
+          TAG="${{ github.event.inputs.tag || github.ref_name }}"
           while IFS= read -r MP3; do
             [ -z "$MP3" ] && continue
             echo "Uploading $MP3..."
