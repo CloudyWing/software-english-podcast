@@ -38,8 +38,7 @@ graph TD
 - **transcripts/**: 每一集的內容 (XML)。
 - **scripts/**: 轉換用的工具程式（本機手動執行）。
 - **.github/workflows/**: CI/CD 自動化流程。
-  - `create-release.yml`：push tag 時自動建立 GitHub Release。
-  - `generate-audio.yml`：Release published 時自動轉換 TTS 並上傳 MP3。
+  - `release.yml`：push tag 時建立 GitHub Release，自動轉換變更的 SSML 並上傳 MP3，也支援手動指定 tag 重跑。
 - **.agent/skills/**: AI 技能定義目錄。
   - `podcast-episode/`：Episode XML 生成規範。
   - `podcast-vocab/`：詞彙擴充流程規範。

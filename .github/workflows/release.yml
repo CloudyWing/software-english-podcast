@@ -1,0 +1,232 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: '要重新生成音訊的 tag（如 v1.0.0）'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  prepare-release:
+    runs-on: ubuntu-24.04
+    outputs:
+      tag: ${{ steps.context.outputs.tag }}
+
+    steps:
+      - name: Resolve release context
+        id: context
+        env:
+          DISPATCH_TAG: ${{ github.event.inputs.tag }}
+        run: |
+          set -euo pipefail
+
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TAG="$DISPATCH_TAG"
+          else
+            TAG="$GITHUB_REF_NAME"
+          fi
+
+          if ! [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Tag must match vMAJOR.MINOR.PATCH. Received: $TAG" >&2
+            exit 1
+          fi
+
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ steps.context.outputs.tag }}
+
+      - name: Extract Release Notes from CHANGELOG
+        id: extract
+        env:
+          TAG: ${{ steps.context.outputs.tag }}
+          CHANGELOG: CHANGELOG.md
+        run: |
+          set -euo pipefail
+
+          if [ ! -f "$CHANGELOG" ]; then
+            echo "use_generate_notes=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          ESCAPED_TAG=$(printf '%s\n' "$TAG" | sed 's/\./\\./g')
+          NOTES=$(awk "/^## ${ESCAPED_TAG}( |\r?\$)/{found=1} found && /^## / && !/^## ${ESCAPED_TAG}/{exit} found{print}" "$CHANGELOG" | sed 's/^#//')
+
+          if [ -z "$(printf '%s' "$NOTES" | tr -d ' \n\r')" ]; then
+            echo "use_generate_notes=true" >> "$GITHUB_OUTPUT"
+          else
+            printf "%s\n" "$NOTES" > /tmp/release_notes.md
+            echo "use_generate_notes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Ensure GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.context.outputs.tag }}
+        run: |
+          set -euo pipefail
+
+          if gh release view "$TAG" > /dev/null 2>&1; then
+            echo "Release $TAG already exists."
+            exit 0
+          fi
+
+          if [ "${{ steps.extract.outputs.use_generate_notes }}" = "true" ]; then
+            gh release create "$TAG" --title "$TAG" --generate-notes
+          else
+            gh release create "$TAG" --title "$TAG" --notes-file /tmp/release_notes.md
+          fi
+
+  generate-audio:
+    needs: [prepare-release]
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ needs.prepare-release.outputs.tag }}
+
+      - name: Detect changed transcripts
+        id: changed
+        run: |
+          set -euo pipefail
+
+          CURRENT_TAG="${{ needs.prepare-release.outputs.tag }}"
+          VERSION_TAGS=$(git tag --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' || true)
+          PREV_TAG=$(printf '%s\n' "$VERSION_TAGS" | grep -Fvx "$CURRENT_TAG" | head -n 1 || true)
+
+          if [ -z "$PREV_TAG" ]; then
+            echo "No previous tag found. Converting all transcripts." >&2
+            find transcripts -name "*.xml" | sort > /tmp/changed_files.txt
+          else
+            echo "Comparing ${PREV_TAG}..${CURRENT_TAG}" >&2
+            git diff --name-only --diff-filter=ACMR "${PREV_TAG}..${CURRENT_TAG}" -- 'transcripts/*.xml' > /tmp/changed_files.txt
+          fi
+
+          if [ -s /tmp/changed_files.txt ]; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate release inputs
+        if: steps.changed.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ needs.prepare-release.outputs.tag }}
+          TTS_KEY: ${{ secrets.TTS_KEY }}
+          TTS_REGION: ${{ secrets.TTS_REGION }}
+        run: |
+          set -euo pipefail
+
+          HAS_MISSING=false
+
+          if [ -z "$TTS_KEY" ]; then
+            echo "Missing required secret: TTS_KEY" >&2
+            HAS_MISSING=true
+          fi
+
+          if [ -z "$TTS_REGION" ]; then
+            echo "Missing required secret: TTS_REGION" >&2
+            HAS_MISSING=true
+          fi
+
+          if [ "$HAS_MISSING" = true ]; then
+            exit 1
+          fi
+
+          gh release view "$TAG" > /dev/null
+
+      - name: Convert transcripts to MP3
+        if: steps.changed.outputs.has_changes == 'true'
+        id: convert
+        env:
+          TTS_KEY: ${{ secrets.TTS_KEY }}
+          TTS_REGION: ${{ secrets.TTS_REGION }}
+        run: |
+          set -euo pipefail
+
+          MAX_RETRY=3
+          > /tmp/success_list.txt
+          > /tmp/failed_list.txt
+
+          while IFS= read -r FILE; do
+            [ -z "$FILE" ] && continue
+
+            if [ ! -f "$FILE" ]; then
+              echo "File $FILE does not exist, skipping..."
+              continue
+            fi
+
+            ATTEMPT=0
+            SUCCESS=false
+            OUTPUT_FILE="$(basename "${FILE%.xml}.mp3")"
+
+            while [ $ATTEMPT -lt $MAX_RETRY ]; do
+              ATTEMPT=$((ATTEMPT + 1))
+              echo "Converting $FILE (attempt $ATTEMPT/$MAX_RETRY)..."
+
+              if pwsh scripts/Convert-Podcast.ps1 \
+                -InputFile "$FILE" \
+                -ApiKey "$TTS_KEY" \
+                -Region "$TTS_REGION" \
+                -OutputFile "$OUTPUT_FILE"; then
+                SUCCESS=true
+                echo "$OUTPUT_FILE" >> /tmp/success_list.txt
+                break
+              fi
+
+              echo "Retry $ATTEMPT/$MAX_RETRY for $FILE"
+              sleep 5
+            done
+
+            if [ "$SUCCESS" = false ]; then
+              echo "$FILE" >> /tmp/failed_list.txt
+            fi
+          done < /tmp/changed_files.txt
+
+          if [ -s /tmp/success_list.txt ]; then
+            echo "has_success=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_success=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [ -s /tmp/failed_list.txt ]; then
+            echo "has_failures=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_failures=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload MP3 to Release
+        if: steps.convert.outputs.has_success == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          TAG="${{ needs.prepare-release.outputs.tag }}"
+          while IFS= read -r MP3; do
+            [ -z "$MP3" ] && continue
+            echo "Uploading $MP3..."
+            gh release upload "$TAG" "$MP3" --clobber
+          done < /tmp/success_list.txt
+
+      - name: Report failures
+        if: steps.convert.outputs.has_failures == 'true'
+        run: |
+          echo "❌ The following files failed to convert after 3 retries:"
+          cat /tmp/failed_list.txt
+          exit 1
