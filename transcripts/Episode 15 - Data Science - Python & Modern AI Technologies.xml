@@ -308,6 +308,45 @@
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
+    低秩適應
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    LoRA...
+    LoRA stands for Low-Rank Adaptation.
+    LoRA fine-tunes a large model by training only a small set of additional weight matrices.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    LoRA 是 Low-Rank Adaptation 的縮寫。
+    LoRA 透過只訓練一小組額外的權重矩陣來微調大型模型。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    人類回饋強化學習
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    RLHF...
+    RLHF stands for Reinforcement Learning from Human Feedback.
+    RLHF is the technique used to align language models with human preferences.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    RLHF 是 Reinforcement Learning from Human Feedback 的縮寫。
+    RLHF 是用來讓語言模型與人類偏好對齊的技術。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    量化
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Quantization...
+    Quantization reduces model size by lowering the precision of its weights.
+    Use 4-bit quantization to run a 7B model on a consumer GPU.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    量化透過降低模型權重的精度來縮小模型體積。
+    使用 4-bit 量化即可在消費級 GPU 上執行 70 億參數模型。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
         近年來，大型語言模型的發展引領了新一波的 AI 革命。
@@ -387,6 +426,19 @@
   </voice>
   <voice name="zh-TW-HsiaoChenNeural">
     嵌入將文字表示為數字向量，以捕捉語意。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    上下文視窗
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Context Window...
+    The context window defines the maximum amount of text an LLM can process at once.
+    A larger context window lets the model reason over longer documents without losing track of earlier content.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    上下文視窗定義了 LLM 一次能處理的最大文字量。
+    更大的上下文視窗讓模型能對更長的文件進行推理，而不會遺忘前面的內容。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
@@ -535,6 +587,78 @@
   <voice name="zh-TW-HsiaoChenNeural">
     <mstts:express-as style="cheerful">
       <prosody rate="+10%">
+        商業模型之外，開源社群的力量也不容小覷，讓每個開發者都能自己跑大模型。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        <lang xml:lang="zh-TW">
+          自從 Meta 開源了 Llama，整個生態系就爆發了。現在在自己的筆電上跑語言模型真的不是夢。
+        </lang>
+      </prosody>
+    </mstts:express-as>
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
+        對，加上 Ollama 這類工具，本機部署的門檻越來越低了，資料隱私的顧慮也解決了很多。
+      </prosody>
+    </mstts:express-as>
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Llama
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Llama is Meta's open-source large language model series.
+    The Llama models have become the most widely used foundation for fine-tuning and local deployment in the open-source community.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Llama 是 Meta 的開源大型語言模型系列。
+    Llama 模型已成為開源社群中微調與本機部署最廣泛使用的基礎模型。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Mistral
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Mistral is a European open-source LLM known for strong performance despite its compact size.
+    Mistral's mixture-of-experts architecture delivers high quality results with lower computational cost.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Mistral 是一個歐洲開源 LLM，以小體積高效能著稱。
+    Mistral 的混合專家架構以更低的運算成本提供高品質的輸出結果。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    DeepSeek
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    DeepSeek is a Chinese open-source model that has attracted attention for its reasoning performance.
+    DeepSeek-R1 demonstrated strong math and coding abilities while being fully open-sourced for local use.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    DeepSeek 是一個以推理能力受到廣泛關注的中國開源模型。
+    DeepSeek-R1 展現了強大的數學與寫程式能力，並完全開源供本機使用。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    Ollama
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Ollama lets you run open-source models locally with a single command.
+    Use Ollama to pull and run Llama or Mistral on your laptop without sending data to any cloud service.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    Ollama 讓你只需一行指令就能在本機執行開源模型。
+    使用 Ollama 即可在筆電上下載並執行 Llama 或 Mistral，完全不需要將資料傳送到任何雲端服務。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    <mstts:express-as style="cheerful">
+      <prosody rate="+10%">
         最後，從使用者的角度，我們還需掌握這些與 AI 互動的策略。
       </prosody>
     </mstts:express-as>
@@ -626,6 +750,45 @@
   <voice name="zh-TW-HsiaoChenNeural">
     AI 代理人以語言模型作為大腦，自主地推理、規劃並執行多步驟任務。
     AI 代理人可以瀏覽網頁、撰寫並執行程式碼，以及呼叫外部 API，無需人工介入即可完成複雜目標。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    系統提示詞
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    System Prompt...
+    A system prompt sets the AI's role, tone, and constraints before the conversation begins.
+    Use a system prompt to define the persona and output format for your AI-powered application.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    系統提示詞在對話開始前設定 AI 的角色、語氣與限制條件。
+    使用系統提示詞來定義你的 AI 應用程式的角色人設與輸出格式。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    函式呼叫
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    Function Calling...
+    Function calling allows a language model to trigger external tools or APIs based on user intent.
+    With function calling, the model decides when to call a weather API or a database query instead of answering from memory.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    函式呼叫讓語言模型能根據使用者意圖觸發外部工具或 API。
+    透過函式呼叫，模型能自行判斷何時呼叫天氣 API 或資料庫查詢，而不是憑記憶回答。
+  </voice>
+
+  <voice name="zh-TW-HsiaoChenNeural">
+    MCP
+  </voice>
+  <voice name="en-US-PhoebeMultilingualNeural">
+    MCP...
+    MCP stands for Model Context Protocol.
+    MCP is an open standard that lets AI models securely connect to external data sources and tools through a unified interface.
+  </voice>
+  <voice name="zh-TW-HsiaoChenNeural">
+    MCP 是 Model Context Protocol 的縮寫。
+    MCP 是一個開放標準，讓 AI 模型能透過統一介面安全地連接外部資料來源與工具。
   </voice>
 
   <voice name="zh-TW-HsiaoChenNeural">
