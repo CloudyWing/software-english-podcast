@@ -28,29 +28,30 @@ jobs:
           CURRENT_TAG="${{ github.ref_name }}"
           PREV_TAG=$(git tag --sort=-version:refname | grep -v "^${CURRENT_TAG}$" | head -n 1)
 
-          {
-            echo "changed_files<<EOF"
-            if [ -z "$PREV_TAG" ]; then
-              echo "No previous tag found. Converting all transcripts." >&2
-              find transcripts -name "*.xml"
-            else
-              echo "Comparing ${PREV_TAG}...${CURRENT_TAG}" >&2
-              git diff --name-only "${PREV_TAG}...HEAD" -- 'transcripts/*.xml'
-            fi
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
+          if [ -z "$PREV_TAG" ]; then
+            echo "No previous tag found. Converting all transcripts." >&2
+            find transcripts -name "*.xml" > /tmp/changed_files.txt
+          else
+            echo "Comparing ${PREV_TAG}...${CURRENT_TAG}" >&2
+            git diff --name-only "${PREV_TAG}...HEAD" -- 'transcripts/*.xml' > /tmp/changed_files.txt
+          fi
+
+          if [ -s /tmp/changed_files.txt ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Convert transcripts to MP3
-        if: steps.changed.outputs.changed_files != ''
+        if: steps.changed.outputs.has_changes == 'true'
         id: convert
         env:
-          CHANGED_FILES: ${{ steps.changed.outputs.changed_files }}
           TTS_KEY: ${{ secrets.TTS_KEY }}
           TTS_REGION: ${{ secrets.TTS_REGION }}
         run: |
           MAX_RETRY=3
-          FAILED_LIST=""
-          SUCCESS_LIST=""
+          > /tmp/success_list.txt
+          > /tmp/failed_list.txt
 
           while IFS= read -r FILE; do
             [ -z "$FILE" ] && continue
@@ -68,7 +69,7 @@ jobs:
                 -Region "$TTS_REGION" \
                 -OutputFile "$OUTPUT_FILE"; then
                 SUCCESS=true
-                SUCCESS_LIST="${SUCCESS_LIST}"$'\n'"${OUTPUT_FILE}"
+                echo "$OUTPUT_FILE" >> /tmp/success_list.txt
                 break
               fi
 
@@ -77,37 +78,37 @@ jobs:
             done
 
             if [ "$SUCCESS" = false ]; then
-              FAILED_LIST="${FAILED_LIST}"$'\n'"${FILE}"
+              echo "$FILE" >> /tmp/failed_list.txt
             fi
-          done <<< "$CHANGED_FILES"
+          done < /tmp/changed_files.txt
 
-          {
-            echo "success_list<<EOF"
-            echo "$SUCCESS_LIST"
-            echo "EOF"
-            echo "failed_list<<EOF"
-            echo "$FAILED_LIST"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
+          if [ -s /tmp/success_list.txt ]; then
+            echo "has_success=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_success=false" >> $GITHUB_OUTPUT
+          fi
+
+          if [ -s /tmp/failed_list.txt ]; then
+            echo "has_failures=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_failures=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Upload MP3 to Release
-        if: steps.convert.outputs.success_list != ''
+        if: steps.convert.outputs.has_success == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SUCCESS_LIST: ${{ steps.convert.outputs.success_list }}
         run: |
           TAG="${{ github.ref_name }}"
           while IFS= read -r MP3; do
             [ -z "$MP3" ] && continue
             echo "Uploading $MP3..."
             gh release upload "$TAG" "$MP3" --clobber
-          done <<< "$SUCCESS_LIST"
+          done < /tmp/success_list.txt
 
       - name: Report failures
-        if: steps.convert.outputs.failed_list != ''
-        env:
-          FAILED_LIST: ${{ steps.convert.outputs.failed_list }}
+        if: steps.convert.outputs.has_failures == 'true'
         run: |
           echo "❌ The following files failed to convert after 3 retries:"
-          echo "$FAILED_LIST"
+          cat /tmp/failed_list.txt
           exit 1
